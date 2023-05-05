@@ -54,7 +54,8 @@ using namespace std;
 class Solution {
 public:
     int searchInsert(vector<int>& nums, int target) {
-
+    int n=nums.size();
+    int left=0,right=n-1,ans=n;
     }
 };
 //leetcode submit region end(Prohibit modification and deletion)
