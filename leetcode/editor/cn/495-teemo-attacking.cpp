@@ -49,8 +49,14 @@ using namespace std;
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
 public:
-    int findPoisonedDuration(vector<int>& timeSeries, int duration) {
-
+    int findPoisonedDuration(vector<int>& timeSeries, int duration)
+    {
+        int temp=0;
+        for (int i = 0; i < timeSeries.size()-1; ++i)
+        {
+            temp+= min(timeSeries[i+1]-timeSeries[i],duration);
+        }
+        return temp+duration;//最后一个无论是多少都必然是+duration
     }
 };
 //leetcode submit region end(Prohibit modification and deletion)
@@ -58,7 +64,8 @@ public:
 int main()
 {
     Solution s;
-    vector<int> data{7, 1, 5, 3, 6, 4};
+    vector<int> data{1,4};
     auto res = "Hello LeetCode";
     cout<<res<<endl;
+    cout<<s.findPoisonedDuration(data,2)<<endl;
 }
