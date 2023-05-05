@@ -193,6 +193,19 @@ leetcode/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\485-max-consecutive-ones.dir\build.make CMakeFiles/485-max-consecutive-ones.dir/build
 .PHONY : 485-max-consecutive-ones/fast
 
+#=============================================================================
+# Target rules for targets named 495-teemo-attacking
+
+# Build rule for target.
+495-teemo-attacking: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 495-teemo-attacking
+.PHONY : 495-teemo-attacking
+
+# fast build rule for target.
+495-teemo-attacking/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\495-teemo-attacking.dir\build.make CMakeFiles/495-teemo-attacking.dir/build
+.PHONY : 495-teemo-attacking/fast
+
 leetcode/editor/cn/074-SsGoHC.obj: leetcode/editor/cn/074-SsGoHC.cpp.obj
 .PHONY : leetcode/editor/cn/074-SsGoHC.obj
 
@@ -313,6 +326,30 @@ leetcode/editor/cn/485-max-consecutive-ones.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\485-max-consecutive-ones.dir\build.make CMakeFiles/485-max-consecutive-ones.dir/leetcode/editor/cn/485-max-consecutive-ones.cpp.s
 .PHONY : leetcode/editor/cn/485-max-consecutive-ones.cpp.s
 
+leetcode/editor/cn/495-teemo-attacking.obj: leetcode/editor/cn/495-teemo-attacking.cpp.obj
+.PHONY : leetcode/editor/cn/495-teemo-attacking.obj
+
+# target to build an object file
+leetcode/editor/cn/495-teemo-attacking.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\495-teemo-attacking.dir\build.make CMakeFiles/495-teemo-attacking.dir/leetcode/editor/cn/495-teemo-attacking.cpp.obj
+.PHONY : leetcode/editor/cn/495-teemo-attacking.cpp.obj
+
+leetcode/editor/cn/495-teemo-attacking.i: leetcode/editor/cn/495-teemo-attacking.cpp.i
+.PHONY : leetcode/editor/cn/495-teemo-attacking.i
+
+# target to preprocess a source file
+leetcode/editor/cn/495-teemo-attacking.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\495-teemo-attacking.dir\build.make CMakeFiles/495-teemo-attacking.dir/leetcode/editor/cn/495-teemo-attacking.cpp.i
+.PHONY : leetcode/editor/cn/495-teemo-attacking.cpp.i
+
+leetcode/editor/cn/495-teemo-attacking.s: leetcode/editor/cn/495-teemo-attacking.cpp.s
+.PHONY : leetcode/editor/cn/495-teemo-attacking.s
+
+# target to generate assembly for a file
+leetcode/editor/cn/495-teemo-attacking.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\495-teemo-attacking.dir\build.make CMakeFiles/495-teemo-attacking.dir/leetcode/editor/cn/495-teemo-attacking.cpp.s
+.PHONY : leetcode/editor/cn/495-teemo-attacking.cpp.s
+
 leetcode/editor/cn/include/btree.obj: leetcode/editor/cn/include/btree.cc.obj
 .PHONY : leetcode/editor/cn/include/btree.obj
 
@@ -374,6 +411,7 @@ help:
 	@echo ... 100-same-tree
 	@echo ... 35-search-insert-position
 	@echo ... 485-max-consecutive-ones
+	@echo ... 495-teemo-attacking
 	@echo ... leetcode
 	@echo ... leetcode/editor/cn/074-SsGoHC.obj
 	@echo ... leetcode/editor/cn/074-SsGoHC.i
@@ -390,6 +428,9 @@ help:
 	@echo ... leetcode/editor/cn/485-max-consecutive-ones.obj
 	@echo ... leetcode/editor/cn/485-max-consecutive-ones.i
 	@echo ... leetcode/editor/cn/485-max-consecutive-ones.s
+	@echo ... leetcode/editor/cn/495-teemo-attacking.obj
+	@echo ... leetcode/editor/cn/495-teemo-attacking.i
+	@echo ... leetcode/editor/cn/495-teemo-attacking.s
 	@echo ... leetcode/editor/cn/include/btree.obj
 	@echo ... leetcode/editor/cn/include/btree.i
 	@echo ... leetcode/editor/cn/include/btree.s

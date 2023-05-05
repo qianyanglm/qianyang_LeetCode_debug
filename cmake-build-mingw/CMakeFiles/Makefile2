@@ -68,6 +68,7 @@ all: CMakeFiles/100-same-tree.dir/all
 all: CMakeFiles/35-search-insert-position.dir/all
 all: CMakeFiles/074-SsGoHC.dir/all
 all: CMakeFiles/485-max-consecutive-ones.dir/all
+all: CMakeFiles/495-teemo-attacking.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -81,6 +82,7 @@ clean: CMakeFiles/100-same-tree.dir/clean
 clean: CMakeFiles/35-search-insert-position.dir/clean
 clean: CMakeFiles/074-SsGoHC.dir/clean
 clean: CMakeFiles/485-max-consecutive-ones.dir/clean
+clean: CMakeFiles/495-teemo-attacking.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -90,7 +92,7 @@ clean: CMakeFiles/485-max-consecutive-ones.dir/clean
 CMakeFiles/leetcode.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\leetcode.dir\build.make CMakeFiles/leetcode.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\leetcode.dir\build.make CMakeFiles/leetcode.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\hello world\clion2\LeetCode_LocalDebug_Cpp-master\cmake-build-mingw\CMakeFiles" --progress-num=11,12,13 "Built target leetcode"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\hello world\clion2\LeetCode_LocalDebug_Cpp-master\cmake-build-mingw\CMakeFiles" --progress-num=13,14,15 "Built target leetcode"
 .PHONY : CMakeFiles/leetcode.dir/all
 
 # Build rule for subdir invocation for target.
@@ -238,6 +240,32 @@ CMakeFiles/485-max-consecutive-ones.dir/rule: cmake_check_build_system
 CMakeFiles/485-max-consecutive-ones.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\485-max-consecutive-ones.dir\build.make CMakeFiles/485-max-consecutive-ones.dir/clean
 .PHONY : CMakeFiles/485-max-consecutive-ones.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/495-teemo-attacking.dir
+
+# All Build rule for target.
+CMakeFiles/495-teemo-attacking.dir/all: CMakeFiles/leetcode.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\495-teemo-attacking.dir\build.make CMakeFiles/495-teemo-attacking.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\495-teemo-attacking.dir\build.make CMakeFiles/495-teemo-attacking.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\hello world\clion2\LeetCode_LocalDebug_Cpp-master\cmake-build-mingw\CMakeFiles" --progress-num=11,12 "Built target 495-teemo-attacking"
+.PHONY : CMakeFiles/495-teemo-attacking.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/495-teemo-attacking.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\hello world\clion2\LeetCode_LocalDebug_Cpp-master\cmake-build-mingw\CMakeFiles" 5
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/495-teemo-attacking.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\hello world\clion2\LeetCode_LocalDebug_Cpp-master\cmake-build-mingw\CMakeFiles" 0
+.PHONY : CMakeFiles/495-teemo-attacking.dir/rule
+
+# Convenience name for target.
+495-teemo-attacking: CMakeFiles/495-teemo-attacking.dir/rule
+.PHONY : 495-teemo-attacking
+
+# clean rule for target.
+CMakeFiles/495-teemo-attacking.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\495-teemo-attacking.dir\build.make CMakeFiles/495-teemo-attacking.dir/clean
+.PHONY : CMakeFiles/495-teemo-attacking.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
