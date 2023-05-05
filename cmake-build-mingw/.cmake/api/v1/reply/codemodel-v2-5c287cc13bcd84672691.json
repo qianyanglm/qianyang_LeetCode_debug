@@ -1,0 +1,96 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.9"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "LeetCode",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "1-two-sum::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-1-two-sum-Debug-f84879158691cb3da12f.json",
+					"name" : "1-two-sum",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "100-same-tree::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-100-same-tree-Debug-595a7e83787be830a210.json",
+					"name" : "100-same-tree",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "35-search-insert-position::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-35-search-insert-position-Debug-0822a72a9df731a7019a.json",
+					"name" : "35-search-insert-position",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "724-find-pivot-index::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-724-find-pivot-index-Debug-74a9f1dd19ee64c6ec1e.json",
+					"name" : "724-find-pivot-index",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "leetcode::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-leetcode-Debug-de79c7c7ba495e3b4ed7.json",
+					"name" : "leetcode",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw",
+		"source" : "C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

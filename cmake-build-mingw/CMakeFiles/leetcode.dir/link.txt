@@ -1,0 +1,2 @@
+C:\Users\A\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.8770.66\bin\mingw\bin\ar.exe qc libleetcode.a CMakeFiles/leetcode.dir/leetcode/editor/cn/include/btree.cc.obj CMakeFiles/leetcode.dir/leetcode/editor/cn/include/listnode.cc.obj
+C:\Users\A\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.8770.66\bin\mingw\bin\ranlib.exe libleetcode.a
