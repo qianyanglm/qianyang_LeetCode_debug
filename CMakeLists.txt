@@ -14,3 +14,4 @@ add_executable(35-search-insert-position leetcode/editor/cn/35-search-insert-pos
 add_executable(074-SsGoHC "leetcode/editor/cn/074-SsGoHC.cpp")
 add_executable(485-max-consecutive-ones leetcode/editor/cn/485-max-consecutive-ones.cpp)
 add_executable(495-teemo-attacking leetcode/editor/cn/495-teemo-attacking.cpp)
+add_executable(414-third-maximum-number leetcode/editor/cn/414-third-maximum-number.cpp)

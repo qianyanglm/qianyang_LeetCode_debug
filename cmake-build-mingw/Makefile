@@ -206,6 +206,19 @@ leetcode/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\495-teemo-attacking.dir\build.make CMakeFiles/495-teemo-attacking.dir/build
 .PHONY : 495-teemo-attacking/fast
 
+#=============================================================================
+# Target rules for targets named 414-third-maximum-number
+
+# Build rule for target.
+414-third-maximum-number: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 414-third-maximum-number
+.PHONY : 414-third-maximum-number
+
+# fast build rule for target.
+414-third-maximum-number/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\414-third-maximum-number.dir\build.make CMakeFiles/414-third-maximum-number.dir/build
+.PHONY : 414-third-maximum-number/fast
+
 leetcode/editor/cn/074-SsGoHC.obj: leetcode/editor/cn/074-SsGoHC.cpp.obj
 .PHONY : leetcode/editor/cn/074-SsGoHC.obj
 
@@ -301,6 +314,30 @@ leetcode/editor/cn/35-search-insert-position.s: leetcode/editor/cn/35-search-ins
 leetcode/editor/cn/35-search-insert-position.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\35-search-insert-position.dir\build.make CMakeFiles/35-search-insert-position.dir/leetcode/editor/cn/35-search-insert-position.cpp.s
 .PHONY : leetcode/editor/cn/35-search-insert-position.cpp.s
+
+leetcode/editor/cn/414-third-maximum-number.obj: leetcode/editor/cn/414-third-maximum-number.cpp.obj
+.PHONY : leetcode/editor/cn/414-third-maximum-number.obj
+
+# target to build an object file
+leetcode/editor/cn/414-third-maximum-number.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\414-third-maximum-number.dir\build.make CMakeFiles/414-third-maximum-number.dir/leetcode/editor/cn/414-third-maximum-number.cpp.obj
+.PHONY : leetcode/editor/cn/414-third-maximum-number.cpp.obj
+
+leetcode/editor/cn/414-third-maximum-number.i: leetcode/editor/cn/414-third-maximum-number.cpp.i
+.PHONY : leetcode/editor/cn/414-third-maximum-number.i
+
+# target to preprocess a source file
+leetcode/editor/cn/414-third-maximum-number.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\414-third-maximum-number.dir\build.make CMakeFiles/414-third-maximum-number.dir/leetcode/editor/cn/414-third-maximum-number.cpp.i
+.PHONY : leetcode/editor/cn/414-third-maximum-number.cpp.i
+
+leetcode/editor/cn/414-third-maximum-number.s: leetcode/editor/cn/414-third-maximum-number.cpp.s
+.PHONY : leetcode/editor/cn/414-third-maximum-number.s
+
+# target to generate assembly for a file
+leetcode/editor/cn/414-third-maximum-number.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\414-third-maximum-number.dir\build.make CMakeFiles/414-third-maximum-number.dir/leetcode/editor/cn/414-third-maximum-number.cpp.s
+.PHONY : leetcode/editor/cn/414-third-maximum-number.cpp.s
 
 leetcode/editor/cn/485-max-consecutive-ones.obj: leetcode/editor/cn/485-max-consecutive-ones.cpp.obj
 .PHONY : leetcode/editor/cn/485-max-consecutive-ones.obj
@@ -410,6 +447,7 @@ help:
 	@echo ... 1-two-sum
 	@echo ... 100-same-tree
 	@echo ... 35-search-insert-position
+	@echo ... 414-third-maximum-number
 	@echo ... 485-max-consecutive-ones
 	@echo ... 495-teemo-attacking
 	@echo ... leetcode
@@ -425,6 +463,9 @@ help:
 	@echo ... leetcode/editor/cn/35-search-insert-position.obj
 	@echo ... leetcode/editor/cn/35-search-insert-position.i
 	@echo ... leetcode/editor/cn/35-search-insert-position.s
+	@echo ... leetcode/editor/cn/414-third-maximum-number.obj
+	@echo ... leetcode/editor/cn/414-third-maximum-number.i
+	@echo ... leetcode/editor/cn/414-third-maximum-number.s
 	@echo ... leetcode/editor/cn/485-max-consecutive-ones.obj
 	@echo ... leetcode/editor/cn/485-max-consecutive-ones.i
 	@echo ... leetcode/editor/cn/485-max-consecutive-ones.s
