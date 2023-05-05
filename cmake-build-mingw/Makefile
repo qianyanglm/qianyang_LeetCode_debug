@@ -180,6 +180,19 @@ leetcode/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\074-SsGoHC.dir\build.make CMakeFiles/074-SsGoHC.dir/build
 .PHONY : 074-SsGoHC/fast
 
+#=============================================================================
+# Target rules for targets named 485-max-consecutive-ones
+
+# Build rule for target.
+485-max-consecutive-ones: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 485-max-consecutive-ones
+.PHONY : 485-max-consecutive-ones
+
+# fast build rule for target.
+485-max-consecutive-ones/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\485-max-consecutive-ones.dir\build.make CMakeFiles/485-max-consecutive-ones.dir/build
+.PHONY : 485-max-consecutive-ones/fast
+
 leetcode/editor/cn/074-SsGoHC.obj: leetcode/editor/cn/074-SsGoHC.cpp.obj
 .PHONY : leetcode/editor/cn/074-SsGoHC.obj
 
@@ -276,6 +289,30 @@ leetcode/editor/cn/35-search-insert-position.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\35-search-insert-position.dir\build.make CMakeFiles/35-search-insert-position.dir/leetcode/editor/cn/35-search-insert-position.cpp.s
 .PHONY : leetcode/editor/cn/35-search-insert-position.cpp.s
 
+leetcode/editor/cn/485-max-consecutive-ones.obj: leetcode/editor/cn/485-max-consecutive-ones.cpp.obj
+.PHONY : leetcode/editor/cn/485-max-consecutive-ones.obj
+
+# target to build an object file
+leetcode/editor/cn/485-max-consecutive-ones.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\485-max-consecutive-ones.dir\build.make CMakeFiles/485-max-consecutive-ones.dir/leetcode/editor/cn/485-max-consecutive-ones.cpp.obj
+.PHONY : leetcode/editor/cn/485-max-consecutive-ones.cpp.obj
+
+leetcode/editor/cn/485-max-consecutive-ones.i: leetcode/editor/cn/485-max-consecutive-ones.cpp.i
+.PHONY : leetcode/editor/cn/485-max-consecutive-ones.i
+
+# target to preprocess a source file
+leetcode/editor/cn/485-max-consecutive-ones.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\485-max-consecutive-ones.dir\build.make CMakeFiles/485-max-consecutive-ones.dir/leetcode/editor/cn/485-max-consecutive-ones.cpp.i
+.PHONY : leetcode/editor/cn/485-max-consecutive-ones.cpp.i
+
+leetcode/editor/cn/485-max-consecutive-ones.s: leetcode/editor/cn/485-max-consecutive-ones.cpp.s
+.PHONY : leetcode/editor/cn/485-max-consecutive-ones.s
+
+# target to generate assembly for a file
+leetcode/editor/cn/485-max-consecutive-ones.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\485-max-consecutive-ones.dir\build.make CMakeFiles/485-max-consecutive-ones.dir/leetcode/editor/cn/485-max-consecutive-ones.cpp.s
+.PHONY : leetcode/editor/cn/485-max-consecutive-ones.cpp.s
+
 leetcode/editor/cn/include/btree.obj: leetcode/editor/cn/include/btree.cc.obj
 .PHONY : leetcode/editor/cn/include/btree.obj
 
@@ -336,6 +373,7 @@ help:
 	@echo ... 1-two-sum
 	@echo ... 100-same-tree
 	@echo ... 35-search-insert-position
+	@echo ... 485-max-consecutive-ones
 	@echo ... leetcode
 	@echo ... leetcode/editor/cn/074-SsGoHC.obj
 	@echo ... leetcode/editor/cn/074-SsGoHC.i
@@ -349,6 +387,9 @@ help:
 	@echo ... leetcode/editor/cn/35-search-insert-position.obj
 	@echo ... leetcode/editor/cn/35-search-insert-position.i
 	@echo ... leetcode/editor/cn/35-search-insert-position.s
+	@echo ... leetcode/editor/cn/485-max-consecutive-ones.obj
+	@echo ... leetcode/editor/cn/485-max-consecutive-ones.i
+	@echo ... leetcode/editor/cn/485-max-consecutive-ones.s
 	@echo ... leetcode/editor/cn/include/btree.obj
 	@echo ... leetcode/editor/cn/include/btree.i
 	@echo ... leetcode/editor/cn/include/btree.s

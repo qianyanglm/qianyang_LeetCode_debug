@@ -67,6 +67,7 @@ all: CMakeFiles/1-two-sum.dir/all
 all: CMakeFiles/100-same-tree.dir/all
 all: CMakeFiles/35-search-insert-position.dir/all
 all: CMakeFiles/074-SsGoHC.dir/all
+all: CMakeFiles/485-max-consecutive-ones.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -79,6 +80,7 @@ clean: CMakeFiles/1-two-sum.dir/clean
 clean: CMakeFiles/100-same-tree.dir/clean
 clean: CMakeFiles/35-search-insert-position.dir/clean
 clean: CMakeFiles/074-SsGoHC.dir/clean
+clean: CMakeFiles/485-max-consecutive-ones.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -88,7 +90,7 @@ clean: CMakeFiles/074-SsGoHC.dir/clean
 CMakeFiles/leetcode.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\leetcode.dir\build.make CMakeFiles/leetcode.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\leetcode.dir\build.make CMakeFiles/leetcode.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\hello world\clion2\LeetCode_LocalDebug_Cpp-master\cmake-build-mingw\CMakeFiles" --progress-num=9,10,11 "Built target leetcode"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\hello world\clion2\LeetCode_LocalDebug_Cpp-master\cmake-build-mingw\CMakeFiles" --progress-num=11,12,13 "Built target leetcode"
 .PHONY : CMakeFiles/leetcode.dir/all
 
 # Build rule for subdir invocation for target.
@@ -210,6 +212,32 @@ CMakeFiles/074-SsGoHC.dir/rule: cmake_check_build_system
 CMakeFiles/074-SsGoHC.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\074-SsGoHC.dir\build.make CMakeFiles/074-SsGoHC.dir/clean
 .PHONY : CMakeFiles/074-SsGoHC.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/485-max-consecutive-ones.dir
+
+# All Build rule for target.
+CMakeFiles/485-max-consecutive-ones.dir/all: CMakeFiles/leetcode.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\485-max-consecutive-ones.dir\build.make CMakeFiles/485-max-consecutive-ones.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\485-max-consecutive-ones.dir\build.make CMakeFiles/485-max-consecutive-ones.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\hello world\clion2\LeetCode_LocalDebug_Cpp-master\cmake-build-mingw\CMakeFiles" --progress-num=9,10 "Built target 485-max-consecutive-ones"
+.PHONY : CMakeFiles/485-max-consecutive-ones.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/485-max-consecutive-ones.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\hello world\clion2\LeetCode_LocalDebug_Cpp-master\cmake-build-mingw\CMakeFiles" 5
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/485-max-consecutive-ones.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\hello world\clion2\LeetCode_LocalDebug_Cpp-master\cmake-build-mingw\CMakeFiles" 0
+.PHONY : CMakeFiles/485-max-consecutive-ones.dir/rule
+
+# Convenience name for target.
+485-max-consecutive-ones: CMakeFiles/485-max-consecutive-ones.dir/rule
+.PHONY : 485-max-consecutive-ones
+
+# clean rule for target.
+CMakeFiles/485-max-consecutive-ones.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\485-max-consecutive-ones.dir\build.make CMakeFiles/485-max-consecutive-ones.dir/clean
+.PHONY : CMakeFiles/485-max-consecutive-ones.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
