@@ -47,7 +47,6 @@
 */
 
 #include "include/headers.h"
-
 using namespace std;
 
 //leetcode submit region begin(Prohibit modification and deletion)
@@ -56,6 +55,20 @@ public:
     int searchInsert(vector<int>& nums, int target) {
     int n=nums.size();
     int left=0,right=n-1,ans=n;
+    while ( left<=right  )
+    {
+        int mid=((right-left)>>1)+left;//除以二
+        if ( target<=nums[mid] )
+        {
+            ans=mid;
+            right=mid-1;
+        }
+        else
+        {
+            left=mid+1;
+        }
+    }
+    return ans;
     }
 };
 //leetcode submit region end(Prohibit modification and deletion)
@@ -64,7 +77,8 @@ public:
 int main()
 {
     Solution s;
-    vector<int> data{7, 1, 5, 3, 6, 4};
+    vector<int> data{1,2,3,4,5,6};
     auto res = "Hello LeetCode";
     cout<<res<<endl;
+    cout<<s.searchInsert(data,5);
 }

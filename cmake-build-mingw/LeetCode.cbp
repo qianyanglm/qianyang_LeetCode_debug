@@ -193,8 +193,8 @@
 					<DistClean command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="724-find-pivot-index">
-				<Option output="C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/724-find-pivot-index.exe" prefix_auto="0" extension_auto="0"/>
+			<Target title="074-SsGoHC">
+				<Option output="C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/074-SsGoHC.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -209,14 +209,14 @@
 					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 724-find-pivot-index"/>
+					<Build command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 074-SsGoHC"/>
 					<CompileFile command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="724-find-pivot-index/fast">
-				<Option output="C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/724-find-pivot-index.exe" prefix_auto="0" extension_auto="0"/>
+			<Target title="074-SsGoHC/fast">
+				<Option output="C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/074-SsGoHC.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -231,7 +231,7 @@
 					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 724-find-pivot-index/fast"/>
+					<Build command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 074-SsGoHC/fast"/>
 					<CompileFile command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 clean"/>
@@ -258,6 +258,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/leetcode/editor/cn/074-SsGoHC.cpp">
+			<Option target="074-SsGoHC"/>
+		</Unit>
 		<Unit filename="C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/leetcode/editor/cn/1-two-sum.cpp">
 			<Option target="1-two-sum"/>
 		</Unit>
@@ -266,9 +269,6 @@
 		</Unit>
 		<Unit filename="C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/leetcode/editor/cn/35-search-insert-position.cpp">
 			<Option target="35-search-insert-position"/>
-		</Unit>
-		<Unit filename="C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/leetcode/editor/cn/724-find-pivot-index.cpp">
-			<Option target="724-find-pivot-index"/>
 		</Unit>
 		<Unit filename="C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/leetcode/editor/cn/include/btree.cc">
 			<Option target="leetcode"/>

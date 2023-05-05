@@ -2,6 +2,6 @@ C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/CMakeFile
 C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/CMakeFiles/1-two-sum.dir
 C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/CMakeFiles/100-same-tree.dir
 C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/CMakeFiles/35-search-insert-position.dir
-C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/CMakeFiles/724-find-pivot-index.dir
+C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/CMakeFiles/074-SsGoHC.dir
 C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/CMakeFiles/edit_cache.dir
 C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/CMakeFiles/rebuild_cache.dir
