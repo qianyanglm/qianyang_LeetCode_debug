@@ -62,8 +62,8 @@
 				</MakeCommands>
 			</Target>
 			<Target title="1-two-sum">
-				<Option output="C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/1-two-sum.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw"/>
+				<Option output="C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/bin/1-two-sum.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/bin"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -84,8 +84,8 @@
 				</MakeCommands>
 			</Target>
 			<Target title="1-two-sum/fast">
-				<Option output="C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/1-two-sum.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw"/>
+				<Option output="C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/bin/1-two-sum.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/bin"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -106,8 +106,8 @@
 				</MakeCommands>
 			</Target>
 			<Target title="100-same-tree">
-				<Option output="C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/100-same-tree.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw"/>
+				<Option output="C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/bin/100-same-tree.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/bin"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -128,8 +128,8 @@
 				</MakeCommands>
 			</Target>
 			<Target title="100-same-tree/fast">
-				<Option output="C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/100-same-tree.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw"/>
+				<Option output="C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/bin/100-same-tree.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/bin"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -150,8 +150,8 @@
 				</MakeCommands>
 			</Target>
 			<Target title="35-search-insert-position">
-				<Option output="C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/35-search-insert-position.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw"/>
+				<Option output="C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/bin/35-search-insert-position.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/bin"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -172,8 +172,8 @@
 				</MakeCommands>
 			</Target>
 			<Target title="35-search-insert-position/fast">
-				<Option output="C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/35-search-insert-position.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw"/>
+				<Option output="C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/bin/35-search-insert-position.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/bin"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -194,8 +194,8 @@
 				</MakeCommands>
 			</Target>
 			<Target title="074-SsGoHC">
-				<Option output="C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/074-SsGoHC.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw"/>
+				<Option output="C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/bin/074-SsGoHC.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/bin"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -216,8 +216,8 @@
 				</MakeCommands>
 			</Target>
 			<Target title="074-SsGoHC/fast">
-				<Option output="C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/074-SsGoHC.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw"/>
+				<Option output="C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/bin/074-SsGoHC.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/bin"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -238,8 +238,8 @@
 				</MakeCommands>
 			</Target>
 			<Target title="485-max-consecutive-ones">
-				<Option output="C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/485-max-consecutive-ones.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw"/>
+				<Option output="C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/bin/485-max-consecutive-ones.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/bin"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -260,8 +260,8 @@
 				</MakeCommands>
 			</Target>
 			<Target title="485-max-consecutive-ones/fast">
-				<Option output="C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/485-max-consecutive-ones.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw"/>
+				<Option output="C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/bin/485-max-consecutive-ones.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/bin"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -282,8 +282,8 @@
 				</MakeCommands>
 			</Target>
 			<Target title="495-teemo-attacking">
-				<Option output="C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/495-teemo-attacking.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw"/>
+				<Option output="C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/bin/495-teemo-attacking.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/bin"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -304,8 +304,8 @@
 				</MakeCommands>
 			</Target>
 			<Target title="495-teemo-attacking/fast">
-				<Option output="C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/495-teemo-attacking.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw"/>
+				<Option output="C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/bin/495-teemo-attacking.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/bin"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -326,8 +326,8 @@
 				</MakeCommands>
 			</Target>
 			<Target title="414-third-maximum-number">
-				<Option output="C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/414-third-maximum-number.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw"/>
+				<Option output="C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/bin/414-third-maximum-number.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/bin"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -348,8 +348,8 @@
 				</MakeCommands>
 			</Target>
 			<Target title="414-third-maximum-number/fast">
-				<Option output="C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/414-third-maximum-number.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw"/>
+				<Option output="C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/bin/414-third-maximum-number.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/bin"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
