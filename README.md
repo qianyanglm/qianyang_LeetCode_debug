@@ -1,4 +1,4 @@
-# 在Clion上调试LeetCode代码+所有本地题库
+# 在Clion上调试LeetCode代码(C++版本)+所有本地题库
 
  首先这环境不是我做的，是这个人做的，需要环境的人给做环境的star哈
 [https://github.com/zzh799/LeetCode_LocalDebug_Cpp?spm=a2c6h.12873639.article-detail.6.8cd36fddXrTNZ5](https://github.com/zzh799/LeetCode_LocalDebug_Cpp?spm=a2c6h.12873639.article-detail.6.8cd36fddXrTNZ5)
