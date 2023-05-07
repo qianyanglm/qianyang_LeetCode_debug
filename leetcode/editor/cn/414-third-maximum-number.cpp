@@ -60,8 +60,20 @@ using namespace std;
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
 public:
-    int thirdMax(vector<int>& nums) {
-
+    int thirdMax(vector<int>& nums)
+    {
+        //set会自动排好顺序
+        set<int> s;
+        for (int num: nums)
+        {
+            s.insert(num);
+            if (s.size() > 3)
+            {
+                s.erase(s.begin());
+            }
+        }
+        //有三个数就返回第三大，无就返回最大的数
+        return s.size() == 3 ? *s.begin() : *s.rbegin();
     }
 };
 //leetcode submit region end(Prohibit modification and deletion)
@@ -69,7 +81,9 @@ public:
 int main()
 {
     Solution s;
-    vector<int> data{7, 1, 5, 3, 6, 4};
+    vector<int> data{1, 7};
     auto res = "Hello LeetCode";
-    cout<<res<<endl;
+    cout << res << endl;
+    cout << s.thirdMax(data) << endl;
+    return 0;
 }
