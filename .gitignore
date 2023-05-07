@@ -30,6 +30,7 @@
 *.la
 *.a
 *.lib
+*.lcv
 
 # Executables
 *.exe

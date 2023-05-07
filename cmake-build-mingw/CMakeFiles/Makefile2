@@ -70,6 +70,7 @@ all: CMakeFiles/074-SsGoHC.dir/all
 all: CMakeFiles/485-max-consecutive-ones.dir/all
 all: CMakeFiles/495-teemo-attacking.dir/all
 all: CMakeFiles/414-third-maximum-number.dir/all
+all: CMakeFiles/628-maximum-product-of-three-numbers.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -85,6 +86,7 @@ clean: CMakeFiles/074-SsGoHC.dir/clean
 clean: CMakeFiles/485-max-consecutive-ones.dir/clean
 clean: CMakeFiles/495-teemo-attacking.dir/clean
 clean: CMakeFiles/414-third-maximum-number.dir/clean
+clean: CMakeFiles/628-maximum-product-of-three-numbers.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -94,7 +96,7 @@ clean: CMakeFiles/414-third-maximum-number.dir/clean
 CMakeFiles/leetcode.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\leetcode.dir\build.make CMakeFiles/leetcode.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\leetcode.dir\build.make CMakeFiles/leetcode.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\hello world\clion2\LeetCode_LocalDebug_Cpp-master\cmake-build-mingw\CMakeFiles" --progress-num=15,16,17 "Built target leetcode"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\hello world\clion2\LeetCode_LocalDebug_Cpp-master\cmake-build-mingw\CMakeFiles" --progress-num=17,18,19 "Built target leetcode"
 .PHONY : CMakeFiles/leetcode.dir/all
 
 # Build rule for subdir invocation for target.
@@ -294,6 +296,32 @@ CMakeFiles/414-third-maximum-number.dir/rule: cmake_check_build_system
 CMakeFiles/414-third-maximum-number.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\414-third-maximum-number.dir\build.make CMakeFiles/414-third-maximum-number.dir/clean
 .PHONY : CMakeFiles/414-third-maximum-number.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/628-maximum-product-of-three-numbers.dir
+
+# All Build rule for target.
+CMakeFiles/628-maximum-product-of-three-numbers.dir/all: CMakeFiles/leetcode.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\628-maximum-product-of-three-numbers.dir\build.make CMakeFiles/628-maximum-product-of-three-numbers.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\628-maximum-product-of-three-numbers.dir\build.make CMakeFiles/628-maximum-product-of-three-numbers.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\hello world\clion2\LeetCode_LocalDebug_Cpp-master\cmake-build-mingw\CMakeFiles" --progress-num=15,16 "Built target 628-maximum-product-of-three-numbers"
+.PHONY : CMakeFiles/628-maximum-product-of-three-numbers.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/628-maximum-product-of-three-numbers.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\hello world\clion2\LeetCode_LocalDebug_Cpp-master\cmake-build-mingw\CMakeFiles" 5
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/628-maximum-product-of-three-numbers.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\hello world\clion2\LeetCode_LocalDebug_Cpp-master\cmake-build-mingw\CMakeFiles" 0
+.PHONY : CMakeFiles/628-maximum-product-of-three-numbers.dir/rule
+
+# Convenience name for target.
+628-maximum-product-of-three-numbers: CMakeFiles/628-maximum-product-of-three-numbers.dir/rule
+.PHONY : 628-maximum-product-of-three-numbers
+
+# clean rule for target.
+CMakeFiles/628-maximum-product-of-three-numbers.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\628-maximum-product-of-three-numbers.dir\build.make CMakeFiles/628-maximum-product-of-three-numbers.dir/clean
+.PHONY : CMakeFiles/628-maximum-product-of-three-numbers.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

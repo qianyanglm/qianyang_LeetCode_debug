@@ -17,3 +17,4 @@ add_executable(485-max-consecutive-ones leetcode/editor/cn/485-max-consecutive-o
 add_executable(495-teemo-attacking leetcode/editor/cn/495-teemo-attacking.cpp)
 add_executable(414-third-maximum-number leetcode/editor/cn/414-third-maximum-number.cpp)
 add_executable(628-maximum-product-of-three-numbers leetcode/editor/cn/628-maximum-product-of-three-numbers.cpp)
+add_executable(645-set-mismatch leetcode/editor/cn/645-set-mismatch.cpp)

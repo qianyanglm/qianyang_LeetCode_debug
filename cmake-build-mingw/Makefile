@@ -219,6 +219,19 @@ leetcode/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\414-third-maximum-number.dir\build.make CMakeFiles/414-third-maximum-number.dir/build
 .PHONY : 414-third-maximum-number/fast
 
+#=============================================================================
+# Target rules for targets named 628-maximum-product-of-three-numbers
+
+# Build rule for target.
+628-maximum-product-of-three-numbers: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 628-maximum-product-of-three-numbers
+.PHONY : 628-maximum-product-of-three-numbers
+
+# fast build rule for target.
+628-maximum-product-of-three-numbers/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\628-maximum-product-of-three-numbers.dir\build.make CMakeFiles/628-maximum-product-of-three-numbers.dir/build
+.PHONY : 628-maximum-product-of-three-numbers/fast
+
 leetcode/editor/cn/074-SsGoHC.obj: leetcode/editor/cn/074-SsGoHC.cpp.obj
 .PHONY : leetcode/editor/cn/074-SsGoHC.obj
 
@@ -387,6 +400,30 @@ leetcode/editor/cn/495-teemo-attacking.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\495-teemo-attacking.dir\build.make CMakeFiles/495-teemo-attacking.dir/leetcode/editor/cn/495-teemo-attacking.cpp.s
 .PHONY : leetcode/editor/cn/495-teemo-attacking.cpp.s
 
+leetcode/editor/cn/628-maximum-product-of-three-numbers.obj: leetcode/editor/cn/628-maximum-product-of-three-numbers.cpp.obj
+.PHONY : leetcode/editor/cn/628-maximum-product-of-three-numbers.obj
+
+# target to build an object file
+leetcode/editor/cn/628-maximum-product-of-three-numbers.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\628-maximum-product-of-three-numbers.dir\build.make CMakeFiles/628-maximum-product-of-three-numbers.dir/leetcode/editor/cn/628-maximum-product-of-three-numbers.cpp.obj
+.PHONY : leetcode/editor/cn/628-maximum-product-of-three-numbers.cpp.obj
+
+leetcode/editor/cn/628-maximum-product-of-three-numbers.i: leetcode/editor/cn/628-maximum-product-of-three-numbers.cpp.i
+.PHONY : leetcode/editor/cn/628-maximum-product-of-three-numbers.i
+
+# target to preprocess a source file
+leetcode/editor/cn/628-maximum-product-of-three-numbers.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\628-maximum-product-of-three-numbers.dir\build.make CMakeFiles/628-maximum-product-of-three-numbers.dir/leetcode/editor/cn/628-maximum-product-of-three-numbers.cpp.i
+.PHONY : leetcode/editor/cn/628-maximum-product-of-three-numbers.cpp.i
+
+leetcode/editor/cn/628-maximum-product-of-three-numbers.s: leetcode/editor/cn/628-maximum-product-of-three-numbers.cpp.s
+.PHONY : leetcode/editor/cn/628-maximum-product-of-three-numbers.s
+
+# target to generate assembly for a file
+leetcode/editor/cn/628-maximum-product-of-three-numbers.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\628-maximum-product-of-three-numbers.dir\build.make CMakeFiles/628-maximum-product-of-three-numbers.dir/leetcode/editor/cn/628-maximum-product-of-three-numbers.cpp.s
+.PHONY : leetcode/editor/cn/628-maximum-product-of-three-numbers.cpp.s
+
 leetcode/editor/cn/include/btree.obj: leetcode/editor/cn/include/btree.cc.obj
 .PHONY : leetcode/editor/cn/include/btree.obj
 
@@ -450,6 +487,7 @@ help:
 	@echo ... 414-third-maximum-number
 	@echo ... 485-max-consecutive-ones
 	@echo ... 495-teemo-attacking
+	@echo ... 628-maximum-product-of-three-numbers
 	@echo ... leetcode
 	@echo ... leetcode/editor/cn/074-SsGoHC.obj
 	@echo ... leetcode/editor/cn/074-SsGoHC.i
@@ -472,6 +510,9 @@ help:
 	@echo ... leetcode/editor/cn/495-teemo-attacking.obj
 	@echo ... leetcode/editor/cn/495-teemo-attacking.i
 	@echo ... leetcode/editor/cn/495-teemo-attacking.s
+	@echo ... leetcode/editor/cn/628-maximum-product-of-three-numbers.obj
+	@echo ... leetcode/editor/cn/628-maximum-product-of-three-numbers.i
+	@echo ... leetcode/editor/cn/628-maximum-product-of-three-numbers.s
 	@echo ... leetcode/editor/cn/include/btree.obj
 	@echo ... leetcode/editor/cn/include/btree.i
 	@echo ... leetcode/editor/cn/include/btree.s
