@@ -3,6 +3,7 @@ project(LeetCode)
 set(CMAKE_CXX_STANDARD 11)
 #把exe文件输出到bin目录，不然太多了看着麻烦
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY "${CMAKE_CURRENT_SOURCE_DIR}/bin")
+
 #链接库
 aux_source_directory(leetcode/editor/cn/include LEETCODE)
 add_library(leetcode ${LEETCODE})
@@ -18,3 +19,5 @@ add_executable(495-teemo-attacking leetcode/editor/cn/495-teemo-attacking.cpp)
 add_executable(414-third-maximum-number leetcode/editor/cn/414-third-maximum-number.cpp)
 add_executable(628-maximum-product-of-three-numbers leetcode/editor/cn/628-maximum-product-of-three-numbers.cpp)
 add_executable(645-set-mismatch leetcode/editor/cn/645-set-mismatch.cpp)
+add_executable(697-degree-of-an-array leetcode/editor/cn/697-degree-of-an-array.cpp)
+add_executable(448-find-all-numbers-disappeared-in-an-array leetcode/editor/cn/448-find-all-numbers-disappeared-in-an-array.cpp)

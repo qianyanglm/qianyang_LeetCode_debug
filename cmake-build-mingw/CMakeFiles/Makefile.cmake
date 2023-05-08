@@ -61,4 +61,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/414-third-maximum-number.dir/DependInfo.cmake"
   "CMakeFiles/628-maximum-product-of-three-numbers.dir/DependInfo.cmake"
   "CMakeFiles/645-set-mismatch.dir/DependInfo.cmake"
+  "CMakeFiles/697-degree-of-an-array.dir/DependInfo.cmake"
+  "CMakeFiles/448-find-all-numbers-disappeared-in-an-array.dir/DependInfo.cmake"
   )
