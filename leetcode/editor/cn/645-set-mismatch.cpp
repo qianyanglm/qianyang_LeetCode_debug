@@ -39,26 +39,17 @@ class Solution
 public:
     vector<int> findErrorNums(vector<int> &nums)
     {
-        vector<int> errorNums(2);
+        //开辟一个vector来记录每一位数的状态
         int n = nums.size();
-        unordered_map<int, int> mp;
-        for (auto &num: nums)
-        {
-            mp[num]++;
-        }
+        int a, b;
+        vector<int> res(n + 1);
+        for (int i = 0; i < n; i++) res[nums[i]]++;
         for (int i = 1; i <= n; i++)
         {
-            int count = mp[i];
-            if (count == 2)
-            {
-                errorNums[0] = i;
-            }
-            else if (count == 0)
-            {
-                errorNums[1] = i;
-            }
+            if (res[i] == 0) a = i;
+            if (res[i] == 2) b = i;
         }
-        return errorNums;
+        return {b, a};
     }
 };
 
@@ -77,7 +68,5 @@ int main()
     {
         cout << i << " ";
     }
-
-
     return 0;
 }

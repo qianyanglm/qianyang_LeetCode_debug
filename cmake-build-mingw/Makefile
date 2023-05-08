@@ -232,6 +232,19 @@ leetcode/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\628-maximum-product-of-three-numbers.dir\build.make CMakeFiles/628-maximum-product-of-three-numbers.dir/build
 .PHONY : 628-maximum-product-of-three-numbers/fast
 
+#=============================================================================
+# Target rules for targets named 645-set-mismatch
+
+# Build rule for target.
+645-set-mismatch: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 645-set-mismatch
+.PHONY : 645-set-mismatch
+
+# fast build rule for target.
+645-set-mismatch/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\645-set-mismatch.dir\build.make CMakeFiles/645-set-mismatch.dir/build
+.PHONY : 645-set-mismatch/fast
+
 leetcode/editor/cn/074-SsGoHC.obj: leetcode/editor/cn/074-SsGoHC.cpp.obj
 .PHONY : leetcode/editor/cn/074-SsGoHC.obj
 
@@ -424,6 +437,30 @@ leetcode/editor/cn/628-maximum-product-of-three-numbers.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\628-maximum-product-of-three-numbers.dir\build.make CMakeFiles/628-maximum-product-of-three-numbers.dir/leetcode/editor/cn/628-maximum-product-of-three-numbers.cpp.s
 .PHONY : leetcode/editor/cn/628-maximum-product-of-three-numbers.cpp.s
 
+leetcode/editor/cn/645-set-mismatch.obj: leetcode/editor/cn/645-set-mismatch.cpp.obj
+.PHONY : leetcode/editor/cn/645-set-mismatch.obj
+
+# target to build an object file
+leetcode/editor/cn/645-set-mismatch.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\645-set-mismatch.dir\build.make CMakeFiles/645-set-mismatch.dir/leetcode/editor/cn/645-set-mismatch.cpp.obj
+.PHONY : leetcode/editor/cn/645-set-mismatch.cpp.obj
+
+leetcode/editor/cn/645-set-mismatch.i: leetcode/editor/cn/645-set-mismatch.cpp.i
+.PHONY : leetcode/editor/cn/645-set-mismatch.i
+
+# target to preprocess a source file
+leetcode/editor/cn/645-set-mismatch.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\645-set-mismatch.dir\build.make CMakeFiles/645-set-mismatch.dir/leetcode/editor/cn/645-set-mismatch.cpp.i
+.PHONY : leetcode/editor/cn/645-set-mismatch.cpp.i
+
+leetcode/editor/cn/645-set-mismatch.s: leetcode/editor/cn/645-set-mismatch.cpp.s
+.PHONY : leetcode/editor/cn/645-set-mismatch.s
+
+# target to generate assembly for a file
+leetcode/editor/cn/645-set-mismatch.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\645-set-mismatch.dir\build.make CMakeFiles/645-set-mismatch.dir/leetcode/editor/cn/645-set-mismatch.cpp.s
+.PHONY : leetcode/editor/cn/645-set-mismatch.cpp.s
+
 leetcode/editor/cn/include/btree.obj: leetcode/editor/cn/include/btree.cc.obj
 .PHONY : leetcode/editor/cn/include/btree.obj
 
@@ -488,6 +525,7 @@ help:
 	@echo ... 485-max-consecutive-ones
 	@echo ... 495-teemo-attacking
 	@echo ... 628-maximum-product-of-three-numbers
+	@echo ... 645-set-mismatch
 	@echo ... leetcode
 	@echo ... leetcode/editor/cn/074-SsGoHC.obj
 	@echo ... leetcode/editor/cn/074-SsGoHC.i
@@ -513,6 +551,9 @@ help:
 	@echo ... leetcode/editor/cn/628-maximum-product-of-three-numbers.obj
 	@echo ... leetcode/editor/cn/628-maximum-product-of-three-numbers.i
 	@echo ... leetcode/editor/cn/628-maximum-product-of-three-numbers.s
+	@echo ... leetcode/editor/cn/645-set-mismatch.obj
+	@echo ... leetcode/editor/cn/645-set-mismatch.i
+	@echo ... leetcode/editor/cn/645-set-mismatch.s
 	@echo ... leetcode/editor/cn/include/btree.obj
 	@echo ... leetcode/editor/cn/include/btree.i
 	@echo ... leetcode/editor/cn/include/btree.s
