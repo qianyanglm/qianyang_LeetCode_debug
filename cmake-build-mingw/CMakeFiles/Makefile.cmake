@@ -63,4 +63,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/645-set-mismatch.dir/DependInfo.cmake"
   "CMakeFiles/697-degree-of-an-array.dir/DependInfo.cmake"
   "CMakeFiles/448-find-all-numbers-disappeared-in-an-array.dir/DependInfo.cmake"
+  "CMakeFiles/912-sort-an-array.dir/DependInfo.cmake"
   )

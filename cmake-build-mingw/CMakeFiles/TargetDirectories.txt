@@ -10,5 +10,6 @@ C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/CMakeFile
 C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/CMakeFiles/645-set-mismatch.dir
 C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/CMakeFiles/697-degree-of-an-array.dir
 C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/CMakeFiles/448-find-all-numbers-disappeared-in-an-array.dir
+C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/CMakeFiles/912-sort-an-array.dir
 C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/CMakeFiles/edit_cache.dir
 C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/CMakeFiles/rebuild_cache.dir

@@ -271,6 +271,19 @@ leetcode/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\448-find-all-numbers-disappeared-in-an-array.dir\build.make CMakeFiles/448-find-all-numbers-disappeared-in-an-array.dir/build
 .PHONY : 448-find-all-numbers-disappeared-in-an-array/fast
 
+#=============================================================================
+# Target rules for targets named 912-sort-an-array
+
+# Build rule for target.
+912-sort-an-array: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 912-sort-an-array
+.PHONY : 912-sort-an-array
+
+# fast build rule for target.
+912-sort-an-array/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\912-sort-an-array.dir\build.make CMakeFiles/912-sort-an-array.dir/build
+.PHONY : 912-sort-an-array/fast
+
 leetcode/editor/cn/074-SsGoHC.obj: leetcode/editor/cn/074-SsGoHC.cpp.obj
 .PHONY : leetcode/editor/cn/074-SsGoHC.obj
 
@@ -535,6 +548,30 @@ leetcode/editor/cn/697-degree-of-an-array.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\697-degree-of-an-array.dir\build.make CMakeFiles/697-degree-of-an-array.dir/leetcode/editor/cn/697-degree-of-an-array.cpp.s
 .PHONY : leetcode/editor/cn/697-degree-of-an-array.cpp.s
 
+leetcode/editor/cn/912-sort-an-array.obj: leetcode/editor/cn/912-sort-an-array.cpp.obj
+.PHONY : leetcode/editor/cn/912-sort-an-array.obj
+
+# target to build an object file
+leetcode/editor/cn/912-sort-an-array.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\912-sort-an-array.dir\build.make CMakeFiles/912-sort-an-array.dir/leetcode/editor/cn/912-sort-an-array.cpp.obj
+.PHONY : leetcode/editor/cn/912-sort-an-array.cpp.obj
+
+leetcode/editor/cn/912-sort-an-array.i: leetcode/editor/cn/912-sort-an-array.cpp.i
+.PHONY : leetcode/editor/cn/912-sort-an-array.i
+
+# target to preprocess a source file
+leetcode/editor/cn/912-sort-an-array.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\912-sort-an-array.dir\build.make CMakeFiles/912-sort-an-array.dir/leetcode/editor/cn/912-sort-an-array.cpp.i
+.PHONY : leetcode/editor/cn/912-sort-an-array.cpp.i
+
+leetcode/editor/cn/912-sort-an-array.s: leetcode/editor/cn/912-sort-an-array.cpp.s
+.PHONY : leetcode/editor/cn/912-sort-an-array.s
+
+# target to generate assembly for a file
+leetcode/editor/cn/912-sort-an-array.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\912-sort-an-array.dir\build.make CMakeFiles/912-sort-an-array.dir/leetcode/editor/cn/912-sort-an-array.cpp.s
+.PHONY : leetcode/editor/cn/912-sort-an-array.cpp.s
+
 leetcode/editor/cn/include/btree.obj: leetcode/editor/cn/include/btree.cc.obj
 .PHONY : leetcode/editor/cn/include/btree.obj
 
@@ -602,6 +639,7 @@ help:
 	@echo ... 628-maximum-product-of-three-numbers
 	@echo ... 645-set-mismatch
 	@echo ... 697-degree-of-an-array
+	@echo ... 912-sort-an-array
 	@echo ... leetcode
 	@echo ... leetcode/editor/cn/074-SsGoHC.obj
 	@echo ... leetcode/editor/cn/074-SsGoHC.i
@@ -636,6 +674,9 @@ help:
 	@echo ... leetcode/editor/cn/697-degree-of-an-array.obj
 	@echo ... leetcode/editor/cn/697-degree-of-an-array.i
 	@echo ... leetcode/editor/cn/697-degree-of-an-array.s
+	@echo ... leetcode/editor/cn/912-sort-an-array.obj
+	@echo ... leetcode/editor/cn/912-sort-an-array.i
+	@echo ... leetcode/editor/cn/912-sort-an-array.s
 	@echo ... leetcode/editor/cn/include/btree.obj
 	@echo ... leetcode/editor/cn/include/btree.i
 	@echo ... leetcode/editor/cn/include/btree.s

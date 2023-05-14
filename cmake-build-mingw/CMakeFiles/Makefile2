@@ -74,6 +74,7 @@ all: CMakeFiles/628-maximum-product-of-three-numbers.dir/all
 all: CMakeFiles/645-set-mismatch.dir/all
 all: CMakeFiles/697-degree-of-an-array.dir/all
 all: CMakeFiles/448-find-all-numbers-disappeared-in-an-array.dir/all
+all: CMakeFiles/912-sort-an-array.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -93,6 +94,7 @@ clean: CMakeFiles/628-maximum-product-of-three-numbers.dir/clean
 clean: CMakeFiles/645-set-mismatch.dir/clean
 clean: CMakeFiles/697-degree-of-an-array.dir/clean
 clean: CMakeFiles/448-find-all-numbers-disappeared-in-an-array.dir/clean
+clean: CMakeFiles/912-sort-an-array.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -102,7 +104,7 @@ clean: CMakeFiles/448-find-all-numbers-disappeared-in-an-array.dir/clean
 CMakeFiles/leetcode.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\leetcode.dir\build.make CMakeFiles/leetcode.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\leetcode.dir\build.make CMakeFiles/leetcode.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\hello world\clion2\LeetCode_LocalDebug_Cpp-master\cmake-build-mingw\CMakeFiles" --progress-num=23,24,25 "Built target leetcode"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\hello world\clion2\LeetCode_LocalDebug_Cpp-master\cmake-build-mingw\CMakeFiles" --progress-num=25,26,27 "Built target leetcode"
 .PHONY : CMakeFiles/leetcode.dir/all
 
 # Build rule for subdir invocation for target.
@@ -406,6 +408,32 @@ CMakeFiles/448-find-all-numbers-disappeared-in-an-array.dir/rule: cmake_check_bu
 CMakeFiles/448-find-all-numbers-disappeared-in-an-array.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\448-find-all-numbers-disappeared-in-an-array.dir\build.make CMakeFiles/448-find-all-numbers-disappeared-in-an-array.dir/clean
 .PHONY : CMakeFiles/448-find-all-numbers-disappeared-in-an-array.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/912-sort-an-array.dir
+
+# All Build rule for target.
+CMakeFiles/912-sort-an-array.dir/all: CMakeFiles/leetcode.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\912-sort-an-array.dir\build.make CMakeFiles/912-sort-an-array.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\912-sort-an-array.dir\build.make CMakeFiles/912-sort-an-array.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\hello world\clion2\LeetCode_LocalDebug_Cpp-master\cmake-build-mingw\CMakeFiles" --progress-num=23,24 "Built target 912-sort-an-array"
+.PHONY : CMakeFiles/912-sort-an-array.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/912-sort-an-array.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\hello world\clion2\LeetCode_LocalDebug_Cpp-master\cmake-build-mingw\CMakeFiles" 5
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/912-sort-an-array.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\hello world\clion2\LeetCode_LocalDebug_Cpp-master\cmake-build-mingw\CMakeFiles" 0
+.PHONY : CMakeFiles/912-sort-an-array.dir/rule
+
+# Convenience name for target.
+912-sort-an-array: CMakeFiles/912-sort-an-array.dir/rule
+.PHONY : 912-sort-an-array
+
+# clean rule for target.
+CMakeFiles/912-sort-an-array.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\912-sort-an-array.dir\build.make CMakeFiles/912-sort-an-array.dir/clean
+.PHONY : CMakeFiles/912-sort-an-array.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

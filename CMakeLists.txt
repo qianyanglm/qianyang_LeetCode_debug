@@ -21,3 +21,4 @@ add_executable(628-maximum-product-of-three-numbers leetcode/editor/cn/628-maxim
 add_executable(645-set-mismatch leetcode/editor/cn/645-set-mismatch.cpp)
 add_executable(697-degree-of-an-array leetcode/editor/cn/697-degree-of-an-array.cpp)
 add_executable(448-find-all-numbers-disappeared-in-an-array leetcode/editor/cn/448-find-all-numbers-disappeared-in-an-array.cpp)
+add_executable(912-sort-an-array leetcode/editor/cn/912-sort-an-array.cpp)
