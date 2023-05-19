@@ -43,10 +43,10 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = C:\Users\A\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.8770.66\bin\cmake\win\x64\bin\cmake.exe
+CMAKE_COMMAND = C:\Users\A\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.9011.31\bin\cmake\win\x64\bin\cmake.exe
 
 # The command to remove a file.
-RM = C:\Users\A\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.8770.66\bin\cmake\win\x64\bin\cmake.exe -E rm -f
+RM = C:\Users\A\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.9011.31\bin\cmake\win\x64\bin\cmake.exe -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -72,15 +72,15 @@ CMakeFiles/35-search-insert-position.dir/leetcode/editor/cn/35-search-insert-pos
 CMakeFiles/35-search-insert-position.dir/leetcode/editor/cn/35-search-insert-position.cpp.obj: C:/hello\ world/clion2/LeetCode_LocalDebug_Cpp-master/leetcode/editor/cn/35-search-insert-position.cpp
 CMakeFiles/35-search-insert-position.dir/leetcode/editor/cn/35-search-insert-position.cpp.obj: CMakeFiles/35-search-insert-position.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\hello world\clion2\LeetCode_LocalDebug_Cpp-master\cmake-build-mingw\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/35-search-insert-position.dir/leetcode/editor/cn/35-search-insert-position.cpp.obj"
-	C:\Users\A\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.8770.66\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/35-search-insert-position.dir/leetcode/editor/cn/35-search-insert-position.cpp.obj -MF CMakeFiles\35-search-insert-position.dir\leetcode\editor\cn\35-search-insert-position.cpp.obj.d -o CMakeFiles\35-search-insert-position.dir\leetcode\editor\cn\35-search-insert-position.cpp.obj -c "C:\hello world\clion2\LeetCode_LocalDebug_Cpp-master\leetcode\editor\cn\35-search-insert-position.cpp"
+	C:\Users\A\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.9011.31\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/35-search-insert-position.dir/leetcode/editor/cn/35-search-insert-position.cpp.obj -MF CMakeFiles\35-search-insert-position.dir\leetcode\editor\cn\35-search-insert-position.cpp.obj.d -o CMakeFiles\35-search-insert-position.dir\leetcode\editor\cn\35-search-insert-position.cpp.obj -c "C:\hello world\clion2\LeetCode_LocalDebug_Cpp-master\leetcode\editor\cn\35-search-insert-position.cpp"
 
 CMakeFiles/35-search-insert-position.dir/leetcode/editor/cn/35-search-insert-position.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/35-search-insert-position.dir/leetcode/editor/cn/35-search-insert-position.cpp.i"
-	C:\Users\A\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.8770.66\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\hello world\clion2\LeetCode_LocalDebug_Cpp-master\leetcode\editor\cn\35-search-insert-position.cpp" > CMakeFiles\35-search-insert-position.dir\leetcode\editor\cn\35-search-insert-position.cpp.i
+	C:\Users\A\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.9011.31\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\hello world\clion2\LeetCode_LocalDebug_Cpp-master\leetcode\editor\cn\35-search-insert-position.cpp" > CMakeFiles\35-search-insert-position.dir\leetcode\editor\cn\35-search-insert-position.cpp.i
 
 CMakeFiles/35-search-insert-position.dir/leetcode/editor/cn/35-search-insert-position.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/35-search-insert-position.dir/leetcode/editor/cn/35-search-insert-position.cpp.s"
-	C:\Users\A\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.8770.66\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\hello world\clion2\LeetCode_LocalDebug_Cpp-master\leetcode\editor\cn\35-search-insert-position.cpp" -o CMakeFiles\35-search-insert-position.dir\leetcode\editor\cn\35-search-insert-position.cpp.s
+	C:\Users\A\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.9011.31\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\hello world\clion2\LeetCode_LocalDebug_Cpp-master\leetcode\editor\cn\35-search-insert-position.cpp" -o CMakeFiles\35-search-insert-position.dir\leetcode\editor\cn\35-search-insert-position.cpp.s
 
 # Object files for target 35-search-insert-position
 35__search__insert__position_OBJECTS = \

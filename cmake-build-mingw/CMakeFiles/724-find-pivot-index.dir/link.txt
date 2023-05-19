@@ -1,3 +1,0 @@
-C:\Users\A\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.8770.66\bin\cmake\win\x64\bin\cmake.exe -E rm -f CMakeFiles\724-find-pivot-index.dir/objects.a
-C:\Users\A\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.8770.66\bin\mingw\bin\ar.exe qc CMakeFiles\724-find-pivot-index.dir/objects.a @CMakeFiles\724-find-pivot-index.dir\objects1
-C:\Users\A\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.8770.66\bin\mingw\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\724-find-pivot-index.dir/objects.a -Wl,--no-whole-archive -o 724-find-pivot-index.exe -Wl,--out-implib,lib724-find-pivot-index.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\724-find-pivot-index.dir\linkLibs.rsp

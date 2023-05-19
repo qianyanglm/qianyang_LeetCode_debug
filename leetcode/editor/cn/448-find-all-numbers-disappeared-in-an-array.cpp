@@ -42,11 +42,17 @@ public:
     {
         vector<int> ans;
         int n = nums.size();
+        //遍历数组，对每个元素都计算出对应的下标
         for (int i = 0; i < nums.size(); ++i)
         {
+            //这里计算下标的方式为(nums[i]-1)%n
+            //在该代码中，nums[i] 表示数组 nums 的第 i 个元素，(nums[i] - 1) 用于将元素值映射到从 0 开始的下标范围。
+            //然后，通过取模运算 % n 将下标限定在 0 到 n-1 的范围内，其中 n 是数组 nums 的长度
             int x = (nums[i] - 1) % n;
+            //将下标为x的元素加上n，作为标记
             nums[x] += n;
         }
+        //再次遍历数组，如果nums[i]<=n,说明下标i没有标记过i+1计入ans中
         for (int i = 0; i < n; ++i)
         {
             if (nums[i] <= n)

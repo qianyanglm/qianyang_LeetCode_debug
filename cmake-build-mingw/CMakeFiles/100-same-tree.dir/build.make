@@ -43,10 +43,10 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = C:\Users\A\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.8770.66\bin\cmake\win\x64\bin\cmake.exe
+CMAKE_COMMAND = C:\Users\A\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.9011.31\bin\cmake\win\x64\bin\cmake.exe
 
 # The command to remove a file.
-RM = C:\Users\A\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.8770.66\bin\cmake\win\x64\bin\cmake.exe -E rm -f
+RM = C:\Users\A\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.9011.31\bin\cmake\win\x64\bin\cmake.exe -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -72,15 +72,15 @@ CMakeFiles/100-same-tree.dir/leetcode/editor/cn/100-same-tree.cpp.obj: CMakeFile
 CMakeFiles/100-same-tree.dir/leetcode/editor/cn/100-same-tree.cpp.obj: C:/hello\ world/clion2/LeetCode_LocalDebug_Cpp-master/leetcode/editor/cn/100-same-tree.cpp
 CMakeFiles/100-same-tree.dir/leetcode/editor/cn/100-same-tree.cpp.obj: CMakeFiles/100-same-tree.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\hello world\clion2\LeetCode_LocalDebug_Cpp-master\cmake-build-mingw\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/100-same-tree.dir/leetcode/editor/cn/100-same-tree.cpp.obj"
-	C:\Users\A\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.8770.66\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/100-same-tree.dir/leetcode/editor/cn/100-same-tree.cpp.obj -MF CMakeFiles\100-same-tree.dir\leetcode\editor\cn\100-same-tree.cpp.obj.d -o CMakeFiles\100-same-tree.dir\leetcode\editor\cn\100-same-tree.cpp.obj -c "C:\hello world\clion2\LeetCode_LocalDebug_Cpp-master\leetcode\editor\cn\100-same-tree.cpp"
+	C:\Users\A\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.9011.31\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/100-same-tree.dir/leetcode/editor/cn/100-same-tree.cpp.obj -MF CMakeFiles\100-same-tree.dir\leetcode\editor\cn\100-same-tree.cpp.obj.d -o CMakeFiles\100-same-tree.dir\leetcode\editor\cn\100-same-tree.cpp.obj -c "C:\hello world\clion2\LeetCode_LocalDebug_Cpp-master\leetcode\editor\cn\100-same-tree.cpp"
 
 CMakeFiles/100-same-tree.dir/leetcode/editor/cn/100-same-tree.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/100-same-tree.dir/leetcode/editor/cn/100-same-tree.cpp.i"
-	C:\Users\A\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.8770.66\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\hello world\clion2\LeetCode_LocalDebug_Cpp-master\leetcode\editor\cn\100-same-tree.cpp" > CMakeFiles\100-same-tree.dir\leetcode\editor\cn\100-same-tree.cpp.i
+	C:\Users\A\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.9011.31\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\hello world\clion2\LeetCode_LocalDebug_Cpp-master\leetcode\editor\cn\100-same-tree.cpp" > CMakeFiles\100-same-tree.dir\leetcode\editor\cn\100-same-tree.cpp.i
 
 CMakeFiles/100-same-tree.dir/leetcode/editor/cn/100-same-tree.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/100-same-tree.dir/leetcode/editor/cn/100-same-tree.cpp.s"
-	C:\Users\A\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.8770.66\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\hello world\clion2\LeetCode_LocalDebug_Cpp-master\leetcode\editor\cn\100-same-tree.cpp" -o CMakeFiles\100-same-tree.dir\leetcode\editor\cn\100-same-tree.cpp.s
+	C:\Users\A\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.9011.31\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\hello world\clion2\LeetCode_LocalDebug_Cpp-master\leetcode\editor\cn\100-same-tree.cpp" -o CMakeFiles\100-same-tree.dir\leetcode\editor\cn\100-same-tree.cpp.s
 
 # Object files for target 100-same-tree
 100__same__tree_OBJECTS = \

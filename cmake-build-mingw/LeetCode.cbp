@@ -11,10 +11,10 @@
 				<Option working_dir="C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="leetcode">
@@ -24,19 +24,19 @@
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
-					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
-					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
-					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
-					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
-					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 leetcode"/>
-					<CompileFile command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 leetcode"/>
+					<CompileFile command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="leetcode/fast">
@@ -46,19 +46,19 @@
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
-					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
-					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
-					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
-					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
-					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 leetcode/fast"/>
-					<CompileFile command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 leetcode/fast"/>
+					<CompileFile command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="1-two-sum">
@@ -68,19 +68,19 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
-					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
-					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
-					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
-					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
-					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 1-two-sum"/>
-					<CompileFile command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 1-two-sum"/>
+					<CompileFile command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="1-two-sum/fast">
@@ -90,19 +90,19 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
-					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
-					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
-					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
-					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
-					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 1-two-sum/fast"/>
-					<CompileFile command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 1-two-sum/fast"/>
+					<CompileFile command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="100-same-tree">
@@ -112,19 +112,19 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
-					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
-					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
-					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
-					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
-					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 100-same-tree"/>
-					<CompileFile command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 100-same-tree"/>
+					<CompileFile command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="100-same-tree/fast">
@@ -134,19 +134,19 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
-					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
-					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
-					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
-					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
-					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 100-same-tree/fast"/>
-					<CompileFile command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 100-same-tree/fast"/>
+					<CompileFile command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="35-search-insert-position">
@@ -156,19 +156,19 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
-					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
-					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
-					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
-					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
-					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 35-search-insert-position"/>
-					<CompileFile command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 35-search-insert-position"/>
+					<CompileFile command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="35-search-insert-position/fast">
@@ -178,19 +178,19 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
-					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
-					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
-					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
-					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
-					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 35-search-insert-position/fast"/>
-					<CompileFile command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 35-search-insert-position/fast"/>
+					<CompileFile command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="074-SsGoHC">
@@ -200,19 +200,19 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
-					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
-					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
-					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
-					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
-					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 074-SsGoHC"/>
-					<CompileFile command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 074-SsGoHC"/>
+					<CompileFile command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="074-SsGoHC/fast">
@@ -222,19 +222,19 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
-					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
-					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
-					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
-					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
-					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 074-SsGoHC/fast"/>
-					<CompileFile command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 074-SsGoHC/fast"/>
+					<CompileFile command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="485-max-consecutive-ones">
@@ -244,19 +244,19 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
-					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
-					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
-					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
-					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
-					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 485-max-consecutive-ones"/>
-					<CompileFile command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 485-max-consecutive-ones"/>
+					<CompileFile command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="485-max-consecutive-ones/fast">
@@ -266,19 +266,19 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
-					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
-					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
-					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
-					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
-					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 485-max-consecutive-ones/fast"/>
-					<CompileFile command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 485-max-consecutive-ones/fast"/>
+					<CompileFile command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="495-teemo-attacking">
@@ -288,19 +288,19 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
-					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
-					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
-					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
-					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
-					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 495-teemo-attacking"/>
-					<CompileFile command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 495-teemo-attacking"/>
+					<CompileFile command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="495-teemo-attacking/fast">
@@ -310,19 +310,19 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
-					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
-					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
-					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
-					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
-					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 495-teemo-attacking/fast"/>
-					<CompileFile command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 495-teemo-attacking/fast"/>
+					<CompileFile command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="414-third-maximum-number">
@@ -332,19 +332,19 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
-					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
-					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
-					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
-					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
-					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 414-third-maximum-number"/>
-					<CompileFile command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 414-third-maximum-number"/>
+					<CompileFile command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="414-third-maximum-number/fast">
@@ -354,19 +354,19 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
-					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
-					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
-					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
-					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
-					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 414-third-maximum-number/fast"/>
-					<CompileFile command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 414-third-maximum-number/fast"/>
+					<CompileFile command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="628-maximum-product-of-three-numbers">
@@ -376,19 +376,19 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
-					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
-					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
-					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
-					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
-					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 628-maximum-product-of-three-numbers"/>
-					<CompileFile command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 628-maximum-product-of-three-numbers"/>
+					<CompileFile command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="628-maximum-product-of-three-numbers/fast">
@@ -398,19 +398,19 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
-					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
-					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
-					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
-					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
-					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 628-maximum-product-of-three-numbers/fast"/>
-					<CompileFile command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 628-maximum-product-of-three-numbers/fast"/>
+					<CompileFile command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="645-set-mismatch">
@@ -420,19 +420,19 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
-					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
-					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
-					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
-					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
-					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 645-set-mismatch"/>
-					<CompileFile command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 645-set-mismatch"/>
+					<CompileFile command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="645-set-mismatch/fast">
@@ -442,19 +442,19 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
-					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
-					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
-					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
-					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
-					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 645-set-mismatch/fast"/>
-					<CompileFile command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 645-set-mismatch/fast"/>
+					<CompileFile command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="697-degree-of-an-array">
@@ -464,19 +464,19 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
-					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
-					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
-					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
-					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
-					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 697-degree-of-an-array"/>
-					<CompileFile command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 697-degree-of-an-array"/>
+					<CompileFile command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="697-degree-of-an-array/fast">
@@ -486,19 +486,19 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
-					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
-					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
-					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
-					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
-					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 697-degree-of-an-array/fast"/>
-					<CompileFile command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 697-degree-of-an-array/fast"/>
+					<CompileFile command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="448-find-all-numbers-disappeared-in-an-array">
@@ -508,19 +508,19 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
-					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
-					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
-					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
-					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
-					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 448-find-all-numbers-disappeared-in-an-array"/>
-					<CompileFile command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 448-find-all-numbers-disappeared-in-an-array"/>
+					<CompileFile command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="448-find-all-numbers-disappeared-in-an-array/fast">
@@ -530,19 +530,19 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
-					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
-					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
-					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
-					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
-					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 448-find-all-numbers-disappeared-in-an-array/fast"/>
-					<CompileFile command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 448-find-all-numbers-disappeared-in-an-array/fast"/>
+					<CompileFile command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="912-sort-an-array">
@@ -552,19 +552,19 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
-					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
-					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
-					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
-					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
-					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 912-sort-an-array"/>
-					<CompileFile command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 912-sort-an-array"/>
+					<CompileFile command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="912-sort-an-array/fast">
@@ -574,39 +574,39 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
-					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
-					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
-					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
-					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
-					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 912-sort-an-array/fast"/>
-					<CompileFile command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 912-sort-an-array/fast"/>
+					<CompileFile command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
 				<Option working_dir="C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
 				<Option working_dir="C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
