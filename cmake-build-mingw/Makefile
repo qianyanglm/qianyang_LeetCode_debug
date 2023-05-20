@@ -310,6 +310,32 @@ leetcode/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\989-add-to-array-form-of-integer.dir\build.make CMakeFiles/989-add-to-array-form-of-integer.dir/build
 .PHONY : 989-add-to-array-form-of-integer/fast
 
+#=============================================================================
+# Target rules for targets named 274-h-index
+
+# Build rule for target.
+274-h-index: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 274-h-index
+.PHONY : 274-h-index
+
+# fast build rule for target.
+274-h-index/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\274-h-index.dir\build.make CMakeFiles/274-h-index.dir/build
+.PHONY : 274-h-index/fast
+
+#=============================================================================
+# Target rules for targets named 453-minimum-moves-to-equal-array-elements
+
+# Build rule for target.
+453-minimum-moves-to-equal-array-elements: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 453-minimum-moves-to-equal-array-elements
+.PHONY : 453-minimum-moves-to-equal-array-elements
+
+# fast build rule for target.
+453-minimum-moves-to-equal-array-elements/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\453-minimum-moves-to-equal-array-elements.dir\build.make CMakeFiles/453-minimum-moves-to-equal-array-elements.dir/build
+.PHONY : 453-minimum-moves-to-equal-array-elements/fast
+
 leetcode/editor/cn/074-SsGoHC.obj: leetcode/editor/cn/074-SsGoHC.cpp.obj
 .PHONY : leetcode/editor/cn/074-SsGoHC.obj
 
@@ -381,6 +407,30 @@ leetcode/editor/cn/100-same-tree.s: leetcode/editor/cn/100-same-tree.cpp.s
 leetcode/editor/cn/100-same-tree.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\100-same-tree.dir\build.make CMakeFiles/100-same-tree.dir/leetcode/editor/cn/100-same-tree.cpp.s
 .PHONY : leetcode/editor/cn/100-same-tree.cpp.s
+
+leetcode/editor/cn/274-h-index.obj: leetcode/editor/cn/274-h-index.cpp.obj
+.PHONY : leetcode/editor/cn/274-h-index.obj
+
+# target to build an object file
+leetcode/editor/cn/274-h-index.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\274-h-index.dir\build.make CMakeFiles/274-h-index.dir/leetcode/editor/cn/274-h-index.cpp.obj
+.PHONY : leetcode/editor/cn/274-h-index.cpp.obj
+
+leetcode/editor/cn/274-h-index.i: leetcode/editor/cn/274-h-index.cpp.i
+.PHONY : leetcode/editor/cn/274-h-index.i
+
+# target to preprocess a source file
+leetcode/editor/cn/274-h-index.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\274-h-index.dir\build.make CMakeFiles/274-h-index.dir/leetcode/editor/cn/274-h-index.cpp.i
+.PHONY : leetcode/editor/cn/274-h-index.cpp.i
+
+leetcode/editor/cn/274-h-index.s: leetcode/editor/cn/274-h-index.cpp.s
+.PHONY : leetcode/editor/cn/274-h-index.s
+
+# target to generate assembly for a file
+leetcode/editor/cn/274-h-index.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\274-h-index.dir\build.make CMakeFiles/274-h-index.dir/leetcode/editor/cn/274-h-index.cpp.s
+.PHONY : leetcode/editor/cn/274-h-index.cpp.s
 
 leetcode/editor/cn/35-search-insert-position.obj: leetcode/editor/cn/35-search-insert-position.cpp.obj
 .PHONY : leetcode/editor/cn/35-search-insert-position.obj
@@ -477,6 +527,30 @@ leetcode/editor/cn/448-find-all-numbers-disappeared-in-an-array.s: leetcode/edit
 leetcode/editor/cn/448-find-all-numbers-disappeared-in-an-array.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\448-find-all-numbers-disappeared-in-an-array.dir\build.make CMakeFiles/448-find-all-numbers-disappeared-in-an-array.dir/leetcode/editor/cn/448-find-all-numbers-disappeared-in-an-array.cpp.s
 .PHONY : leetcode/editor/cn/448-find-all-numbers-disappeared-in-an-array.cpp.s
+
+leetcode/editor/cn/453-minimum-moves-to-equal-array-elements.obj: leetcode/editor/cn/453-minimum-moves-to-equal-array-elements.cpp.obj
+.PHONY : leetcode/editor/cn/453-minimum-moves-to-equal-array-elements.obj
+
+# target to build an object file
+leetcode/editor/cn/453-minimum-moves-to-equal-array-elements.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\453-minimum-moves-to-equal-array-elements.dir\build.make CMakeFiles/453-minimum-moves-to-equal-array-elements.dir/leetcode/editor/cn/453-minimum-moves-to-equal-array-elements.cpp.obj
+.PHONY : leetcode/editor/cn/453-minimum-moves-to-equal-array-elements.cpp.obj
+
+leetcode/editor/cn/453-minimum-moves-to-equal-array-elements.i: leetcode/editor/cn/453-minimum-moves-to-equal-array-elements.cpp.i
+.PHONY : leetcode/editor/cn/453-minimum-moves-to-equal-array-elements.i
+
+# target to preprocess a source file
+leetcode/editor/cn/453-minimum-moves-to-equal-array-elements.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\453-minimum-moves-to-equal-array-elements.dir\build.make CMakeFiles/453-minimum-moves-to-equal-array-elements.dir/leetcode/editor/cn/453-minimum-moves-to-equal-array-elements.cpp.i
+.PHONY : leetcode/editor/cn/453-minimum-moves-to-equal-array-elements.cpp.i
+
+leetcode/editor/cn/453-minimum-moves-to-equal-array-elements.s: leetcode/editor/cn/453-minimum-moves-to-equal-array-elements.cpp.s
+.PHONY : leetcode/editor/cn/453-minimum-moves-to-equal-array-elements.s
+
+# target to generate assembly for a file
+leetcode/editor/cn/453-minimum-moves-to-equal-array-elements.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\453-minimum-moves-to-equal-array-elements.dir\build.make CMakeFiles/453-minimum-moves-to-equal-array-elements.dir/leetcode/editor/cn/453-minimum-moves-to-equal-array-elements.cpp.s
+.PHONY : leetcode/editor/cn/453-minimum-moves-to-equal-array-elements.cpp.s
 
 leetcode/editor/cn/485-max-consecutive-ones.obj: leetcode/editor/cn/485-max-consecutive-ones.cpp.obj
 .PHONY : leetcode/editor/cn/485-max-consecutive-ones.obj
@@ -705,10 +779,12 @@ help:
 	@echo ... 074-SsGoHC
 	@echo ... 1-two-sum
 	@echo ... 100-same-tree
+	@echo ... 274-h-index
 	@echo ... 35-search-insert-position
 	@echo ... 414-third-maximum-number
 	@echo ... 442-find-all-duplicates-in-an-array
 	@echo ... 448-find-all-numbers-disappeared-in-an-array
+	@echo ... 453-minimum-moves-to-equal-array-elements
 	@echo ... 485-max-consecutive-ones
 	@echo ... 495-teemo-attacking
 	@echo ... 628-maximum-product-of-three-numbers
@@ -726,6 +802,9 @@ help:
 	@echo ... leetcode/editor/cn/100-same-tree.obj
 	@echo ... leetcode/editor/cn/100-same-tree.i
 	@echo ... leetcode/editor/cn/100-same-tree.s
+	@echo ... leetcode/editor/cn/274-h-index.obj
+	@echo ... leetcode/editor/cn/274-h-index.i
+	@echo ... leetcode/editor/cn/274-h-index.s
 	@echo ... leetcode/editor/cn/35-search-insert-position.obj
 	@echo ... leetcode/editor/cn/35-search-insert-position.i
 	@echo ... leetcode/editor/cn/35-search-insert-position.s
@@ -738,6 +817,9 @@ help:
 	@echo ... leetcode/editor/cn/448-find-all-numbers-disappeared-in-an-array.obj
 	@echo ... leetcode/editor/cn/448-find-all-numbers-disappeared-in-an-array.i
 	@echo ... leetcode/editor/cn/448-find-all-numbers-disappeared-in-an-array.s
+	@echo ... leetcode/editor/cn/453-minimum-moves-to-equal-array-elements.obj
+	@echo ... leetcode/editor/cn/453-minimum-moves-to-equal-array-elements.i
+	@echo ... leetcode/editor/cn/453-minimum-moves-to-equal-array-elements.s
 	@echo ... leetcode/editor/cn/485-max-consecutive-ones.obj
 	@echo ... leetcode/editor/cn/485-max-consecutive-ones.i
 	@echo ... leetcode/editor/cn/485-max-consecutive-ones.s

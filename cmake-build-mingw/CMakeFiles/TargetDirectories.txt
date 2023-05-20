@@ -13,5 +13,7 @@ C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/CMakeFile
 C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/CMakeFiles/912-sort-an-array.dir
 C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/CMakeFiles/442-find-all-duplicates-in-an-array.dir
 C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/CMakeFiles/989-add-to-array-form-of-integer.dir
+C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/CMakeFiles/274-h-index.dir
+C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/CMakeFiles/453-minimum-moves-to-equal-array-elements.dir
 C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/CMakeFiles/edit_cache.dir
 C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/CMakeFiles/rebuild_cache.dir

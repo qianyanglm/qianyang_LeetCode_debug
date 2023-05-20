@@ -66,4 +66,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/912-sort-an-array.dir/DependInfo.cmake"
   "CMakeFiles/442-find-all-duplicates-in-an-array.dir/DependInfo.cmake"
   "CMakeFiles/989-add-to-array-form-of-integer.dir/DependInfo.cmake"
+  "CMakeFiles/274-h-index.dir/DependInfo.cmake"
+  "CMakeFiles/453-minimum-moves-to-equal-array-elements.dir/DependInfo.cmake"
   )
