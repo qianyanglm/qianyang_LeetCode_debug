@@ -35,11 +35,27 @@
 using namespace std;
 
 //leetcode submit region begin(Prohibit modification and deletion)
+//官方
 class Solution
 {
 public:
     void moveZeroes(vector<int> &nums)
     {
+        int n = nums.size(), left = 0, right = 0;
+        while (right < n)
+        {
+            if (nums[right])
+            {
+                swap(nums[left], nums[right]);
+                left++;
+                for (int a: nums)
+                {
+                    cout << a << " ";
+                }
+                cout << endl;
+            }
+            right++;
+        }
     }
 };
 
@@ -49,10 +65,19 @@ public:
 int main()
 {
     Solution s;
-    vector<int> data{7, 1, 5, 3, 6, 4};
+    vector<int> data{7, 0, 0, 1, 5, 3, 6, 4, 0};
     auto res = "Hello LeetCode";
     cout << res << endl;
-
-
+    for (int a: data)
+    {
+        cout << a << " ";
+    }
+    cout << endl;
+    s.moveZeroes(data);
+    for (int a: data)
+    {
+        cout << a << " ";
+    }
+    cout << endl;
     return 0;
 }
