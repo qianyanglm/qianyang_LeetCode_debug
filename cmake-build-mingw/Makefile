@@ -362,6 +362,19 @@ leetcode/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\118-pascals-triangle.dir\build.make CMakeFiles/118-pascals-triangle.dir/build
 .PHONY : 118-pascals-triangle/fast
 
+#=============================================================================
+# Target rules for targets named 119-pascals-triangle-ii
+
+# Build rule for target.
+119-pascals-triangle-ii: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 119-pascals-triangle-ii
+.PHONY : 119-pascals-triangle-ii
+
+# fast build rule for target.
+119-pascals-triangle-ii/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\119-pascals-triangle-ii.dir\build.make CMakeFiles/119-pascals-triangle-ii.dir/build
+.PHONY : 119-pascals-triangle-ii/fast
+
 leetcode/editor/cn/074-SsGoHC.obj: leetcode/editor/cn/074-SsGoHC.cpp.obj
 .PHONY : leetcode/editor/cn/074-SsGoHC.obj
 
@@ -457,6 +470,30 @@ leetcode/editor/cn/118-pascals-triangle.s: leetcode/editor/cn/118-pascals-triang
 leetcode/editor/cn/118-pascals-triangle.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\118-pascals-triangle.dir\build.make CMakeFiles/118-pascals-triangle.dir/leetcode/editor/cn/118-pascals-triangle.cpp.s
 .PHONY : leetcode/editor/cn/118-pascals-triangle.cpp.s
+
+leetcode/editor/cn/119-pascals-triangle-ii.obj: leetcode/editor/cn/119-pascals-triangle-ii.cpp.obj
+.PHONY : leetcode/editor/cn/119-pascals-triangle-ii.obj
+
+# target to build an object file
+leetcode/editor/cn/119-pascals-triangle-ii.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\119-pascals-triangle-ii.dir\build.make CMakeFiles/119-pascals-triangle-ii.dir/leetcode/editor/cn/119-pascals-triangle-ii.cpp.obj
+.PHONY : leetcode/editor/cn/119-pascals-triangle-ii.cpp.obj
+
+leetcode/editor/cn/119-pascals-triangle-ii.i: leetcode/editor/cn/119-pascals-triangle-ii.cpp.i
+.PHONY : leetcode/editor/cn/119-pascals-triangle-ii.i
+
+# target to preprocess a source file
+leetcode/editor/cn/119-pascals-triangle-ii.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\119-pascals-triangle-ii.dir\build.make CMakeFiles/119-pascals-triangle-ii.dir/leetcode/editor/cn/119-pascals-triangle-ii.cpp.i
+.PHONY : leetcode/editor/cn/119-pascals-triangle-ii.cpp.i
+
+leetcode/editor/cn/119-pascals-triangle-ii.s: leetcode/editor/cn/119-pascals-triangle-ii.cpp.s
+.PHONY : leetcode/editor/cn/119-pascals-triangle-ii.s
+
+# target to generate assembly for a file
+leetcode/editor/cn/119-pascals-triangle-ii.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\119-pascals-triangle-ii.dir\build.make CMakeFiles/119-pascals-triangle-ii.dir/leetcode/editor/cn/119-pascals-triangle-ii.cpp.s
+.PHONY : leetcode/editor/cn/119-pascals-triangle-ii.cpp.s
 
 leetcode/editor/cn/274-h-index.obj: leetcode/editor/cn/274-h-index.cpp.obj
 .PHONY : leetcode/editor/cn/274-h-index.obj
@@ -854,6 +891,7 @@ help:
 	@echo ... 1-two-sum
 	@echo ... 100-same-tree
 	@echo ... 118-pascals-triangle
+	@echo ... 119-pascals-triangle-ii
 	@echo ... 274-h-index
 	@echo ... 283-move-zeroes
 	@echo ... 35-search-insert-position
@@ -881,6 +919,9 @@ help:
 	@echo ... leetcode/editor/cn/118-pascals-triangle.obj
 	@echo ... leetcode/editor/cn/118-pascals-triangle.i
 	@echo ... leetcode/editor/cn/118-pascals-triangle.s
+	@echo ... leetcode/editor/cn/119-pascals-triangle-ii.obj
+	@echo ... leetcode/editor/cn/119-pascals-triangle-ii.i
+	@echo ... leetcode/editor/cn/119-pascals-triangle-ii.s
 	@echo ... leetcode/editor/cn/274-h-index.obj
 	@echo ... leetcode/editor/cn/274-h-index.i
 	@echo ... leetcode/editor/cn/274-h-index.s
