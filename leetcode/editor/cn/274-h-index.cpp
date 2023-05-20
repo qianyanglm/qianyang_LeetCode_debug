@@ -41,11 +41,20 @@ Since the researcher has 3 papers with at least 3 citations each and the remaini
 using namespace std;
 
 //leetcode submit region begin(Prohibit modification and deletion)
+//排序法
 class Solution
 {
 public:
     int hIndex(vector<int> &citations)
     {
+        sort(citations.begin(), citations.end());
+        int h = 0, i = citations.size() - 1;
+        while (i >= 0 && citations[i] > h)
+        {
+            h++;
+            i--;
+        }
+        return h;
     }
 };
 
@@ -59,6 +68,7 @@ int main()
     auto res = "Hello LeetCode";
     cout << res << endl;
 
+    cout << s.hIndex(data) << endl;
 
     return 0;
 }
