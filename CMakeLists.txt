@@ -27,3 +27,4 @@ add_executable(989-add-to-array-form-of-integer leetcode/editor/cn/989-add-to-ar
 add_executable(274-h-index leetcode/editor/cn/274-h-index.cpp)
 add_executable(453-minimum-moves-to-equal-array-elements leetcode/editor/cn/453-minimum-moves-to-equal-array-elements.cpp)
 add_executable(283-move-zeroes leetcode/editor/cn/283-move-zeroes.cpp)
+add_executable(118-pascals-triangle leetcode/editor/cn/118-pascals-triangle.cpp)
