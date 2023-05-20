@@ -284,6 +284,32 @@ leetcode/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\912-sort-an-array.dir\build.make CMakeFiles/912-sort-an-array.dir/build
 .PHONY : 912-sort-an-array/fast
 
+#=============================================================================
+# Target rules for targets named 442-find-all-duplicates-in-an-array
+
+# Build rule for target.
+442-find-all-duplicates-in-an-array: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 442-find-all-duplicates-in-an-array
+.PHONY : 442-find-all-duplicates-in-an-array
+
+# fast build rule for target.
+442-find-all-duplicates-in-an-array/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\442-find-all-duplicates-in-an-array.dir\build.make CMakeFiles/442-find-all-duplicates-in-an-array.dir/build
+.PHONY : 442-find-all-duplicates-in-an-array/fast
+
+#=============================================================================
+# Target rules for targets named 989-add-to-array-form-of-integer
+
+# Build rule for target.
+989-add-to-array-form-of-integer: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 989-add-to-array-form-of-integer
+.PHONY : 989-add-to-array-form-of-integer
+
+# fast build rule for target.
+989-add-to-array-form-of-integer/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\989-add-to-array-form-of-integer.dir\build.make CMakeFiles/989-add-to-array-form-of-integer.dir/build
+.PHONY : 989-add-to-array-form-of-integer/fast
+
 leetcode/editor/cn/074-SsGoHC.obj: leetcode/editor/cn/074-SsGoHC.cpp.obj
 .PHONY : leetcode/editor/cn/074-SsGoHC.obj
 
@@ -403,6 +429,30 @@ leetcode/editor/cn/414-third-maximum-number.s: leetcode/editor/cn/414-third-maxi
 leetcode/editor/cn/414-third-maximum-number.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\414-third-maximum-number.dir\build.make CMakeFiles/414-third-maximum-number.dir/leetcode/editor/cn/414-third-maximum-number.cpp.s
 .PHONY : leetcode/editor/cn/414-third-maximum-number.cpp.s
+
+leetcode/editor/cn/442-find-all-duplicates-in-an-array.obj: leetcode/editor/cn/442-find-all-duplicates-in-an-array.cpp.obj
+.PHONY : leetcode/editor/cn/442-find-all-duplicates-in-an-array.obj
+
+# target to build an object file
+leetcode/editor/cn/442-find-all-duplicates-in-an-array.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\442-find-all-duplicates-in-an-array.dir\build.make CMakeFiles/442-find-all-duplicates-in-an-array.dir/leetcode/editor/cn/442-find-all-duplicates-in-an-array.cpp.obj
+.PHONY : leetcode/editor/cn/442-find-all-duplicates-in-an-array.cpp.obj
+
+leetcode/editor/cn/442-find-all-duplicates-in-an-array.i: leetcode/editor/cn/442-find-all-duplicates-in-an-array.cpp.i
+.PHONY : leetcode/editor/cn/442-find-all-duplicates-in-an-array.i
+
+# target to preprocess a source file
+leetcode/editor/cn/442-find-all-duplicates-in-an-array.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\442-find-all-duplicates-in-an-array.dir\build.make CMakeFiles/442-find-all-duplicates-in-an-array.dir/leetcode/editor/cn/442-find-all-duplicates-in-an-array.cpp.i
+.PHONY : leetcode/editor/cn/442-find-all-duplicates-in-an-array.cpp.i
+
+leetcode/editor/cn/442-find-all-duplicates-in-an-array.s: leetcode/editor/cn/442-find-all-duplicates-in-an-array.cpp.s
+.PHONY : leetcode/editor/cn/442-find-all-duplicates-in-an-array.s
+
+# target to generate assembly for a file
+leetcode/editor/cn/442-find-all-duplicates-in-an-array.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\442-find-all-duplicates-in-an-array.dir\build.make CMakeFiles/442-find-all-duplicates-in-an-array.dir/leetcode/editor/cn/442-find-all-duplicates-in-an-array.cpp.s
+.PHONY : leetcode/editor/cn/442-find-all-duplicates-in-an-array.cpp.s
 
 leetcode/editor/cn/448-find-all-numbers-disappeared-in-an-array.obj: leetcode/editor/cn/448-find-all-numbers-disappeared-in-an-array.cpp.obj
 .PHONY : leetcode/editor/cn/448-find-all-numbers-disappeared-in-an-array.obj
@@ -572,6 +622,30 @@ leetcode/editor/cn/912-sort-an-array.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\912-sort-an-array.dir\build.make CMakeFiles/912-sort-an-array.dir/leetcode/editor/cn/912-sort-an-array.cpp.s
 .PHONY : leetcode/editor/cn/912-sort-an-array.cpp.s
 
+leetcode/editor/cn/989-add-to-array-form-of-integer.obj: leetcode/editor/cn/989-add-to-array-form-of-integer.cpp.obj
+.PHONY : leetcode/editor/cn/989-add-to-array-form-of-integer.obj
+
+# target to build an object file
+leetcode/editor/cn/989-add-to-array-form-of-integer.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\989-add-to-array-form-of-integer.dir\build.make CMakeFiles/989-add-to-array-form-of-integer.dir/leetcode/editor/cn/989-add-to-array-form-of-integer.cpp.obj
+.PHONY : leetcode/editor/cn/989-add-to-array-form-of-integer.cpp.obj
+
+leetcode/editor/cn/989-add-to-array-form-of-integer.i: leetcode/editor/cn/989-add-to-array-form-of-integer.cpp.i
+.PHONY : leetcode/editor/cn/989-add-to-array-form-of-integer.i
+
+# target to preprocess a source file
+leetcode/editor/cn/989-add-to-array-form-of-integer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\989-add-to-array-form-of-integer.dir\build.make CMakeFiles/989-add-to-array-form-of-integer.dir/leetcode/editor/cn/989-add-to-array-form-of-integer.cpp.i
+.PHONY : leetcode/editor/cn/989-add-to-array-form-of-integer.cpp.i
+
+leetcode/editor/cn/989-add-to-array-form-of-integer.s: leetcode/editor/cn/989-add-to-array-form-of-integer.cpp.s
+.PHONY : leetcode/editor/cn/989-add-to-array-form-of-integer.s
+
+# target to generate assembly for a file
+leetcode/editor/cn/989-add-to-array-form-of-integer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\989-add-to-array-form-of-integer.dir\build.make CMakeFiles/989-add-to-array-form-of-integer.dir/leetcode/editor/cn/989-add-to-array-form-of-integer.cpp.s
+.PHONY : leetcode/editor/cn/989-add-to-array-form-of-integer.cpp.s
+
 leetcode/editor/cn/include/btree.obj: leetcode/editor/cn/include/btree.cc.obj
 .PHONY : leetcode/editor/cn/include/btree.obj
 
@@ -633,6 +707,7 @@ help:
 	@echo ... 100-same-tree
 	@echo ... 35-search-insert-position
 	@echo ... 414-third-maximum-number
+	@echo ... 442-find-all-duplicates-in-an-array
 	@echo ... 448-find-all-numbers-disappeared-in-an-array
 	@echo ... 485-max-consecutive-ones
 	@echo ... 495-teemo-attacking
@@ -640,6 +715,7 @@ help:
 	@echo ... 645-set-mismatch
 	@echo ... 697-degree-of-an-array
 	@echo ... 912-sort-an-array
+	@echo ... 989-add-to-array-form-of-integer
 	@echo ... leetcode
 	@echo ... leetcode/editor/cn/074-SsGoHC.obj
 	@echo ... leetcode/editor/cn/074-SsGoHC.i
@@ -656,6 +732,9 @@ help:
 	@echo ... leetcode/editor/cn/414-third-maximum-number.obj
 	@echo ... leetcode/editor/cn/414-third-maximum-number.i
 	@echo ... leetcode/editor/cn/414-third-maximum-number.s
+	@echo ... leetcode/editor/cn/442-find-all-duplicates-in-an-array.obj
+	@echo ... leetcode/editor/cn/442-find-all-duplicates-in-an-array.i
+	@echo ... leetcode/editor/cn/442-find-all-duplicates-in-an-array.s
 	@echo ... leetcode/editor/cn/448-find-all-numbers-disappeared-in-an-array.obj
 	@echo ... leetcode/editor/cn/448-find-all-numbers-disappeared-in-an-array.i
 	@echo ... leetcode/editor/cn/448-find-all-numbers-disappeared-in-an-array.s
@@ -677,6 +756,9 @@ help:
 	@echo ... leetcode/editor/cn/912-sort-an-array.obj
 	@echo ... leetcode/editor/cn/912-sort-an-array.i
 	@echo ... leetcode/editor/cn/912-sort-an-array.s
+	@echo ... leetcode/editor/cn/989-add-to-array-form-of-integer.obj
+	@echo ... leetcode/editor/cn/989-add-to-array-form-of-integer.i
+	@echo ... leetcode/editor/cn/989-add-to-array-form-of-integer.s
 	@echo ... leetcode/editor/cn/include/btree.obj
 	@echo ... leetcode/editor/cn/include/btree.i
 	@echo ... leetcode/editor/cn/include/btree.s

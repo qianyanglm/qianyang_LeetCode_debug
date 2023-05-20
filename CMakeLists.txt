@@ -23,3 +23,5 @@ add_executable(697-degree-of-an-array leetcode/editor/cn/697-degree-of-an-array.
 add_executable(448-find-all-numbers-disappeared-in-an-array leetcode/editor/cn/448-find-all-numbers-disappeared-in-an-array.cpp)
 add_executable(912-sort-an-array leetcode/editor/cn/912-sort-an-array.cpp)
 add_executable(442-find-all-duplicates-in-an-array leetcode/editor/cn/442-find-all-duplicates-in-an-array.cpp)
+add_executable(989-add-to-array-form-of-integer leetcode/editor/cn/989-add-to-array-form-of-integer.cpp)
+add_executable(274-h-index leetcode/editor/cn/274-h-index.cpp)
