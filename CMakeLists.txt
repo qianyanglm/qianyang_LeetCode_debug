@@ -35,3 +35,4 @@ add_executable(419-battleships-in-a-board leetcode/editor/cn/419-battleships-in-
 add_executable(189-rotate-array leetcode/editor/cn/189-rotate-array.cpp)
 add_executable(396-rotate-function leetcode/editor/cn/396-rotate-function.cpp)
 add_executable(54-spiral-matrix leetcode/editor/cn/54-spiral-matrix.cpp)
+add_executable(59-spiral-matrix-ii leetcode/editor/cn/59-spiral-matrix-ii.cpp)

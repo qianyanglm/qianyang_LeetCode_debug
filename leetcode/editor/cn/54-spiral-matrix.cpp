@@ -50,28 +50,29 @@ public:
         {
             return ans;//数组为空，直接返回答案
         }
-        int u = 0;                   //赋值上下左右边界
-        int d = matrix.size() - 1;   //下
-        int l = 0;                   //左
-        int r = matrix[0].size() - 1;//右
+        //为了好记忆上下左右，我把原来代码的变量名字改了
+        int top = 0;                     //赋值上下左右边界
+        int bottom = matrix.size() - 1;  //下
+        int left = 0;                    //左
+        int right = matrix[0].size() - 1;//右
         while (true)
         {
             //向右移动直到最右
-            for (int i = l; i <= r; ++i)
-                ans.push_back(matrix[u][i]);
-            if (++u > d) break;//重新设定上边界，上边界大于下边界，遍历结束
+            for (int i = left; i <= right; ++i)
+                ans.push_back(matrix[top][i]);
+            if (++top > bottom) break;//重新设定上边界，上边界大于下边界，遍历结束
             //向下移动到最下
-            for (int i = u; i <= d; ++i)
-                ans.push_back(matrix[i][r]);
-            if (--r < l) break;//重新设定右边界
+            for (int i = top; i <= bottom; ++i)
+                ans.push_back(matrix[i][right]);
+            if (--right < left) break;//重新设定右边界
             //向左
-            for (int i = r; i >= l; --i)
-                ans.push_back(matrix[d][i]);
-            if (--d < u) break;//重新设定下边界
+            for (int i = right; i >= left; --i)
+                ans.push_back(matrix[bottom][i]);
+            if (--bottom < top) break;//重新设定下边界
             //向上
-            for (int i = d; i >= u; --i)
-                ans.push_back(matrix[i][l]);
-            if (++l > r) break;//重新设定左边界
+            for (int i = bottom; i >= top; --i)
+                ans.push_back(matrix[i][left]);
+            if (++left > right) break;//重新设定左边界
         }
         return ans;
     }
