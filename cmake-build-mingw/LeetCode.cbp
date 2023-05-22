@@ -1073,6 +1073,50 @@
 					<DistClean command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="396-rotate-function">
+				<Option output="C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/bin/396-rotate-function.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 396-rotate-function"/>
+					<CompileFile command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="396-rotate-function/fast">
+				<Option output="C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/bin/396-rotate-function.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 396-rotate-function/fast"/>
+					<CompileFile command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="edit_cache">
 				<Option working_dir="C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw"/>
 				<Option type="4"/>
@@ -1120,6 +1164,9 @@
 		</Unit>
 		<Unit filename="C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/leetcode/editor/cn/35-search-insert-position.cpp">
 			<Option target="35-search-insert-position"/>
+		</Unit>
+		<Unit filename="C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/leetcode/editor/cn/396-rotate-function.cpp">
+			<Option target="396-rotate-function"/>
 		</Unit>
 		<Unit filename="C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/leetcode/editor/cn/414-third-maximum-number.cpp">
 			<Option target="414-third-maximum-number"/>

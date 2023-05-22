@@ -427,6 +427,19 @@ leetcode/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\189-rotate-array.dir\build.make CMakeFiles/189-rotate-array.dir/build
 .PHONY : 189-rotate-array/fast
 
+#=============================================================================
+# Target rules for targets named 396-rotate-function
+
+# Build rule for target.
+396-rotate-function: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 396-rotate-function
+.PHONY : 396-rotate-function
+
+# fast build rule for target.
+396-rotate-function/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\396-rotate-function.dir\build.make CMakeFiles/396-rotate-function.dir/build
+.PHONY : 396-rotate-function/fast
+
 leetcode/editor/cn/074-SsGoHC.obj: leetcode/editor/cn/074-SsGoHC.cpp.obj
 .PHONY : leetcode/editor/cn/074-SsGoHC.obj
 
@@ -642,6 +655,30 @@ leetcode/editor/cn/35-search-insert-position.s: leetcode/editor/cn/35-search-ins
 leetcode/editor/cn/35-search-insert-position.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\35-search-insert-position.dir\build.make CMakeFiles/35-search-insert-position.dir/leetcode/editor/cn/35-search-insert-position.cpp.s
 .PHONY : leetcode/editor/cn/35-search-insert-position.cpp.s
+
+leetcode/editor/cn/396-rotate-function.obj: leetcode/editor/cn/396-rotate-function.cpp.obj
+.PHONY : leetcode/editor/cn/396-rotate-function.obj
+
+# target to build an object file
+leetcode/editor/cn/396-rotate-function.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\396-rotate-function.dir\build.make CMakeFiles/396-rotate-function.dir/leetcode/editor/cn/396-rotate-function.cpp.obj
+.PHONY : leetcode/editor/cn/396-rotate-function.cpp.obj
+
+leetcode/editor/cn/396-rotate-function.i: leetcode/editor/cn/396-rotate-function.cpp.i
+.PHONY : leetcode/editor/cn/396-rotate-function.i
+
+# target to preprocess a source file
+leetcode/editor/cn/396-rotate-function.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\396-rotate-function.dir\build.make CMakeFiles/396-rotate-function.dir/leetcode/editor/cn/396-rotate-function.cpp.i
+.PHONY : leetcode/editor/cn/396-rotate-function.cpp.i
+
+leetcode/editor/cn/396-rotate-function.s: leetcode/editor/cn/396-rotate-function.cpp.s
+.PHONY : leetcode/editor/cn/396-rotate-function.s
+
+# target to generate assembly for a file
+leetcode/editor/cn/396-rotate-function.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\396-rotate-function.dir\build.make CMakeFiles/396-rotate-function.dir/leetcode/editor/cn/396-rotate-function.cpp.s
+.PHONY : leetcode/editor/cn/396-rotate-function.cpp.s
 
 leetcode/editor/cn/414-third-maximum-number.obj: leetcode/editor/cn/414-third-maximum-number.cpp.obj
 .PHONY : leetcode/editor/cn/414-third-maximum-number.obj
@@ -1044,6 +1081,7 @@ help:
 	@echo ... 274-h-index
 	@echo ... 283-move-zeroes
 	@echo ... 35-search-insert-position
+	@echo ... 396-rotate-function
 	@echo ... 414-third-maximum-number
 	@echo ... 419-battleships-in-a-board
 	@echo ... 442-find-all-duplicates-in-an-array
@@ -1086,6 +1124,9 @@ help:
 	@echo ... leetcode/editor/cn/35-search-insert-position.obj
 	@echo ... leetcode/editor/cn/35-search-insert-position.i
 	@echo ... leetcode/editor/cn/35-search-insert-position.s
+	@echo ... leetcode/editor/cn/396-rotate-function.obj
+	@echo ... leetcode/editor/cn/396-rotate-function.i
+	@echo ... leetcode/editor/cn/396-rotate-function.s
 	@echo ... leetcode/editor/cn/414-third-maximum-number.obj
 	@echo ... leetcode/editor/cn/414-third-maximum-number.i
 	@echo ... leetcode/editor/cn/414-third-maximum-number.s

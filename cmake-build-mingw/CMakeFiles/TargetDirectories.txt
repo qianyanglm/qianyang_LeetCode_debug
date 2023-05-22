@@ -22,5 +22,6 @@ C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/CMakeFile
 C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/CMakeFiles/598-range-addition-ii.dir
 C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/CMakeFiles/419-battleships-in-a-board.dir
 C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/CMakeFiles/189-rotate-array.dir
+C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/CMakeFiles/396-rotate-function.dir
 C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/CMakeFiles/edit_cache.dir
 C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/CMakeFiles/rebuild_cache.dir
