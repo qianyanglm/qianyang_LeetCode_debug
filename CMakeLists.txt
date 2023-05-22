@@ -29,3 +29,4 @@ add_executable(453-minimum-moves-to-equal-array-elements leetcode/editor/cn/453-
 add_executable(283-move-zeroes leetcode/editor/cn/283-move-zeroes.cpp)
 add_executable(118-pascals-triangle leetcode/editor/cn/118-pascals-triangle.cpp)
 add_executable(119-pascals-triangle-ii leetcode/editor/cn/119-pascals-triangle-ii.cpp)
+add_executable(661-image-smoother leetcode/editor/cn/661-image-smoother.cpp)

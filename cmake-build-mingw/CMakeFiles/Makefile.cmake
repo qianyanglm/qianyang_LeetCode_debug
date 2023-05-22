@@ -71,4 +71,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/283-move-zeroes.dir/DependInfo.cmake"
   "CMakeFiles/118-pascals-triangle.dir/DependInfo.cmake"
   "CMakeFiles/119-pascals-triangle-ii.dir/DependInfo.cmake"
+  "CMakeFiles/661-image-smoother.dir/DependInfo.cmake"
   )

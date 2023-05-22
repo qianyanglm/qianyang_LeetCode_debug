@@ -375,6 +375,19 @@ leetcode/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\119-pascals-triangle-ii.dir\build.make CMakeFiles/119-pascals-triangle-ii.dir/build
 .PHONY : 119-pascals-triangle-ii/fast
 
+#=============================================================================
+# Target rules for targets named 661-image-smoother
+
+# Build rule for target.
+661-image-smoother: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 661-image-smoother
+.PHONY : 661-image-smoother
+
+# fast build rule for target.
+661-image-smoother/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\661-image-smoother.dir\build.make CMakeFiles/661-image-smoother.dir/build
+.PHONY : 661-image-smoother/fast
+
 leetcode/editor/cn/074-SsGoHC.obj: leetcode/editor/cn/074-SsGoHC.cpp.obj
 .PHONY : leetcode/editor/cn/074-SsGoHC.obj
 
@@ -759,6 +772,30 @@ leetcode/editor/cn/645-set-mismatch.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\645-set-mismatch.dir\build.make CMakeFiles/645-set-mismatch.dir/leetcode/editor/cn/645-set-mismatch.cpp.s
 .PHONY : leetcode/editor/cn/645-set-mismatch.cpp.s
 
+leetcode/editor/cn/661-image-smoother.obj: leetcode/editor/cn/661-image-smoother.cpp.obj
+.PHONY : leetcode/editor/cn/661-image-smoother.obj
+
+# target to build an object file
+leetcode/editor/cn/661-image-smoother.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\661-image-smoother.dir\build.make CMakeFiles/661-image-smoother.dir/leetcode/editor/cn/661-image-smoother.cpp.obj
+.PHONY : leetcode/editor/cn/661-image-smoother.cpp.obj
+
+leetcode/editor/cn/661-image-smoother.i: leetcode/editor/cn/661-image-smoother.cpp.i
+.PHONY : leetcode/editor/cn/661-image-smoother.i
+
+# target to preprocess a source file
+leetcode/editor/cn/661-image-smoother.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\661-image-smoother.dir\build.make CMakeFiles/661-image-smoother.dir/leetcode/editor/cn/661-image-smoother.cpp.i
+.PHONY : leetcode/editor/cn/661-image-smoother.cpp.i
+
+leetcode/editor/cn/661-image-smoother.s: leetcode/editor/cn/661-image-smoother.cpp.s
+.PHONY : leetcode/editor/cn/661-image-smoother.s
+
+# target to generate assembly for a file
+leetcode/editor/cn/661-image-smoother.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\661-image-smoother.dir\build.make CMakeFiles/661-image-smoother.dir/leetcode/editor/cn/661-image-smoother.cpp.s
+.PHONY : leetcode/editor/cn/661-image-smoother.cpp.s
+
 leetcode/editor/cn/697-degree-of-an-array.obj: leetcode/editor/cn/697-degree-of-an-array.cpp.obj
 .PHONY : leetcode/editor/cn/697-degree-of-an-array.obj
 
@@ -903,6 +940,7 @@ help:
 	@echo ... 495-teemo-attacking
 	@echo ... 628-maximum-product-of-three-numbers
 	@echo ... 645-set-mismatch
+	@echo ... 661-image-smoother
 	@echo ... 697-degree-of-an-array
 	@echo ... 912-sort-an-array
 	@echo ... 989-add-to-array-form-of-integer
@@ -955,6 +993,9 @@ help:
 	@echo ... leetcode/editor/cn/645-set-mismatch.obj
 	@echo ... leetcode/editor/cn/645-set-mismatch.i
 	@echo ... leetcode/editor/cn/645-set-mismatch.s
+	@echo ... leetcode/editor/cn/661-image-smoother.obj
+	@echo ... leetcode/editor/cn/661-image-smoother.i
+	@echo ... leetcode/editor/cn/661-image-smoother.s
 	@echo ... leetcode/editor/cn/697-degree-of-an-array.obj
 	@echo ... leetcode/editor/cn/697-degree-of-an-array.i
 	@echo ... leetcode/editor/cn/697-degree-of-an-array.s
