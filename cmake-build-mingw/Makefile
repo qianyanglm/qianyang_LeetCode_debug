@@ -440,6 +440,19 @@ leetcode/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\396-rotate-function.dir\build.make CMakeFiles/396-rotate-function.dir/build
 .PHONY : 396-rotate-function/fast
 
+#=============================================================================
+# Target rules for targets named 54-spiral-matrix
+
+# Build rule for target.
+54-spiral-matrix: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 54-spiral-matrix
+.PHONY : 54-spiral-matrix
+
+# fast build rule for target.
+54-spiral-matrix/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\54-spiral-matrix.dir\build.make CMakeFiles/54-spiral-matrix.dir/build
+.PHONY : 54-spiral-matrix/fast
+
 leetcode/editor/cn/074-SsGoHC.obj: leetcode/editor/cn/074-SsGoHC.cpp.obj
 .PHONY : leetcode/editor/cn/074-SsGoHC.obj
 
@@ -848,6 +861,30 @@ leetcode/editor/cn/495-teemo-attacking.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\495-teemo-attacking.dir\build.make CMakeFiles/495-teemo-attacking.dir/leetcode/editor/cn/495-teemo-attacking.cpp.s
 .PHONY : leetcode/editor/cn/495-teemo-attacking.cpp.s
 
+leetcode/editor/cn/54-spiral-matrix.obj: leetcode/editor/cn/54-spiral-matrix.cpp.obj
+.PHONY : leetcode/editor/cn/54-spiral-matrix.obj
+
+# target to build an object file
+leetcode/editor/cn/54-spiral-matrix.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\54-spiral-matrix.dir\build.make CMakeFiles/54-spiral-matrix.dir/leetcode/editor/cn/54-spiral-matrix.cpp.obj
+.PHONY : leetcode/editor/cn/54-spiral-matrix.cpp.obj
+
+leetcode/editor/cn/54-spiral-matrix.i: leetcode/editor/cn/54-spiral-matrix.cpp.i
+.PHONY : leetcode/editor/cn/54-spiral-matrix.i
+
+# target to preprocess a source file
+leetcode/editor/cn/54-spiral-matrix.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\54-spiral-matrix.dir\build.make CMakeFiles/54-spiral-matrix.dir/leetcode/editor/cn/54-spiral-matrix.cpp.i
+.PHONY : leetcode/editor/cn/54-spiral-matrix.cpp.i
+
+leetcode/editor/cn/54-spiral-matrix.s: leetcode/editor/cn/54-spiral-matrix.cpp.s
+.PHONY : leetcode/editor/cn/54-spiral-matrix.s
+
+# target to generate assembly for a file
+leetcode/editor/cn/54-spiral-matrix.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\54-spiral-matrix.dir\build.make CMakeFiles/54-spiral-matrix.dir/leetcode/editor/cn/54-spiral-matrix.cpp.s
+.PHONY : leetcode/editor/cn/54-spiral-matrix.cpp.s
+
 leetcode/editor/cn/598-range-addition-ii.obj: leetcode/editor/cn/598-range-addition-ii.cpp.obj
 .PHONY : leetcode/editor/cn/598-range-addition-ii.obj
 
@@ -1089,6 +1126,7 @@ help:
 	@echo ... 453-minimum-moves-to-equal-array-elements
 	@echo ... 485-max-consecutive-ones
 	@echo ... 495-teemo-attacking
+	@echo ... 54-spiral-matrix
 	@echo ... 598-range-addition-ii
 	@echo ... 628-maximum-product-of-three-numbers
 	@echo ... 645-set-mismatch
@@ -1148,6 +1186,9 @@ help:
 	@echo ... leetcode/editor/cn/495-teemo-attacking.obj
 	@echo ... leetcode/editor/cn/495-teemo-attacking.i
 	@echo ... leetcode/editor/cn/495-teemo-attacking.s
+	@echo ... leetcode/editor/cn/54-spiral-matrix.obj
+	@echo ... leetcode/editor/cn/54-spiral-matrix.i
+	@echo ... leetcode/editor/cn/54-spiral-matrix.s
 	@echo ... leetcode/editor/cn/598-range-addition-ii.obj
 	@echo ... leetcode/editor/cn/598-range-addition-ii.i
 	@echo ... leetcode/editor/cn/598-range-addition-ii.s

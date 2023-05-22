@@ -76,4 +76,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/419-battleships-in-a-board.dir/DependInfo.cmake"
   "CMakeFiles/189-rotate-array.dir/DependInfo.cmake"
   "CMakeFiles/396-rotate-function.dir/DependInfo.cmake"
+  "CMakeFiles/54-spiral-matrix.dir/DependInfo.cmake"
   )

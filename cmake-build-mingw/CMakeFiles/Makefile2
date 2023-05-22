@@ -87,6 +87,7 @@ all: CMakeFiles/598-range-addition-ii.dir/all
 all: CMakeFiles/419-battleships-in-a-board.dir/all
 all: CMakeFiles/189-rotate-array.dir/all
 all: CMakeFiles/396-rotate-function.dir/all
+all: CMakeFiles/54-spiral-matrix.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -119,6 +120,7 @@ clean: CMakeFiles/598-range-addition-ii.dir/clean
 clean: CMakeFiles/419-battleships-in-a-board.dir/clean
 clean: CMakeFiles/189-rotate-array.dir/clean
 clean: CMakeFiles/396-rotate-function.dir/clean
+clean: CMakeFiles/54-spiral-matrix.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -128,7 +130,7 @@ clean: CMakeFiles/396-rotate-function.dir/clean
 CMakeFiles/leetcode.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\leetcode.dir\build.make CMakeFiles/leetcode.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\leetcode.dir\build.make CMakeFiles/leetcode.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\hello world\clion2\LeetCode_LocalDebug_Cpp-master\cmake-build-mingw\CMakeFiles" --progress-num=49,50,51 "Built target leetcode"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\hello world\clion2\LeetCode_LocalDebug_Cpp-master\cmake-build-mingw\CMakeFiles" --progress-num=51,52,53 "Built target leetcode"
 .PHONY : CMakeFiles/leetcode.dir/all
 
 # Build rule for subdir invocation for target.
@@ -336,7 +338,7 @@ CMakeFiles/414-third-maximum-number.dir/clean:
 CMakeFiles/628-maximum-product-of-three-numbers.dir/all: CMakeFiles/leetcode.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\628-maximum-product-of-three-numbers.dir\build.make CMakeFiles/628-maximum-product-of-three-numbers.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\628-maximum-product-of-three-numbers.dir\build.make CMakeFiles/628-maximum-product-of-three-numbers.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\hello world\clion2\LeetCode_LocalDebug_Cpp-master\cmake-build-mingw\CMakeFiles" --progress-num=37,38 "Built target 628-maximum-product-of-three-numbers"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\hello world\clion2\LeetCode_LocalDebug_Cpp-master\cmake-build-mingw\CMakeFiles" --progress-num=39,40 "Built target 628-maximum-product-of-three-numbers"
 .PHONY : CMakeFiles/628-maximum-product-of-three-numbers.dir/all
 
 # Build rule for subdir invocation for target.
@@ -362,7 +364,7 @@ CMakeFiles/628-maximum-product-of-three-numbers.dir/clean:
 CMakeFiles/645-set-mismatch.dir/all: CMakeFiles/leetcode.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\645-set-mismatch.dir\build.make CMakeFiles/645-set-mismatch.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\645-set-mismatch.dir\build.make CMakeFiles/645-set-mismatch.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\hello world\clion2\LeetCode_LocalDebug_Cpp-master\cmake-build-mingw\CMakeFiles" --progress-num=39,40 "Built target 645-set-mismatch"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\hello world\clion2\LeetCode_LocalDebug_Cpp-master\cmake-build-mingw\CMakeFiles" --progress-num=41,42 "Built target 645-set-mismatch"
 .PHONY : CMakeFiles/645-set-mismatch.dir/all
 
 # Build rule for subdir invocation for target.
@@ -388,7 +390,7 @@ CMakeFiles/645-set-mismatch.dir/clean:
 CMakeFiles/697-degree-of-an-array.dir/all: CMakeFiles/leetcode.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\697-degree-of-an-array.dir\build.make CMakeFiles/697-degree-of-an-array.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\697-degree-of-an-array.dir\build.make CMakeFiles/697-degree-of-an-array.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\hello world\clion2\LeetCode_LocalDebug_Cpp-master\cmake-build-mingw\CMakeFiles" --progress-num=43,44 "Built target 697-degree-of-an-array"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\hello world\clion2\LeetCode_LocalDebug_Cpp-master\cmake-build-mingw\CMakeFiles" --progress-num=45,46 "Built target 697-degree-of-an-array"
 .PHONY : CMakeFiles/697-degree-of-an-array.dir/all
 
 # Build rule for subdir invocation for target.
@@ -440,7 +442,7 @@ CMakeFiles/448-find-all-numbers-disappeared-in-an-array.dir/clean:
 CMakeFiles/912-sort-an-array.dir/all: CMakeFiles/leetcode.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\912-sort-an-array.dir\build.make CMakeFiles/912-sort-an-array.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\912-sort-an-array.dir\build.make CMakeFiles/912-sort-an-array.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\hello world\clion2\LeetCode_LocalDebug_Cpp-master\cmake-build-mingw\CMakeFiles" --progress-num=45,46 "Built target 912-sort-an-array"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\hello world\clion2\LeetCode_LocalDebug_Cpp-master\cmake-build-mingw\CMakeFiles" --progress-num=47,48 "Built target 912-sort-an-array"
 .PHONY : CMakeFiles/912-sort-an-array.dir/all
 
 # Build rule for subdir invocation for target.
@@ -492,7 +494,7 @@ CMakeFiles/442-find-all-duplicates-in-an-array.dir/clean:
 CMakeFiles/989-add-to-array-form-of-integer.dir/all: CMakeFiles/leetcode.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\989-add-to-array-form-of-integer.dir\build.make CMakeFiles/989-add-to-array-form-of-integer.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\989-add-to-array-form-of-integer.dir\build.make CMakeFiles/989-add-to-array-form-of-integer.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\hello world\clion2\LeetCode_LocalDebug_Cpp-master\cmake-build-mingw\CMakeFiles" --progress-num=47,48 "Built target 989-add-to-array-form-of-integer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\hello world\clion2\LeetCode_LocalDebug_Cpp-master\cmake-build-mingw\CMakeFiles" --progress-num=49,50 "Built target 989-add-to-array-form-of-integer"
 .PHONY : CMakeFiles/989-add-to-array-form-of-integer.dir/all
 
 # Build rule for subdir invocation for target.
@@ -648,7 +650,7 @@ CMakeFiles/119-pascals-triangle-ii.dir/clean:
 CMakeFiles/661-image-smoother.dir/all: CMakeFiles/leetcode.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\661-image-smoother.dir\build.make CMakeFiles/661-image-smoother.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\661-image-smoother.dir\build.make CMakeFiles/661-image-smoother.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\hello world\clion2\LeetCode_LocalDebug_Cpp-master\cmake-build-mingw\CMakeFiles" --progress-num=41,42 "Built target 661-image-smoother"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\hello world\clion2\LeetCode_LocalDebug_Cpp-master\cmake-build-mingw\CMakeFiles" --progress-num=43,44 "Built target 661-image-smoother"
 .PHONY : CMakeFiles/661-image-smoother.dir/all
 
 # Build rule for subdir invocation for target.
@@ -674,7 +676,7 @@ CMakeFiles/661-image-smoother.dir/clean:
 CMakeFiles/598-range-addition-ii.dir/all: CMakeFiles/leetcode.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\598-range-addition-ii.dir\build.make CMakeFiles/598-range-addition-ii.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\598-range-addition-ii.dir\build.make CMakeFiles/598-range-addition-ii.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\hello world\clion2\LeetCode_LocalDebug_Cpp-master\cmake-build-mingw\CMakeFiles" --progress-num=35,36 "Built target 598-range-addition-ii"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\hello world\clion2\LeetCode_LocalDebug_Cpp-master\cmake-build-mingw\CMakeFiles" --progress-num=37,38 "Built target 598-range-addition-ii"
 .PHONY : CMakeFiles/598-range-addition-ii.dir/all
 
 # Build rule for subdir invocation for target.
@@ -770,6 +772,32 @@ CMakeFiles/396-rotate-function.dir/rule: cmake_check_build_system
 CMakeFiles/396-rotate-function.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\396-rotate-function.dir\build.make CMakeFiles/396-rotate-function.dir/clean
 .PHONY : CMakeFiles/396-rotate-function.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/54-spiral-matrix.dir
+
+# All Build rule for target.
+CMakeFiles/54-spiral-matrix.dir/all: CMakeFiles/leetcode.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\54-spiral-matrix.dir\build.make CMakeFiles/54-spiral-matrix.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\54-spiral-matrix.dir\build.make CMakeFiles/54-spiral-matrix.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\hello world\clion2\LeetCode_LocalDebug_Cpp-master\cmake-build-mingw\CMakeFiles" --progress-num=35,36 "Built target 54-spiral-matrix"
+.PHONY : CMakeFiles/54-spiral-matrix.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/54-spiral-matrix.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\hello world\clion2\LeetCode_LocalDebug_Cpp-master\cmake-build-mingw\CMakeFiles" 5
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/54-spiral-matrix.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\hello world\clion2\LeetCode_LocalDebug_Cpp-master\cmake-build-mingw\CMakeFiles" 0
+.PHONY : CMakeFiles/54-spiral-matrix.dir/rule
+
+# Convenience name for target.
+54-spiral-matrix: CMakeFiles/54-spiral-matrix.dir/rule
+.PHONY : 54-spiral-matrix
+
+# clean rule for target.
+CMakeFiles/54-spiral-matrix.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\54-spiral-matrix.dir\build.make CMakeFiles/54-spiral-matrix.dir/clean
+.PHONY : CMakeFiles/54-spiral-matrix.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
