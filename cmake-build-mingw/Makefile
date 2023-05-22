@@ -414,6 +414,19 @@ leetcode/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\419-battleships-in-a-board.dir\build.make CMakeFiles/419-battleships-in-a-board.dir/build
 .PHONY : 419-battleships-in-a-board/fast
 
+#=============================================================================
+# Target rules for targets named 189-rotate-array
+
+# Build rule for target.
+189-rotate-array: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 189-rotate-array
+.PHONY : 189-rotate-array
+
+# fast build rule for target.
+189-rotate-array/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\189-rotate-array.dir\build.make CMakeFiles/189-rotate-array.dir/build
+.PHONY : 189-rotate-array/fast
+
 leetcode/editor/cn/074-SsGoHC.obj: leetcode/editor/cn/074-SsGoHC.cpp.obj
 .PHONY : leetcode/editor/cn/074-SsGoHC.obj
 
@@ -533,6 +546,30 @@ leetcode/editor/cn/119-pascals-triangle-ii.s: leetcode/editor/cn/119-pascals-tri
 leetcode/editor/cn/119-pascals-triangle-ii.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\119-pascals-triangle-ii.dir\build.make CMakeFiles/119-pascals-triangle-ii.dir/leetcode/editor/cn/119-pascals-triangle-ii.cpp.s
 .PHONY : leetcode/editor/cn/119-pascals-triangle-ii.cpp.s
+
+leetcode/editor/cn/189-rotate-array.obj: leetcode/editor/cn/189-rotate-array.cpp.obj
+.PHONY : leetcode/editor/cn/189-rotate-array.obj
+
+# target to build an object file
+leetcode/editor/cn/189-rotate-array.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\189-rotate-array.dir\build.make CMakeFiles/189-rotate-array.dir/leetcode/editor/cn/189-rotate-array.cpp.obj
+.PHONY : leetcode/editor/cn/189-rotate-array.cpp.obj
+
+leetcode/editor/cn/189-rotate-array.i: leetcode/editor/cn/189-rotate-array.cpp.i
+.PHONY : leetcode/editor/cn/189-rotate-array.i
+
+# target to preprocess a source file
+leetcode/editor/cn/189-rotate-array.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\189-rotate-array.dir\build.make CMakeFiles/189-rotate-array.dir/leetcode/editor/cn/189-rotate-array.cpp.i
+.PHONY : leetcode/editor/cn/189-rotate-array.cpp.i
+
+leetcode/editor/cn/189-rotate-array.s: leetcode/editor/cn/189-rotate-array.cpp.s
+.PHONY : leetcode/editor/cn/189-rotate-array.s
+
+# target to generate assembly for a file
+leetcode/editor/cn/189-rotate-array.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\189-rotate-array.dir\build.make CMakeFiles/189-rotate-array.dir/leetcode/editor/cn/189-rotate-array.cpp.s
+.PHONY : leetcode/editor/cn/189-rotate-array.cpp.s
 
 leetcode/editor/cn/274-h-index.obj: leetcode/editor/cn/274-h-index.cpp.obj
 .PHONY : leetcode/editor/cn/274-h-index.obj
@@ -1003,6 +1040,7 @@ help:
 	@echo ... 100-same-tree
 	@echo ... 118-pascals-triangle
 	@echo ... 119-pascals-triangle-ii
+	@echo ... 189-rotate-array
 	@echo ... 274-h-index
 	@echo ... 283-move-zeroes
 	@echo ... 35-search-insert-position
@@ -1036,6 +1074,9 @@ help:
 	@echo ... leetcode/editor/cn/119-pascals-triangle-ii.obj
 	@echo ... leetcode/editor/cn/119-pascals-triangle-ii.i
 	@echo ... leetcode/editor/cn/119-pascals-triangle-ii.s
+	@echo ... leetcode/editor/cn/189-rotate-array.obj
+	@echo ... leetcode/editor/cn/189-rotate-array.i
+	@echo ... leetcode/editor/cn/189-rotate-array.s
 	@echo ... leetcode/editor/cn/274-h-index.obj
 	@echo ... leetcode/editor/cn/274-h-index.i
 	@echo ... leetcode/editor/cn/274-h-index.s

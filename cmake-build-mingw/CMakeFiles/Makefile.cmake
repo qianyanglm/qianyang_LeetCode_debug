@@ -74,4 +74,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/661-image-smoother.dir/DependInfo.cmake"
   "CMakeFiles/598-range-addition-ii.dir/DependInfo.cmake"
   "CMakeFiles/419-battleships-in-a-board.dir/DependInfo.cmake"
+  "CMakeFiles/189-rotate-array.dir/DependInfo.cmake"
   )

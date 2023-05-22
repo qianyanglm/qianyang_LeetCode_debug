@@ -32,3 +32,4 @@ add_executable(119-pascals-triangle-ii leetcode/editor/cn/119-pascals-triangle-i
 add_executable(661-image-smoother leetcode/editor/cn/661-image-smoother.cpp)
 add_executable(598-range-addition-ii leetcode/editor/cn/598-range-addition-ii.cpp)
 add_executable(419-battleships-in-a-board leetcode/editor/cn/419-battleships-in-a-board.cpp)
+add_executable(189-rotate-array leetcode/editor/cn/189-rotate-array.cpp)

@@ -43,11 +43,40 @@
 using namespace std;
 
 //leetcode submit region begin(Prohibit modification and deletion)
+//官方
 class Solution
 {
 public:
     int countBattleships(vector<vector<char>> &board)
     {
+        int row = board.size();   //行
+        int col = board[0].size();//列
+        int ans = 0;              //战舰计数
+        //遍历行列
+        for (int i = 0; i < row; ++i)
+        {
+            for (int j = 0; j < col; ++j)
+            {
+                //战舰X替换为.  ans+1
+                if (board[i][j] == 'X')
+                {
+                    board[i][j] = '.';
+                    //下面两个循环一次只用一个，因为战舰只能是行或者列，不会相邻,而且下面的两个循环不分先后
+                    //遍历一行，行战舰X替换为.
+                    for (int k = j + 1; k < col && board[i][k] == 'X'; ++k)
+                    {
+                        board[i][k] = '.';
+                    }
+                    //遍历一列,列战舰X替换为.
+                    for (int k = i + 1; k < row && board[k][j] == 'X'; ++k)
+                    {
+                        board[k][j] = '.';
+                    }
+                    ans++;
+                }
+            }
+        }
+        return ans;
     }
 };
 
@@ -58,10 +87,11 @@ int main()
 {
     Solution s;
     vector<int> data{7, 1, 5, 3, 6, 4};
-    vector<vector<int>> data1{{1, 1, 1}, {1, 0, 1}, {1, 1, 1}};
+    vector<vector<char>> data1{{'X', '.', '.', 'X'}, {'.', '.', '.', 'X'}, {'.', '.', '.', 'X'}};
     auto res = "Hello LeetCode";
     cout << res << endl;
 
+    cout << s.countBattleships(data1) << endl;
 
     return 0;
 }
