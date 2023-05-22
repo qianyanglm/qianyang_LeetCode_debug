@@ -388,6 +388,32 @@ leetcode/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\661-image-smoother.dir\build.make CMakeFiles/661-image-smoother.dir/build
 .PHONY : 661-image-smoother/fast
 
+#=============================================================================
+# Target rules for targets named 598-range-addition-ii
+
+# Build rule for target.
+598-range-addition-ii: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 598-range-addition-ii
+.PHONY : 598-range-addition-ii
+
+# fast build rule for target.
+598-range-addition-ii/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\598-range-addition-ii.dir\build.make CMakeFiles/598-range-addition-ii.dir/build
+.PHONY : 598-range-addition-ii/fast
+
+#=============================================================================
+# Target rules for targets named 419-battleships-in-a-board
+
+# Build rule for target.
+419-battleships-in-a-board: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 419-battleships-in-a-board
+.PHONY : 419-battleships-in-a-board
+
+# fast build rule for target.
+419-battleships-in-a-board/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\419-battleships-in-a-board.dir\build.make CMakeFiles/419-battleships-in-a-board.dir/build
+.PHONY : 419-battleships-in-a-board/fast
+
 leetcode/editor/cn/074-SsGoHC.obj: leetcode/editor/cn/074-SsGoHC.cpp.obj
 .PHONY : leetcode/editor/cn/074-SsGoHC.obj
 
@@ -604,6 +630,30 @@ leetcode/editor/cn/414-third-maximum-number.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\414-third-maximum-number.dir\build.make CMakeFiles/414-third-maximum-number.dir/leetcode/editor/cn/414-third-maximum-number.cpp.s
 .PHONY : leetcode/editor/cn/414-third-maximum-number.cpp.s
 
+leetcode/editor/cn/419-battleships-in-a-board.obj: leetcode/editor/cn/419-battleships-in-a-board.cpp.obj
+.PHONY : leetcode/editor/cn/419-battleships-in-a-board.obj
+
+# target to build an object file
+leetcode/editor/cn/419-battleships-in-a-board.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\419-battleships-in-a-board.dir\build.make CMakeFiles/419-battleships-in-a-board.dir/leetcode/editor/cn/419-battleships-in-a-board.cpp.obj
+.PHONY : leetcode/editor/cn/419-battleships-in-a-board.cpp.obj
+
+leetcode/editor/cn/419-battleships-in-a-board.i: leetcode/editor/cn/419-battleships-in-a-board.cpp.i
+.PHONY : leetcode/editor/cn/419-battleships-in-a-board.i
+
+# target to preprocess a source file
+leetcode/editor/cn/419-battleships-in-a-board.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\419-battleships-in-a-board.dir\build.make CMakeFiles/419-battleships-in-a-board.dir/leetcode/editor/cn/419-battleships-in-a-board.cpp.i
+.PHONY : leetcode/editor/cn/419-battleships-in-a-board.cpp.i
+
+leetcode/editor/cn/419-battleships-in-a-board.s: leetcode/editor/cn/419-battleships-in-a-board.cpp.s
+.PHONY : leetcode/editor/cn/419-battleships-in-a-board.s
+
+# target to generate assembly for a file
+leetcode/editor/cn/419-battleships-in-a-board.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\419-battleships-in-a-board.dir\build.make CMakeFiles/419-battleships-in-a-board.dir/leetcode/editor/cn/419-battleships-in-a-board.cpp.s
+.PHONY : leetcode/editor/cn/419-battleships-in-a-board.cpp.s
+
 leetcode/editor/cn/442-find-all-duplicates-in-an-array.obj: leetcode/editor/cn/442-find-all-duplicates-in-an-array.cpp.obj
 .PHONY : leetcode/editor/cn/442-find-all-duplicates-in-an-array.obj
 
@@ -723,6 +773,30 @@ leetcode/editor/cn/495-teemo-attacking.s: leetcode/editor/cn/495-teemo-attacking
 leetcode/editor/cn/495-teemo-attacking.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\495-teemo-attacking.dir\build.make CMakeFiles/495-teemo-attacking.dir/leetcode/editor/cn/495-teemo-attacking.cpp.s
 .PHONY : leetcode/editor/cn/495-teemo-attacking.cpp.s
+
+leetcode/editor/cn/598-range-addition-ii.obj: leetcode/editor/cn/598-range-addition-ii.cpp.obj
+.PHONY : leetcode/editor/cn/598-range-addition-ii.obj
+
+# target to build an object file
+leetcode/editor/cn/598-range-addition-ii.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\598-range-addition-ii.dir\build.make CMakeFiles/598-range-addition-ii.dir/leetcode/editor/cn/598-range-addition-ii.cpp.obj
+.PHONY : leetcode/editor/cn/598-range-addition-ii.cpp.obj
+
+leetcode/editor/cn/598-range-addition-ii.i: leetcode/editor/cn/598-range-addition-ii.cpp.i
+.PHONY : leetcode/editor/cn/598-range-addition-ii.i
+
+# target to preprocess a source file
+leetcode/editor/cn/598-range-addition-ii.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\598-range-addition-ii.dir\build.make CMakeFiles/598-range-addition-ii.dir/leetcode/editor/cn/598-range-addition-ii.cpp.i
+.PHONY : leetcode/editor/cn/598-range-addition-ii.cpp.i
+
+leetcode/editor/cn/598-range-addition-ii.s: leetcode/editor/cn/598-range-addition-ii.cpp.s
+.PHONY : leetcode/editor/cn/598-range-addition-ii.s
+
+# target to generate assembly for a file
+leetcode/editor/cn/598-range-addition-ii.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\598-range-addition-ii.dir\build.make CMakeFiles/598-range-addition-ii.dir/leetcode/editor/cn/598-range-addition-ii.cpp.s
+.PHONY : leetcode/editor/cn/598-range-addition-ii.cpp.s
 
 leetcode/editor/cn/628-maximum-product-of-three-numbers.obj: leetcode/editor/cn/628-maximum-product-of-three-numbers.cpp.obj
 .PHONY : leetcode/editor/cn/628-maximum-product-of-three-numbers.obj
@@ -933,11 +1007,13 @@ help:
 	@echo ... 283-move-zeroes
 	@echo ... 35-search-insert-position
 	@echo ... 414-third-maximum-number
+	@echo ... 419-battleships-in-a-board
 	@echo ... 442-find-all-duplicates-in-an-array
 	@echo ... 448-find-all-numbers-disappeared-in-an-array
 	@echo ... 453-minimum-moves-to-equal-array-elements
 	@echo ... 485-max-consecutive-ones
 	@echo ... 495-teemo-attacking
+	@echo ... 598-range-addition-ii
 	@echo ... 628-maximum-product-of-three-numbers
 	@echo ... 645-set-mismatch
 	@echo ... 661-image-smoother
@@ -972,6 +1048,9 @@ help:
 	@echo ... leetcode/editor/cn/414-third-maximum-number.obj
 	@echo ... leetcode/editor/cn/414-third-maximum-number.i
 	@echo ... leetcode/editor/cn/414-third-maximum-number.s
+	@echo ... leetcode/editor/cn/419-battleships-in-a-board.obj
+	@echo ... leetcode/editor/cn/419-battleships-in-a-board.i
+	@echo ... leetcode/editor/cn/419-battleships-in-a-board.s
 	@echo ... leetcode/editor/cn/442-find-all-duplicates-in-an-array.obj
 	@echo ... leetcode/editor/cn/442-find-all-duplicates-in-an-array.i
 	@echo ... leetcode/editor/cn/442-find-all-duplicates-in-an-array.s
@@ -987,6 +1066,9 @@ help:
 	@echo ... leetcode/editor/cn/495-teemo-attacking.obj
 	@echo ... leetcode/editor/cn/495-teemo-attacking.i
 	@echo ... leetcode/editor/cn/495-teemo-attacking.s
+	@echo ... leetcode/editor/cn/598-range-addition-ii.obj
+	@echo ... leetcode/editor/cn/598-range-addition-ii.i
+	@echo ... leetcode/editor/cn/598-range-addition-ii.s
 	@echo ... leetcode/editor/cn/628-maximum-product-of-three-numbers.obj
 	@echo ... leetcode/editor/cn/628-maximum-product-of-three-numbers.i
 	@echo ... leetcode/editor/cn/628-maximum-product-of-three-numbers.s

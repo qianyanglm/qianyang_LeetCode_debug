@@ -72,4 +72,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/118-pascals-triangle.dir/DependInfo.cmake"
   "CMakeFiles/119-pascals-triangle-ii.dir/DependInfo.cmake"
   "CMakeFiles/661-image-smoother.dir/DependInfo.cmake"
+  "CMakeFiles/598-range-addition-ii.dir/DependInfo.cmake"
+  "CMakeFiles/419-battleships-in-a-board.dir/DependInfo.cmake"
   )

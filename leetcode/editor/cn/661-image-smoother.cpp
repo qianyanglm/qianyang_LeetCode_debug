@@ -56,11 +56,14 @@ public:
     {
         int m = img.size(), n = img[0].size();
         vector<vector<int>> ret(m, vector<int>(n));
+        //最外层两个循环，遍历图像中的每个像素
         for (int i = 0; i < m; ++i)
         {
             for (int j = 0; j < n; ++j)
             {
+                //sum记载周边的9(或者num)个像素值的和，num记载周边共几个像素
                 int num = 0, sum = 0;
+                //下面两层循环，是遍历当前像素上下左右的9个像素
                 for (int x = i - 1; x <= i + 1; x++)
                 {
                     for (int y = j - 1; y <= j + 1; ++y)
