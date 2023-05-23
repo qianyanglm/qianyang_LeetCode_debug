@@ -492,6 +492,19 @@ leetcode/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\566-reshape-the-matrix.dir\build.make CMakeFiles/566-reshape-the-matrix.dir/build
 .PHONY : 566-reshape-the-matrix/fast
 
+#=============================================================================
+# Target rules for targets named 48-rotate-image
+
+# Build rule for target.
+48-rotate-image: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 48-rotate-image
+.PHONY : 48-rotate-image
+
+# fast build rule for target.
+48-rotate-image/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\48-rotate-image.dir\build.make CMakeFiles/48-rotate-image.dir/build
+.PHONY : 48-rotate-image/fast
+
 leetcode/editor/cn/074-SsGoHC.obj: leetcode/editor/cn/074-SsGoHC.cpp.obj
 .PHONY : leetcode/editor/cn/074-SsGoHC.obj
 
@@ -851,6 +864,30 @@ leetcode/editor/cn/453-minimum-moves-to-equal-array-elements.s: leetcode/editor/
 leetcode/editor/cn/453-minimum-moves-to-equal-array-elements.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\453-minimum-moves-to-equal-array-elements.dir\build.make CMakeFiles/453-minimum-moves-to-equal-array-elements.dir/leetcode/editor/cn/453-minimum-moves-to-equal-array-elements.cpp.s
 .PHONY : leetcode/editor/cn/453-minimum-moves-to-equal-array-elements.cpp.s
+
+leetcode/editor/cn/48-rotate-image.obj: leetcode/editor/cn/48-rotate-image.cpp.obj
+.PHONY : leetcode/editor/cn/48-rotate-image.obj
+
+# target to build an object file
+leetcode/editor/cn/48-rotate-image.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\48-rotate-image.dir\build.make CMakeFiles/48-rotate-image.dir/leetcode/editor/cn/48-rotate-image.cpp.obj
+.PHONY : leetcode/editor/cn/48-rotate-image.cpp.obj
+
+leetcode/editor/cn/48-rotate-image.i: leetcode/editor/cn/48-rotate-image.cpp.i
+.PHONY : leetcode/editor/cn/48-rotate-image.i
+
+# target to preprocess a source file
+leetcode/editor/cn/48-rotate-image.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\48-rotate-image.dir\build.make CMakeFiles/48-rotate-image.dir/leetcode/editor/cn/48-rotate-image.cpp.i
+.PHONY : leetcode/editor/cn/48-rotate-image.cpp.i
+
+leetcode/editor/cn/48-rotate-image.s: leetcode/editor/cn/48-rotate-image.cpp.s
+.PHONY : leetcode/editor/cn/48-rotate-image.s
+
+# target to generate assembly for a file
+leetcode/editor/cn/48-rotate-image.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\48-rotate-image.dir\build.make CMakeFiles/48-rotate-image.dir/leetcode/editor/cn/48-rotate-image.cpp.s
+.PHONY : leetcode/editor/cn/48-rotate-image.cpp.s
 
 leetcode/editor/cn/485-max-consecutive-ones.obj: leetcode/editor/cn/485-max-consecutive-ones.cpp.obj
 .PHONY : leetcode/editor/cn/485-max-consecutive-ones.obj
@@ -1235,6 +1272,7 @@ help:
 	@echo ... 442-find-all-duplicates-in-an-array
 	@echo ... 448-find-all-numbers-disappeared-in-an-array
 	@echo ... 453-minimum-moves-to-equal-array-elements
+	@echo ... 48-rotate-image
 	@echo ... 485-max-consecutive-ones
 	@echo ... 495-teemo-attacking
 	@echo ... 498-diagonal-traverse
@@ -1294,6 +1332,9 @@ help:
 	@echo ... leetcode/editor/cn/453-minimum-moves-to-equal-array-elements.obj
 	@echo ... leetcode/editor/cn/453-minimum-moves-to-equal-array-elements.i
 	@echo ... leetcode/editor/cn/453-minimum-moves-to-equal-array-elements.s
+	@echo ... leetcode/editor/cn/48-rotate-image.obj
+	@echo ... leetcode/editor/cn/48-rotate-image.i
+	@echo ... leetcode/editor/cn/48-rotate-image.s
 	@echo ... leetcode/editor/cn/485-max-consecutive-ones.obj
 	@echo ... leetcode/editor/cn/485-max-consecutive-ones.i
 	@echo ... leetcode/editor/cn/485-max-consecutive-ones.s
