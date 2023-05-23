@@ -466,6 +466,19 @@ leetcode/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\59-spiral-matrix-ii.dir\build.make CMakeFiles/59-spiral-matrix-ii.dir/build
 .PHONY : 59-spiral-matrix-ii/fast
 
+#=============================================================================
+# Target rules for targets named 498-diagonal-traverse
+
+# Build rule for target.
+498-diagonal-traverse: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 498-diagonal-traverse
+.PHONY : 498-diagonal-traverse
+
+# fast build rule for target.
+498-diagonal-traverse/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\498-diagonal-traverse.dir\build.make CMakeFiles/498-diagonal-traverse.dir/build
+.PHONY : 498-diagonal-traverse/fast
+
 leetcode/editor/cn/074-SsGoHC.obj: leetcode/editor/cn/074-SsGoHC.cpp.obj
 .PHONY : leetcode/editor/cn/074-SsGoHC.obj
 
@@ -874,6 +887,30 @@ leetcode/editor/cn/495-teemo-attacking.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\495-teemo-attacking.dir\build.make CMakeFiles/495-teemo-attacking.dir/leetcode/editor/cn/495-teemo-attacking.cpp.s
 .PHONY : leetcode/editor/cn/495-teemo-attacking.cpp.s
 
+leetcode/editor/cn/498-diagonal-traverse.obj: leetcode/editor/cn/498-diagonal-traverse.cpp.obj
+.PHONY : leetcode/editor/cn/498-diagonal-traverse.obj
+
+# target to build an object file
+leetcode/editor/cn/498-diagonal-traverse.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\498-diagonal-traverse.dir\build.make CMakeFiles/498-diagonal-traverse.dir/leetcode/editor/cn/498-diagonal-traverse.cpp.obj
+.PHONY : leetcode/editor/cn/498-diagonal-traverse.cpp.obj
+
+leetcode/editor/cn/498-diagonal-traverse.i: leetcode/editor/cn/498-diagonal-traverse.cpp.i
+.PHONY : leetcode/editor/cn/498-diagonal-traverse.i
+
+# target to preprocess a source file
+leetcode/editor/cn/498-diagonal-traverse.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\498-diagonal-traverse.dir\build.make CMakeFiles/498-diagonal-traverse.dir/leetcode/editor/cn/498-diagonal-traverse.cpp.i
+.PHONY : leetcode/editor/cn/498-diagonal-traverse.cpp.i
+
+leetcode/editor/cn/498-diagonal-traverse.s: leetcode/editor/cn/498-diagonal-traverse.cpp.s
+.PHONY : leetcode/editor/cn/498-diagonal-traverse.s
+
+# target to generate assembly for a file
+leetcode/editor/cn/498-diagonal-traverse.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\498-diagonal-traverse.dir\build.make CMakeFiles/498-diagonal-traverse.dir/leetcode/editor/cn/498-diagonal-traverse.cpp.s
+.PHONY : leetcode/editor/cn/498-diagonal-traverse.cpp.s
+
 leetcode/editor/cn/54-spiral-matrix.obj: leetcode/editor/cn/54-spiral-matrix.cpp.obj
 .PHONY : leetcode/editor/cn/54-spiral-matrix.obj
 
@@ -1163,6 +1200,7 @@ help:
 	@echo ... 453-minimum-moves-to-equal-array-elements
 	@echo ... 485-max-consecutive-ones
 	@echo ... 495-teemo-attacking
+	@echo ... 498-diagonal-traverse
 	@echo ... 54-spiral-matrix
 	@echo ... 59-spiral-matrix-ii
 	@echo ... 598-range-addition-ii
@@ -1224,6 +1262,9 @@ help:
 	@echo ... leetcode/editor/cn/495-teemo-attacking.obj
 	@echo ... leetcode/editor/cn/495-teemo-attacking.i
 	@echo ... leetcode/editor/cn/495-teemo-attacking.s
+	@echo ... leetcode/editor/cn/498-diagonal-traverse.obj
+	@echo ... leetcode/editor/cn/498-diagonal-traverse.i
+	@echo ... leetcode/editor/cn/498-diagonal-traverse.s
 	@echo ... leetcode/editor/cn/54-spiral-matrix.obj
 	@echo ... leetcode/editor/cn/54-spiral-matrix.i
 	@echo ... leetcode/editor/cn/54-spiral-matrix.s

@@ -78,4 +78,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/396-rotate-function.dir/DependInfo.cmake"
   "CMakeFiles/54-spiral-matrix.dir/DependInfo.cmake"
   "CMakeFiles/59-spiral-matrix-ii.dir/DependInfo.cmake"
+  "CMakeFiles/498-diagonal-traverse.dir/DependInfo.cmake"
   )
