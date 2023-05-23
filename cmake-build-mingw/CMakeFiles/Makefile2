@@ -92,6 +92,7 @@ all: CMakeFiles/59-spiral-matrix-ii.dir/all
 all: CMakeFiles/498-diagonal-traverse.dir/all
 all: CMakeFiles/566-reshape-the-matrix.dir/all
 all: CMakeFiles/48-rotate-image.dir/all
+all: CMakeFiles/73-set-matrix-zeroes.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -129,6 +130,7 @@ clean: CMakeFiles/59-spiral-matrix-ii.dir/clean
 clean: CMakeFiles/498-diagonal-traverse.dir/clean
 clean: CMakeFiles/566-reshape-the-matrix.dir/clean
 clean: CMakeFiles/48-rotate-image.dir/clean
+clean: CMakeFiles/73-set-matrix-zeroes.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -138,7 +140,7 @@ clean: CMakeFiles/48-rotate-image.dir/clean
 CMakeFiles/leetcode.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\leetcode.dir\build.make CMakeFiles/leetcode.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\leetcode.dir\build.make CMakeFiles/leetcode.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\hello world\clion2\LeetCode_LocalDebug_Cpp-master\cmake-build-mingw\CMakeFiles" --progress-num=59,60,61 "Built target leetcode"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\hello world\clion2\LeetCode_LocalDebug_Cpp-master\cmake-build-mingw\CMakeFiles" --progress-num=61,62,63 "Built target leetcode"
 .PHONY : CMakeFiles/leetcode.dir/all
 
 # Build rule for subdir invocation for target.
@@ -450,7 +452,7 @@ CMakeFiles/448-find-all-numbers-disappeared-in-an-array.dir/clean:
 CMakeFiles/912-sort-an-array.dir/all: CMakeFiles/leetcode.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\912-sort-an-array.dir\build.make CMakeFiles/912-sort-an-array.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\912-sort-an-array.dir\build.make CMakeFiles/912-sort-an-array.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\hello world\clion2\LeetCode_LocalDebug_Cpp-master\cmake-build-mingw\CMakeFiles" --progress-num=55,56 "Built target 912-sort-an-array"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\hello world\clion2\LeetCode_LocalDebug_Cpp-master\cmake-build-mingw\CMakeFiles" --progress-num=57,58 "Built target 912-sort-an-array"
 .PHONY : CMakeFiles/912-sort-an-array.dir/all
 
 # Build rule for subdir invocation for target.
@@ -502,7 +504,7 @@ CMakeFiles/442-find-all-duplicates-in-an-array.dir/clean:
 CMakeFiles/989-add-to-array-form-of-integer.dir/all: CMakeFiles/leetcode.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\989-add-to-array-form-of-integer.dir\build.make CMakeFiles/989-add-to-array-form-of-integer.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\989-add-to-array-form-of-integer.dir\build.make CMakeFiles/989-add-to-array-form-of-integer.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\hello world\clion2\LeetCode_LocalDebug_Cpp-master\cmake-build-mingw\CMakeFiles" --progress-num=57,58 "Built target 989-add-to-array-form-of-integer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\hello world\clion2\LeetCode_LocalDebug_Cpp-master\cmake-build-mingw\CMakeFiles" --progress-num=59,60 "Built target 989-add-to-array-form-of-integer"
 .PHONY : CMakeFiles/989-add-to-array-form-of-integer.dir/all
 
 # Build rule for subdir invocation for target.
@@ -910,6 +912,32 @@ CMakeFiles/48-rotate-image.dir/rule: cmake_check_build_system
 CMakeFiles/48-rotate-image.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\48-rotate-image.dir\build.make CMakeFiles/48-rotate-image.dir/clean
 .PHONY : CMakeFiles/48-rotate-image.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/73-set-matrix-zeroes.dir
+
+# All Build rule for target.
+CMakeFiles/73-set-matrix-zeroes.dir/all: CMakeFiles/leetcode.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\73-set-matrix-zeroes.dir\build.make CMakeFiles/73-set-matrix-zeroes.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\73-set-matrix-zeroes.dir\build.make CMakeFiles/73-set-matrix-zeroes.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\hello world\clion2\LeetCode_LocalDebug_Cpp-master\cmake-build-mingw\CMakeFiles" --progress-num=55,56 "Built target 73-set-matrix-zeroes"
+.PHONY : CMakeFiles/73-set-matrix-zeroes.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/73-set-matrix-zeroes.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\hello world\clion2\LeetCode_LocalDebug_Cpp-master\cmake-build-mingw\CMakeFiles" 5
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/73-set-matrix-zeroes.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\hello world\clion2\LeetCode_LocalDebug_Cpp-master\cmake-build-mingw\CMakeFiles" 0
+.PHONY : CMakeFiles/73-set-matrix-zeroes.dir/rule
+
+# Convenience name for target.
+73-set-matrix-zeroes: CMakeFiles/73-set-matrix-zeroes.dir/rule
+.PHONY : 73-set-matrix-zeroes
+
+# clean rule for target.
+CMakeFiles/73-set-matrix-zeroes.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\73-set-matrix-zeroes.dir\build.make CMakeFiles/73-set-matrix-zeroes.dir/clean
+.PHONY : CMakeFiles/73-set-matrix-zeroes.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

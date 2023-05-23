@@ -1337,6 +1337,50 @@
 					<DistClean command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="73-set-matrix-zeroes">
+				<Option output="C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/bin/73-set-matrix-zeroes.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 73-set-matrix-zeroes"/>
+					<CompileFile command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="73-set-matrix-zeroes/fast">
+				<Option output="C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/bin/73-set-matrix-zeroes.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 73-set-matrix-zeroes/fast"/>
+					<CompileFile command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/A/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/mingw32-make.exe -f &quot;C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="edit_cache">
 				<Option working_dir="C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/cmake-build-mingw"/>
 				<Option type="4"/>
@@ -1438,6 +1482,9 @@
 		</Unit>
 		<Unit filename="C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/leetcode/editor/cn/697-degree-of-an-array.cpp">
 			<Option target="697-degree-of-an-array"/>
+		</Unit>
+		<Unit filename="C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/leetcode/editor/cn/73-set-matrix-zeroes.cpp">
+			<Option target="73-set-matrix-zeroes"/>
 		</Unit>
 		<Unit filename="C:/hello world/clion2/LeetCode_LocalDebug_Cpp-master/leetcode/editor/cn/912-sort-an-array.cpp">
 			<Option target="912-sort-an-array"/>

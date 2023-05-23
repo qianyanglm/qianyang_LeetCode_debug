@@ -505,6 +505,19 @@ leetcode/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\48-rotate-image.dir\build.make CMakeFiles/48-rotate-image.dir/build
 .PHONY : 48-rotate-image/fast
 
+#=============================================================================
+# Target rules for targets named 73-set-matrix-zeroes
+
+# Build rule for target.
+73-set-matrix-zeroes: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 73-set-matrix-zeroes
+.PHONY : 73-set-matrix-zeroes
+
+# fast build rule for target.
+73-set-matrix-zeroes/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\73-set-matrix-zeroes.dir\build.make CMakeFiles/73-set-matrix-zeroes.dir/build
+.PHONY : 73-set-matrix-zeroes/fast
+
 leetcode/editor/cn/074-SsGoHC.obj: leetcode/editor/cn/074-SsGoHC.cpp.obj
 .PHONY : leetcode/editor/cn/074-SsGoHC.obj
 
@@ -1153,6 +1166,30 @@ leetcode/editor/cn/697-degree-of-an-array.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\697-degree-of-an-array.dir\build.make CMakeFiles/697-degree-of-an-array.dir/leetcode/editor/cn/697-degree-of-an-array.cpp.s
 .PHONY : leetcode/editor/cn/697-degree-of-an-array.cpp.s
 
+leetcode/editor/cn/73-set-matrix-zeroes.obj: leetcode/editor/cn/73-set-matrix-zeroes.cpp.obj
+.PHONY : leetcode/editor/cn/73-set-matrix-zeroes.obj
+
+# target to build an object file
+leetcode/editor/cn/73-set-matrix-zeroes.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\73-set-matrix-zeroes.dir\build.make CMakeFiles/73-set-matrix-zeroes.dir/leetcode/editor/cn/73-set-matrix-zeroes.cpp.obj
+.PHONY : leetcode/editor/cn/73-set-matrix-zeroes.cpp.obj
+
+leetcode/editor/cn/73-set-matrix-zeroes.i: leetcode/editor/cn/73-set-matrix-zeroes.cpp.i
+.PHONY : leetcode/editor/cn/73-set-matrix-zeroes.i
+
+# target to preprocess a source file
+leetcode/editor/cn/73-set-matrix-zeroes.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\73-set-matrix-zeroes.dir\build.make CMakeFiles/73-set-matrix-zeroes.dir/leetcode/editor/cn/73-set-matrix-zeroes.cpp.i
+.PHONY : leetcode/editor/cn/73-set-matrix-zeroes.cpp.i
+
+leetcode/editor/cn/73-set-matrix-zeroes.s: leetcode/editor/cn/73-set-matrix-zeroes.cpp.s
+.PHONY : leetcode/editor/cn/73-set-matrix-zeroes.s
+
+# target to generate assembly for a file
+leetcode/editor/cn/73-set-matrix-zeroes.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\73-set-matrix-zeroes.dir\build.make CMakeFiles/73-set-matrix-zeroes.dir/leetcode/editor/cn/73-set-matrix-zeroes.cpp.s
+.PHONY : leetcode/editor/cn/73-set-matrix-zeroes.cpp.s
+
 leetcode/editor/cn/912-sort-an-array.obj: leetcode/editor/cn/912-sort-an-array.cpp.obj
 .PHONY : leetcode/editor/cn/912-sort-an-array.obj
 
@@ -1284,6 +1321,7 @@ help:
 	@echo ... 645-set-mismatch
 	@echo ... 661-image-smoother
 	@echo ... 697-degree-of-an-array
+	@echo ... 73-set-matrix-zeroes
 	@echo ... 912-sort-an-array
 	@echo ... 989-add-to-array-form-of-integer
 	@echo ... leetcode
@@ -1368,6 +1406,9 @@ help:
 	@echo ... leetcode/editor/cn/697-degree-of-an-array.obj
 	@echo ... leetcode/editor/cn/697-degree-of-an-array.i
 	@echo ... leetcode/editor/cn/697-degree-of-an-array.s
+	@echo ... leetcode/editor/cn/73-set-matrix-zeroes.obj
+	@echo ... leetcode/editor/cn/73-set-matrix-zeroes.i
+	@echo ... leetcode/editor/cn/73-set-matrix-zeroes.s
 	@echo ... leetcode/editor/cn/912-sort-an-array.obj
 	@echo ... leetcode/editor/cn/912-sort-an-array.i
 	@echo ... leetcode/editor/cn/912-sort-an-array.s
