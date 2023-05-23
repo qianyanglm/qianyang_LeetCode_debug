@@ -79,4 +79,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/54-spiral-matrix.dir/DependInfo.cmake"
   "CMakeFiles/59-spiral-matrix-ii.dir/DependInfo.cmake"
   "CMakeFiles/498-diagonal-traverse.dir/DependInfo.cmake"
+  "CMakeFiles/566-reshape-the-matrix.dir/DependInfo.cmake"
   )

@@ -479,6 +479,19 @@ leetcode/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\498-diagonal-traverse.dir\build.make CMakeFiles/498-diagonal-traverse.dir/build
 .PHONY : 498-diagonal-traverse/fast
 
+#=============================================================================
+# Target rules for targets named 566-reshape-the-matrix
+
+# Build rule for target.
+566-reshape-the-matrix: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 566-reshape-the-matrix
+.PHONY : 566-reshape-the-matrix
+
+# fast build rule for target.
+566-reshape-the-matrix/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\566-reshape-the-matrix.dir\build.make CMakeFiles/566-reshape-the-matrix.dir/build
+.PHONY : 566-reshape-the-matrix/fast
+
 leetcode/editor/cn/074-SsGoHC.obj: leetcode/editor/cn/074-SsGoHC.cpp.obj
 .PHONY : leetcode/editor/cn/074-SsGoHC.obj
 
@@ -935,6 +948,30 @@ leetcode/editor/cn/54-spiral-matrix.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\54-spiral-matrix.dir\build.make CMakeFiles/54-spiral-matrix.dir/leetcode/editor/cn/54-spiral-matrix.cpp.s
 .PHONY : leetcode/editor/cn/54-spiral-matrix.cpp.s
 
+leetcode/editor/cn/566-reshape-the-matrix.obj: leetcode/editor/cn/566-reshape-the-matrix.cpp.obj
+.PHONY : leetcode/editor/cn/566-reshape-the-matrix.obj
+
+# target to build an object file
+leetcode/editor/cn/566-reshape-the-matrix.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\566-reshape-the-matrix.dir\build.make CMakeFiles/566-reshape-the-matrix.dir/leetcode/editor/cn/566-reshape-the-matrix.cpp.obj
+.PHONY : leetcode/editor/cn/566-reshape-the-matrix.cpp.obj
+
+leetcode/editor/cn/566-reshape-the-matrix.i: leetcode/editor/cn/566-reshape-the-matrix.cpp.i
+.PHONY : leetcode/editor/cn/566-reshape-the-matrix.i
+
+# target to preprocess a source file
+leetcode/editor/cn/566-reshape-the-matrix.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\566-reshape-the-matrix.dir\build.make CMakeFiles/566-reshape-the-matrix.dir/leetcode/editor/cn/566-reshape-the-matrix.cpp.i
+.PHONY : leetcode/editor/cn/566-reshape-the-matrix.cpp.i
+
+leetcode/editor/cn/566-reshape-the-matrix.s: leetcode/editor/cn/566-reshape-the-matrix.cpp.s
+.PHONY : leetcode/editor/cn/566-reshape-the-matrix.s
+
+# target to generate assembly for a file
+leetcode/editor/cn/566-reshape-the-matrix.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\566-reshape-the-matrix.dir\build.make CMakeFiles/566-reshape-the-matrix.dir/leetcode/editor/cn/566-reshape-the-matrix.cpp.s
+.PHONY : leetcode/editor/cn/566-reshape-the-matrix.cpp.s
+
 leetcode/editor/cn/59-spiral-matrix-ii.obj: leetcode/editor/cn/59-spiral-matrix-ii.cpp.obj
 .PHONY : leetcode/editor/cn/59-spiral-matrix-ii.obj
 
@@ -1202,6 +1239,7 @@ help:
 	@echo ... 495-teemo-attacking
 	@echo ... 498-diagonal-traverse
 	@echo ... 54-spiral-matrix
+	@echo ... 566-reshape-the-matrix
 	@echo ... 59-spiral-matrix-ii
 	@echo ... 598-range-addition-ii
 	@echo ... 628-maximum-product-of-three-numbers
@@ -1268,6 +1306,9 @@ help:
 	@echo ... leetcode/editor/cn/54-spiral-matrix.obj
 	@echo ... leetcode/editor/cn/54-spiral-matrix.i
 	@echo ... leetcode/editor/cn/54-spiral-matrix.s
+	@echo ... leetcode/editor/cn/566-reshape-the-matrix.obj
+	@echo ... leetcode/editor/cn/566-reshape-the-matrix.i
+	@echo ... leetcode/editor/cn/566-reshape-the-matrix.s
 	@echo ... leetcode/editor/cn/59-spiral-matrix-ii.obj
 	@echo ... leetcode/editor/cn/59-spiral-matrix-ii.i
 	@echo ... leetcode/editor/cn/59-spiral-matrix-ii.s
