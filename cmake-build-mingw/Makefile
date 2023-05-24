@@ -544,6 +544,19 @@ leetcode/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\304-range-sum-query-2d-immutable.dir\build.make CMakeFiles/304-range-sum-query-2d-immutable.dir/build
 .PHONY : 304-range-sum-query-2d-immutable/fast
 
+#=============================================================================
+# Target rules for targets named 238-product-of-array-except-self
+
+# Build rule for target.
+238-product-of-array-except-self: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 238-product-of-array-except-self
+.PHONY : 238-product-of-array-except-self
+
+# fast build rule for target.
+238-product-of-array-except-self/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\238-product-of-array-except-self.dir\build.make CMakeFiles/238-product-of-array-except-self.dir/build
+.PHONY : 238-product-of-array-except-self/fast
+
 leetcode/editor/cn/074-SsGoHC.obj: leetcode/editor/cn/074-SsGoHC.cpp.obj
 .PHONY : leetcode/editor/cn/074-SsGoHC.obj
 
@@ -687,6 +700,30 @@ leetcode/editor/cn/189-rotate-array.s: leetcode/editor/cn/189-rotate-array.cpp.s
 leetcode/editor/cn/189-rotate-array.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\189-rotate-array.dir\build.make CMakeFiles/189-rotate-array.dir/leetcode/editor/cn/189-rotate-array.cpp.s
 .PHONY : leetcode/editor/cn/189-rotate-array.cpp.s
+
+leetcode/editor/cn/238-product-of-array-except-self.obj: leetcode/editor/cn/238-product-of-array-except-self.cpp.obj
+.PHONY : leetcode/editor/cn/238-product-of-array-except-self.obj
+
+# target to build an object file
+leetcode/editor/cn/238-product-of-array-except-self.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\238-product-of-array-except-self.dir\build.make CMakeFiles/238-product-of-array-except-self.dir/leetcode/editor/cn/238-product-of-array-except-self.cpp.obj
+.PHONY : leetcode/editor/cn/238-product-of-array-except-self.cpp.obj
+
+leetcode/editor/cn/238-product-of-array-except-self.i: leetcode/editor/cn/238-product-of-array-except-self.cpp.i
+.PHONY : leetcode/editor/cn/238-product-of-array-except-self.i
+
+# target to preprocess a source file
+leetcode/editor/cn/238-product-of-array-except-self.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\238-product-of-array-except-self.dir\build.make CMakeFiles/238-product-of-array-except-self.dir/leetcode/editor/cn/238-product-of-array-except-self.cpp.i
+.PHONY : leetcode/editor/cn/238-product-of-array-except-self.cpp.i
+
+leetcode/editor/cn/238-product-of-array-except-self.s: leetcode/editor/cn/238-product-of-array-except-self.cpp.s
+.PHONY : leetcode/editor/cn/238-product-of-array-except-self.s
+
+# target to generate assembly for a file
+leetcode/editor/cn/238-product-of-array-except-self.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\238-product-of-array-except-self.dir\build.make CMakeFiles/238-product-of-array-except-self.dir/leetcode/editor/cn/238-product-of-array-except-self.cpp.s
+.PHONY : leetcode/editor/cn/238-product-of-array-except-self.cpp.s
 
 leetcode/editor/cn/274-h-index.obj: leetcode/editor/cn/274-h-index.cpp.obj
 .PHONY : leetcode/editor/cn/274-h-index.obj
@@ -1374,6 +1411,7 @@ help:
 	@echo ... 118-pascals-triangle
 	@echo ... 119-pascals-triangle-ii
 	@echo ... 189-rotate-array
+	@echo ... 238-product-of-array-except-self
 	@echo ... 274-h-index
 	@echo ... 283-move-zeroes
 	@echo ... 303-range-sum-query-immutable
@@ -1419,6 +1457,9 @@ help:
 	@echo ... leetcode/editor/cn/189-rotate-array.obj
 	@echo ... leetcode/editor/cn/189-rotate-array.i
 	@echo ... leetcode/editor/cn/189-rotate-array.s
+	@echo ... leetcode/editor/cn/238-product-of-array-except-self.obj
+	@echo ... leetcode/editor/cn/238-product-of-array-except-self.i
+	@echo ... leetcode/editor/cn/238-product-of-array-except-self.s
 	@echo ... leetcode/editor/cn/274-h-index.obj
 	@echo ... leetcode/editor/cn/274-h-index.i
 	@echo ... leetcode/editor/cn/274-h-index.s
