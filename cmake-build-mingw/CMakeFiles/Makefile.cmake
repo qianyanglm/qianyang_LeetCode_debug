@@ -82,4 +82,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/566-reshape-the-matrix.dir/DependInfo.cmake"
   "CMakeFiles/48-rotate-image.dir/DependInfo.cmake"
   "CMakeFiles/73-set-matrix-zeroes.dir/DependInfo.cmake"
+  "CMakeFiles/303-range-sum-query-immutable.dir/DependInfo.cmake"
   )
