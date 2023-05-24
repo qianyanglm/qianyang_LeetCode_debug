@@ -557,6 +557,19 @@ leetcode/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\238-product-of-array-except-self.dir\build.make CMakeFiles/238-product-of-array-except-self.dir/build
 .PHONY : 238-product-of-array-except-self/fast
 
+#=============================================================================
+# Target rules for targets named 520-detect-capital
+
+# Build rule for target.
+520-detect-capital: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 520-detect-capital
+.PHONY : 520-detect-capital
+
+# fast build rule for target.
+520-detect-capital/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\520-detect-capital.dir\build.make CMakeFiles/520-detect-capital.dir/build
+.PHONY : 520-detect-capital/fast
+
 leetcode/editor/cn/074-SsGoHC.obj: leetcode/editor/cn/074-SsGoHC.cpp.obj
 .PHONY : leetcode/editor/cn/074-SsGoHC.obj
 
@@ -1085,6 +1098,30 @@ leetcode/editor/cn/498-diagonal-traverse.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\498-diagonal-traverse.dir\build.make CMakeFiles/498-diagonal-traverse.dir/leetcode/editor/cn/498-diagonal-traverse.cpp.s
 .PHONY : leetcode/editor/cn/498-diagonal-traverse.cpp.s
 
+leetcode/editor/cn/520-detect-capital.obj: leetcode/editor/cn/520-detect-capital.cpp.obj
+.PHONY : leetcode/editor/cn/520-detect-capital.obj
+
+# target to build an object file
+leetcode/editor/cn/520-detect-capital.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\520-detect-capital.dir\build.make CMakeFiles/520-detect-capital.dir/leetcode/editor/cn/520-detect-capital.cpp.obj
+.PHONY : leetcode/editor/cn/520-detect-capital.cpp.obj
+
+leetcode/editor/cn/520-detect-capital.i: leetcode/editor/cn/520-detect-capital.cpp.i
+.PHONY : leetcode/editor/cn/520-detect-capital.i
+
+# target to preprocess a source file
+leetcode/editor/cn/520-detect-capital.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\520-detect-capital.dir\build.make CMakeFiles/520-detect-capital.dir/leetcode/editor/cn/520-detect-capital.cpp.i
+.PHONY : leetcode/editor/cn/520-detect-capital.cpp.i
+
+leetcode/editor/cn/520-detect-capital.s: leetcode/editor/cn/520-detect-capital.cpp.s
+.PHONY : leetcode/editor/cn/520-detect-capital.s
+
+# target to generate assembly for a file
+leetcode/editor/cn/520-detect-capital.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\520-detect-capital.dir\build.make CMakeFiles/520-detect-capital.dir/leetcode/editor/cn/520-detect-capital.cpp.s
+.PHONY : leetcode/editor/cn/520-detect-capital.cpp.s
+
 leetcode/editor/cn/54-spiral-matrix.obj: leetcode/editor/cn/54-spiral-matrix.cpp.obj
 .PHONY : leetcode/editor/cn/54-spiral-matrix.obj
 
@@ -1427,6 +1464,7 @@ help:
 	@echo ... 485-max-consecutive-ones
 	@echo ... 495-teemo-attacking
 	@echo ... 498-diagonal-traverse
+	@echo ... 520-detect-capital
 	@echo ... 54-spiral-matrix
 	@echo ... 566-reshape-the-matrix
 	@echo ... 59-spiral-matrix-ii
@@ -1505,6 +1543,9 @@ help:
 	@echo ... leetcode/editor/cn/498-diagonal-traverse.obj
 	@echo ... leetcode/editor/cn/498-diagonal-traverse.i
 	@echo ... leetcode/editor/cn/498-diagonal-traverse.s
+	@echo ... leetcode/editor/cn/520-detect-capital.obj
+	@echo ... leetcode/editor/cn/520-detect-capital.i
+	@echo ... leetcode/editor/cn/520-detect-capital.s
 	@echo ... leetcode/editor/cn/54-spiral-matrix.obj
 	@echo ... leetcode/editor/cn/54-spiral-matrix.i
 	@echo ... leetcode/editor/cn/54-spiral-matrix.s
