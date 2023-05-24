@@ -41,3 +41,4 @@ add_executable(566-reshape-the-matrix leetcode/editor/cn/566-reshape-the-matrix.
 add_executable(48-rotate-image leetcode/editor/cn/48-rotate-image.cpp)
 add_executable(73-set-matrix-zeroes leetcode/editor/cn/73-set-matrix-zeroes.cpp)
 add_executable(303-range-sum-query-immutable leetcode/editor/cn/303-range-sum-query-immutable.cpp)
+add_executable(304-range-sum-query-2d-immutable leetcode/editor/cn/304-range-sum-query-2d-immutable.cpp)

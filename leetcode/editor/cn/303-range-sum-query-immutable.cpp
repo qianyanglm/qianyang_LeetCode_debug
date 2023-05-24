@@ -67,6 +67,7 @@ public:
         }
     }
 
+    //其实很简单，就是前面的每一个相加的和都记录了下来，后-前=中间的和
     int sumRange(int left, int right)
     {
         return sums[right + 1] - sums[left];

@@ -531,6 +531,19 @@ leetcode/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\303-range-sum-query-immutable.dir\build.make CMakeFiles/303-range-sum-query-immutable.dir/build
 .PHONY : 303-range-sum-query-immutable/fast
 
+#=============================================================================
+# Target rules for targets named 304-range-sum-query-2d-immutable
+
+# Build rule for target.
+304-range-sum-query-2d-immutable: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 304-range-sum-query-2d-immutable
+.PHONY : 304-range-sum-query-2d-immutable
+
+# fast build rule for target.
+304-range-sum-query-2d-immutable/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\304-range-sum-query-2d-immutable.dir\build.make CMakeFiles/304-range-sum-query-2d-immutable.dir/build
+.PHONY : 304-range-sum-query-2d-immutable/fast
+
 leetcode/editor/cn/074-SsGoHC.obj: leetcode/editor/cn/074-SsGoHC.cpp.obj
 .PHONY : leetcode/editor/cn/074-SsGoHC.obj
 
@@ -746,6 +759,30 @@ leetcode/editor/cn/303-range-sum-query-immutable.s: leetcode/editor/cn/303-range
 leetcode/editor/cn/303-range-sum-query-immutable.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\303-range-sum-query-immutable.dir\build.make CMakeFiles/303-range-sum-query-immutable.dir/leetcode/editor/cn/303-range-sum-query-immutable.cpp.s
 .PHONY : leetcode/editor/cn/303-range-sum-query-immutable.cpp.s
+
+leetcode/editor/cn/304-range-sum-query-2d-immutable.obj: leetcode/editor/cn/304-range-sum-query-2d-immutable.cpp.obj
+.PHONY : leetcode/editor/cn/304-range-sum-query-2d-immutable.obj
+
+# target to build an object file
+leetcode/editor/cn/304-range-sum-query-2d-immutable.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\304-range-sum-query-2d-immutable.dir\build.make CMakeFiles/304-range-sum-query-2d-immutable.dir/leetcode/editor/cn/304-range-sum-query-2d-immutable.cpp.obj
+.PHONY : leetcode/editor/cn/304-range-sum-query-2d-immutable.cpp.obj
+
+leetcode/editor/cn/304-range-sum-query-2d-immutable.i: leetcode/editor/cn/304-range-sum-query-2d-immutable.cpp.i
+.PHONY : leetcode/editor/cn/304-range-sum-query-2d-immutable.i
+
+# target to preprocess a source file
+leetcode/editor/cn/304-range-sum-query-2d-immutable.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\304-range-sum-query-2d-immutable.dir\build.make CMakeFiles/304-range-sum-query-2d-immutable.dir/leetcode/editor/cn/304-range-sum-query-2d-immutable.cpp.i
+.PHONY : leetcode/editor/cn/304-range-sum-query-2d-immutable.cpp.i
+
+leetcode/editor/cn/304-range-sum-query-2d-immutable.s: leetcode/editor/cn/304-range-sum-query-2d-immutable.cpp.s
+.PHONY : leetcode/editor/cn/304-range-sum-query-2d-immutable.s
+
+# target to generate assembly for a file
+leetcode/editor/cn/304-range-sum-query-2d-immutable.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\304-range-sum-query-2d-immutable.dir\build.make CMakeFiles/304-range-sum-query-2d-immutable.dir/leetcode/editor/cn/304-range-sum-query-2d-immutable.cpp.s
+.PHONY : leetcode/editor/cn/304-range-sum-query-2d-immutable.cpp.s
 
 leetcode/editor/cn/35-search-insert-position.obj: leetcode/editor/cn/35-search-insert-position.cpp.obj
 .PHONY : leetcode/editor/cn/35-search-insert-position.obj
@@ -1340,6 +1377,7 @@ help:
 	@echo ... 274-h-index
 	@echo ... 283-move-zeroes
 	@echo ... 303-range-sum-query-immutable
+	@echo ... 304-range-sum-query-2d-immutable
 	@echo ... 35-search-insert-position
 	@echo ... 396-rotate-function
 	@echo ... 414-third-maximum-number
@@ -1390,6 +1428,9 @@ help:
 	@echo ... leetcode/editor/cn/303-range-sum-query-immutable.obj
 	@echo ... leetcode/editor/cn/303-range-sum-query-immutable.i
 	@echo ... leetcode/editor/cn/303-range-sum-query-immutable.s
+	@echo ... leetcode/editor/cn/304-range-sum-query-2d-immutable.obj
+	@echo ... leetcode/editor/cn/304-range-sum-query-2d-immutable.i
+	@echo ... leetcode/editor/cn/304-range-sum-query-2d-immutable.s
 	@echo ... leetcode/editor/cn/35-search-insert-position.obj
 	@echo ... leetcode/editor/cn/35-search-insert-position.i
 	@echo ... leetcode/editor/cn/35-search-insert-position.s
