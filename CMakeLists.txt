@@ -45,3 +45,4 @@ add_executable(304-range-sum-query-2d-immutable leetcode/editor/cn/304-range-sum
 add_executable(238-product-of-array-except-self leetcode/editor/cn/238-product-of-array-except-self.cpp)
 add_executable(520-detect-capital leetcode/editor/cn/520-detect-capital.cpp)
 add_executable(125-valid-palindrome leetcode/editor/cn/125-valid-palindrome.cpp)
+add_executable(14-longest-common-prefix leetcode/editor/cn/14-longest-common-prefix.cpp)

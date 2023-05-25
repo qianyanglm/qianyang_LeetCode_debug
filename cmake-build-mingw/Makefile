@@ -570,6 +570,32 @@ leetcode/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\520-detect-capital.dir\build.make CMakeFiles/520-detect-capital.dir/build
 .PHONY : 520-detect-capital/fast
 
+#=============================================================================
+# Target rules for targets named 125-valid-palindrome
+
+# Build rule for target.
+125-valid-palindrome: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 125-valid-palindrome
+.PHONY : 125-valid-palindrome
+
+# fast build rule for target.
+125-valid-palindrome/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\125-valid-palindrome.dir\build.make CMakeFiles/125-valid-palindrome.dir/build
+.PHONY : 125-valid-palindrome/fast
+
+#=============================================================================
+# Target rules for targets named 14-longest-common-prefix
+
+# Build rule for target.
+14-longest-common-prefix: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 14-longest-common-prefix
+.PHONY : 14-longest-common-prefix
+
+# fast build rule for target.
+14-longest-common-prefix/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\14-longest-common-prefix.dir\build.make CMakeFiles/14-longest-common-prefix.dir/build
+.PHONY : 14-longest-common-prefix/fast
+
 leetcode/editor/cn/074-SsGoHC.obj: leetcode/editor/cn/074-SsGoHC.cpp.obj
 .PHONY : leetcode/editor/cn/074-SsGoHC.obj
 
@@ -689,6 +715,54 @@ leetcode/editor/cn/119-pascals-triangle-ii.s: leetcode/editor/cn/119-pascals-tri
 leetcode/editor/cn/119-pascals-triangle-ii.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\119-pascals-triangle-ii.dir\build.make CMakeFiles/119-pascals-triangle-ii.dir/leetcode/editor/cn/119-pascals-triangle-ii.cpp.s
 .PHONY : leetcode/editor/cn/119-pascals-triangle-ii.cpp.s
+
+leetcode/editor/cn/125-valid-palindrome.obj: leetcode/editor/cn/125-valid-palindrome.cpp.obj
+.PHONY : leetcode/editor/cn/125-valid-palindrome.obj
+
+# target to build an object file
+leetcode/editor/cn/125-valid-palindrome.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\125-valid-palindrome.dir\build.make CMakeFiles/125-valid-palindrome.dir/leetcode/editor/cn/125-valid-palindrome.cpp.obj
+.PHONY : leetcode/editor/cn/125-valid-palindrome.cpp.obj
+
+leetcode/editor/cn/125-valid-palindrome.i: leetcode/editor/cn/125-valid-palindrome.cpp.i
+.PHONY : leetcode/editor/cn/125-valid-palindrome.i
+
+# target to preprocess a source file
+leetcode/editor/cn/125-valid-palindrome.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\125-valid-palindrome.dir\build.make CMakeFiles/125-valid-palindrome.dir/leetcode/editor/cn/125-valid-palindrome.cpp.i
+.PHONY : leetcode/editor/cn/125-valid-palindrome.cpp.i
+
+leetcode/editor/cn/125-valid-palindrome.s: leetcode/editor/cn/125-valid-palindrome.cpp.s
+.PHONY : leetcode/editor/cn/125-valid-palindrome.s
+
+# target to generate assembly for a file
+leetcode/editor/cn/125-valid-palindrome.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\125-valid-palindrome.dir\build.make CMakeFiles/125-valid-palindrome.dir/leetcode/editor/cn/125-valid-palindrome.cpp.s
+.PHONY : leetcode/editor/cn/125-valid-palindrome.cpp.s
+
+leetcode/editor/cn/14-longest-common-prefix.obj: leetcode/editor/cn/14-longest-common-prefix.cpp.obj
+.PHONY : leetcode/editor/cn/14-longest-common-prefix.obj
+
+# target to build an object file
+leetcode/editor/cn/14-longest-common-prefix.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\14-longest-common-prefix.dir\build.make CMakeFiles/14-longest-common-prefix.dir/leetcode/editor/cn/14-longest-common-prefix.cpp.obj
+.PHONY : leetcode/editor/cn/14-longest-common-prefix.cpp.obj
+
+leetcode/editor/cn/14-longest-common-prefix.i: leetcode/editor/cn/14-longest-common-prefix.cpp.i
+.PHONY : leetcode/editor/cn/14-longest-common-prefix.i
+
+# target to preprocess a source file
+leetcode/editor/cn/14-longest-common-prefix.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\14-longest-common-prefix.dir\build.make CMakeFiles/14-longest-common-prefix.dir/leetcode/editor/cn/14-longest-common-prefix.cpp.i
+.PHONY : leetcode/editor/cn/14-longest-common-prefix.cpp.i
+
+leetcode/editor/cn/14-longest-common-prefix.s: leetcode/editor/cn/14-longest-common-prefix.cpp.s
+.PHONY : leetcode/editor/cn/14-longest-common-prefix.s
+
+# target to generate assembly for a file
+leetcode/editor/cn/14-longest-common-prefix.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\14-longest-common-prefix.dir\build.make CMakeFiles/14-longest-common-prefix.dir/leetcode/editor/cn/14-longest-common-prefix.cpp.s
+.PHONY : leetcode/editor/cn/14-longest-common-prefix.cpp.s
 
 leetcode/editor/cn/189-rotate-array.obj: leetcode/editor/cn/189-rotate-array.cpp.obj
 .PHONY : leetcode/editor/cn/189-rotate-array.obj
@@ -1447,6 +1521,8 @@ help:
 	@echo ... 100-same-tree
 	@echo ... 118-pascals-triangle
 	@echo ... 119-pascals-triangle-ii
+	@echo ... 125-valid-palindrome
+	@echo ... 14-longest-common-prefix
 	@echo ... 189-rotate-array
 	@echo ... 238-product-of-array-except-self
 	@echo ... 274-h-index
@@ -1492,6 +1568,12 @@ help:
 	@echo ... leetcode/editor/cn/119-pascals-triangle-ii.obj
 	@echo ... leetcode/editor/cn/119-pascals-triangle-ii.i
 	@echo ... leetcode/editor/cn/119-pascals-triangle-ii.s
+	@echo ... leetcode/editor/cn/125-valid-palindrome.obj
+	@echo ... leetcode/editor/cn/125-valid-palindrome.i
+	@echo ... leetcode/editor/cn/125-valid-palindrome.s
+	@echo ... leetcode/editor/cn/14-longest-common-prefix.obj
+	@echo ... leetcode/editor/cn/14-longest-common-prefix.i
+	@echo ... leetcode/editor/cn/14-longest-common-prefix.s
 	@echo ... leetcode/editor/cn/189-rotate-array.obj
 	@echo ... leetcode/editor/cn/189-rotate-array.i
 	@echo ... leetcode/editor/cn/189-rotate-array.s
