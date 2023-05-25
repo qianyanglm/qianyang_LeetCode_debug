@@ -1,7 +1,6 @@
 # DebugFolders
 /cmake-build-debug
 /cmake-build-mingw/
-.idea
 # Prerequisites
 *.d
 
