@@ -596,6 +596,19 @@ leetcode/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\14-longest-common-prefix.dir\build.make CMakeFiles/14-longest-common-prefix.dir/build
 .PHONY : 14-longest-common-prefix/fast
 
+#=============================================================================
+# Target rules for targets named 434-number-of-segments-in-a-string
+
+# Build rule for target.
+434-number-of-segments-in-a-string: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 434-number-of-segments-in-a-string
+.PHONY : 434-number-of-segments-in-a-string
+
+# fast build rule for target.
+434-number-of-segments-in-a-string/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\434-number-of-segments-in-a-string.dir\build.make CMakeFiles/434-number-of-segments-in-a-string.dir/build
+.PHONY : 434-number-of-segments-in-a-string/fast
+
 leetcode/editor/cn/074-SsGoHC.obj: leetcode/editor/cn/074-SsGoHC.cpp.obj
 .PHONY : leetcode/editor/cn/074-SsGoHC.obj
 
@@ -1003,6 +1016,30 @@ leetcode/editor/cn/419-battleships-in-a-board.s: leetcode/editor/cn/419-battlesh
 leetcode/editor/cn/419-battleships-in-a-board.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\419-battleships-in-a-board.dir\build.make CMakeFiles/419-battleships-in-a-board.dir/leetcode/editor/cn/419-battleships-in-a-board.cpp.s
 .PHONY : leetcode/editor/cn/419-battleships-in-a-board.cpp.s
+
+leetcode/editor/cn/434-number-of-segments-in-a-string.obj: leetcode/editor/cn/434-number-of-segments-in-a-string.cpp.obj
+.PHONY : leetcode/editor/cn/434-number-of-segments-in-a-string.obj
+
+# target to build an object file
+leetcode/editor/cn/434-number-of-segments-in-a-string.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\434-number-of-segments-in-a-string.dir\build.make CMakeFiles/434-number-of-segments-in-a-string.dir/leetcode/editor/cn/434-number-of-segments-in-a-string.cpp.obj
+.PHONY : leetcode/editor/cn/434-number-of-segments-in-a-string.cpp.obj
+
+leetcode/editor/cn/434-number-of-segments-in-a-string.i: leetcode/editor/cn/434-number-of-segments-in-a-string.cpp.i
+.PHONY : leetcode/editor/cn/434-number-of-segments-in-a-string.i
+
+# target to preprocess a source file
+leetcode/editor/cn/434-number-of-segments-in-a-string.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\434-number-of-segments-in-a-string.dir\build.make CMakeFiles/434-number-of-segments-in-a-string.dir/leetcode/editor/cn/434-number-of-segments-in-a-string.cpp.i
+.PHONY : leetcode/editor/cn/434-number-of-segments-in-a-string.cpp.i
+
+leetcode/editor/cn/434-number-of-segments-in-a-string.s: leetcode/editor/cn/434-number-of-segments-in-a-string.cpp.s
+.PHONY : leetcode/editor/cn/434-number-of-segments-in-a-string.s
+
+# target to generate assembly for a file
+leetcode/editor/cn/434-number-of-segments-in-a-string.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\434-number-of-segments-in-a-string.dir\build.make CMakeFiles/434-number-of-segments-in-a-string.dir/leetcode/editor/cn/434-number-of-segments-in-a-string.cpp.s
+.PHONY : leetcode/editor/cn/434-number-of-segments-in-a-string.cpp.s
 
 leetcode/editor/cn/442-find-all-duplicates-in-an-array.obj: leetcode/editor/cn/442-find-all-duplicates-in-an-array.cpp.obj
 .PHONY : leetcode/editor/cn/442-find-all-duplicates-in-an-array.obj
@@ -1533,6 +1570,7 @@ help:
 	@echo ... 396-rotate-function
 	@echo ... 414-third-maximum-number
 	@echo ... 419-battleships-in-a-board
+	@echo ... 434-number-of-segments-in-a-string
 	@echo ... 442-find-all-duplicates-in-an-array
 	@echo ... 448-find-all-numbers-disappeared-in-an-array
 	@echo ... 453-minimum-moves-to-equal-array-elements
@@ -1604,6 +1642,9 @@ help:
 	@echo ... leetcode/editor/cn/419-battleships-in-a-board.obj
 	@echo ... leetcode/editor/cn/419-battleships-in-a-board.i
 	@echo ... leetcode/editor/cn/419-battleships-in-a-board.s
+	@echo ... leetcode/editor/cn/434-number-of-segments-in-a-string.obj
+	@echo ... leetcode/editor/cn/434-number-of-segments-in-a-string.i
+	@echo ... leetcode/editor/cn/434-number-of-segments-in-a-string.s
 	@echo ... leetcode/editor/cn/442-find-all-duplicates-in-an-array.obj
 	@echo ... leetcode/editor/cn/442-find-all-duplicates-in-an-array.i
 	@echo ... leetcode/editor/cn/442-find-all-duplicates-in-an-array.s

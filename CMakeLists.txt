@@ -46,3 +46,4 @@ add_executable(238-product-of-array-except-self leetcode/editor/cn/238-product-o
 add_executable(520-detect-capital leetcode/editor/cn/520-detect-capital.cpp)
 add_executable(125-valid-palindrome leetcode/editor/cn/125-valid-palindrome.cpp)
 add_executable(14-longest-common-prefix leetcode/editor/cn/14-longest-common-prefix.cpp)
+add_executable(434-number-of-segments-in-a-string leetcode/editor/cn/434-number-of-segments-in-a-string.cpp)
