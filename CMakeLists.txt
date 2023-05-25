@@ -49,3 +49,5 @@ add_executable(14-longest-common-prefix leetcode/editor/cn/14-longest-common-pre
 add_executable(434-number-of-segments-in-a-string leetcode/editor/cn/434-number-of-segments-in-a-string.cpp)
 add_executable(58-length-of-last-word leetcode/editor/cn/58-length-of-last-word.cpp)
 add_executable(344-reverse-string leetcode/editor/cn/344-reverse-string.cpp)
+add_executable(541-reverse-string-ii leetcode/editor/cn/541-reverse-string-ii.cpp)
+add_executable(557-reverse-words-in-a-string-iii leetcode/editor/cn/557-reverse-words-in-a-string-iii.cpp)
