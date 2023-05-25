@@ -44,3 +44,4 @@ add_executable(303-range-sum-query-immutable leetcode/editor/cn/303-range-sum-qu
 add_executable(304-range-sum-query-2d-immutable leetcode/editor/cn/304-range-sum-query-2d-immutable.cpp)
 add_executable(238-product-of-array-except-self leetcode/editor/cn/238-product-of-array-except-self.cpp)
 add_executable(520-detect-capital leetcode/editor/cn/520-detect-capital.cpp)
+add_executable(125-valid-palindrome leetcode/editor/cn/125-valid-palindrome.cpp)
