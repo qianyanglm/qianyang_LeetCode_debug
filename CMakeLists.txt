@@ -51,3 +51,4 @@ add_executable(58-length-of-last-word leetcode/editor/cn/58-length-of-last-word.
 add_executable(344-reverse-string leetcode/editor/cn/344-reverse-string.cpp)
 add_executable(541-reverse-string-ii leetcode/editor/cn/541-reverse-string-ii.cpp)
 add_executable(557-reverse-words-in-a-string-iii leetcode/editor/cn/557-reverse-words-in-a-string-iii.cpp)
+add_executable(151-reverse-words-in-a-string leetcode/editor/cn/151-reverse-words-in-a-string.cpp)
