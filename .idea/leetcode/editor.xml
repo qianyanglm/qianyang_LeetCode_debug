@@ -454,6 +454,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/657-robot-return-to-origin.cpp">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/657-robot-return-to-origin.md" />
+              <option name="frontendQuestionId" value="leetcode.cn657" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/657-robot-return-to-origin.cpp" />
+              <option name="titleSlug" value="robot-return-to-origin" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/cn/661-image-smoother.cpp">
           <value>
             <LeetcodeEditor>
