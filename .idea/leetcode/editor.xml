@@ -377,6 +377,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/551-student-attendance-record-i.cpp">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/551-student-attendance-record-i.md" />
+              <option name="frontendQuestionId" value="leetcode.cn551" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/551-student-attendance-record-i.cpp" />
+              <option name="titleSlug" value="student-attendance-record-i" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/cn/557-reverse-words-in-a-string-iii.cpp">
           <value>
             <LeetcodeEditor>
