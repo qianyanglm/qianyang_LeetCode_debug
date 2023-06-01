@@ -57,3 +57,4 @@ add_executable(389-find-the-difference leetcode/editor/cn/389-find-the-differenc
 add_executable(383-ransom-note leetcode/editor/cn/383-ransom-note.cpp)
 add_executable(242-valid-anagram leetcode/editor/cn/242-valid-anagram.cpp)
 add_executable(49-group-anagrams leetcode/editor/cn/49-group-anagrams.cpp)
+add_executable(423-reconstruct-original-digits-from-english leetcode/editor/cn/423-reconstruct-original-digits-from-english.cpp)

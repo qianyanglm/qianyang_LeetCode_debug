@@ -234,6 +234,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/423-reconstruct-original-digits-from-english.cpp">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/423-reconstruct-original-digits-from-english.md" />
+              <option name="frontendQuestionId" value="leetcode.cn423" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/423-reconstruct-original-digits-from-english.cpp" />
+              <option name="titleSlug" value="reconstruct-original-digits-from-english" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/cn/434-number-of-segments-in-a-string.cpp">
           <value>
             <LeetcodeEditor>
