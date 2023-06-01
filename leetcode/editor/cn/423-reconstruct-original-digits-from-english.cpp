@@ -59,6 +59,11 @@ public:
         cnt[1] = c['o'] - cnt[0] - cnt[2] - cnt[4];
         cnt[9] = c['i'] - cnt[5] - cnt[6] - cnt[8];
 
+        //        for (int i = 0; i < 10; ++i)
+        //        {
+        //            cout<<cnt[i]<<" ";
+        //        }
+        //        cout<<endl;
         string ans;
         for (int i = 0; i < 10; ++i)
         {
