@@ -487,6 +487,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/696-count-binary-substrings.cpp">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/696-count-binary-substrings.md" />
+              <option name="frontendQuestionId" value="leetcode.cn696" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/696-count-binary-substrings.cpp" />
+              <option name="titleSlug" value="count-binary-substrings" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/cn/697-degree-of-an-array.cpp">
           <value>
             <LeetcodeEditor>
