@@ -61,3 +61,4 @@ add_executable(423-reconstruct-original-digits-from-english leetcode/editor/cn/4
 add_executable(657-robot-return-to-origin leetcode/editor/cn/657-robot-return-to-origin.cpp)
 add_executable(551-student-attendance-record-i leetcode/editor/cn/551-student-attendance-record-i.cpp)
 add_executable(696-count-binary-substrings leetcode/editor/cn/696-count-binary-substrings.cpp)
+add_executable(467-unique-substrings-in-wraparound-string leetcode/editor/cn/467-unique-substrings-in-wraparound-string.cpp)
