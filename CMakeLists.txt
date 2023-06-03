@@ -64,3 +64,4 @@ add_executable(696-count-binary-substrings leetcode/editor/cn/696-count-binary-s
 add_executable(467-unique-substrings-in-wraparound-string leetcode/editor/cn/467-unique-substrings-in-wraparound-string.cpp)
 add_executable(535-encode-and-decode-tinyurl leetcode/editor/cn/535-encode-and-decode-tinyurl.cpp)
 add_executable(299-bulls-and-cows leetcode/editor/cn/299-bulls-and-cows.cpp)
+add_executable(412-fizz-buzz leetcode/editor/cn/412-fizz-buzz.cpp)

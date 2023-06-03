@@ -223,6 +223,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/412-fizz-buzz.cpp">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/412-fizz-buzz.md" />
+              <option name="frontendQuestionId" value="leetcode.cn412" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/412-fizz-buzz.cpp" />
+              <option name="titleSlug" value="fizz-buzz" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/cn/414-third-maximum-number.cpp">
           <value>
             <LeetcodeEditor>
