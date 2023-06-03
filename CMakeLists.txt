@@ -65,3 +65,4 @@ add_executable(467-unique-substrings-in-wraparound-string leetcode/editor/cn/467
 add_executable(535-encode-and-decode-tinyurl leetcode/editor/cn/535-encode-and-decode-tinyurl.cpp)
 add_executable(299-bulls-and-cows leetcode/editor/cn/299-bulls-and-cows.cpp)
 add_executable(412-fizz-buzz leetcode/editor/cn/412-fizz-buzz.cpp)
+add_executable(506-relative-ranks leetcode/editor/cn/506-relative-ranks.cpp)
