@@ -62,3 +62,5 @@ add_executable(657-robot-return-to-origin leetcode/editor/cn/657-robot-return-to
 add_executable(551-student-attendance-record-i leetcode/editor/cn/551-student-attendance-record-i.cpp)
 add_executable(696-count-binary-substrings leetcode/editor/cn/696-count-binary-substrings.cpp)
 add_executable(467-unique-substrings-in-wraparound-string leetcode/editor/cn/467-unique-substrings-in-wraparound-string.cpp)
+add_executable(535-encode-and-decode-tinyurl leetcode/editor/cn/535-encode-and-decode-tinyurl.cpp)
+add_executable(299-bulls-and-cows leetcode/editor/cn/299-bulls-and-cows.cpp)
