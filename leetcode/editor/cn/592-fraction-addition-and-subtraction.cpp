@@ -46,7 +46,6 @@
 */
 #include "include/headers.h"
 
-//using namespace std;
 
 //leetcode submit region begin(Prohibit modification and deletion)
 //官方
@@ -67,6 +66,8 @@ public:
             }
             while (index < n && isdigit(expression[index]))
             {
+                //这一步是将字符表示的数字转换为实际的数字值，并将其用作分数的分子
+                //*10是因为分子可能大于9，分母也同理
                 x1 = x1 * 10 + expression[index] - '0';
                 index++;
             }
@@ -88,7 +89,8 @@ public:
         {
             return "0/1";
         }
-        long long g = std::gcd(abs(x), y);
+        //这里改了一下gcd的引用
+        long long g = __gcd(abs(x), y);
         return to_string(x / g) + "/" + to_string(y / g);
     }
 };
