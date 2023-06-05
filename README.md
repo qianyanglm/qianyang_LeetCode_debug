@@ -23,7 +23,6 @@
 
 ${question.content}
 \#include "include/headers.h"
-using namespace std;
 
 ${question.code}
 

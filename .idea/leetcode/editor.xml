@@ -410,6 +410,28 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/537-complex-number-multiplication.cpp">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/537-complex-number-multiplication.md" />
+              <option name="frontendQuestionId" value="leetcode.cn537" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/537-complex-number-multiplication.cpp" />
+              <option name="titleSlug" value="complex-number-multiplication" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/539-minimum-time-difference.cpp">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/539-minimum-time-difference.md" />
+              <option name="frontendQuestionId" value="leetcode.cn539" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/539-minimum-time-difference.cpp" />
+              <option name="titleSlug" value="minimum-time-difference" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/cn/54-spiral-matrix.cpp">
           <value>
             <LeetcodeEditor>
@@ -440,6 +462,17 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/551-student-attendance-record-i.cpp" />
               <option name="titleSlug" value="student-attendance-record-i" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/553-optimal-division.cpp">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/553-optimal-division.md" />
+              <option name="frontendQuestionId" value="leetcode.cn553" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/553-optimal-division.cpp" />
+              <option name="titleSlug" value="optimal-division" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -484,6 +517,17 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/59-spiral-matrix-ii.cpp" />
               <option name="titleSlug" value="spiral-matrix-ii" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/592-fraction-addition-and-subtraction.cpp">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/592-fraction-addition-and-subtraction.md" />
+              <option name="frontendQuestionId" value="leetcode.cn592" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/592-fraction-addition-and-subtraction.cpp" />
+              <option name="titleSlug" value="fraction-addition-and-subtraction" />
             </LeetcodeEditor>
           </value>
         </entry>

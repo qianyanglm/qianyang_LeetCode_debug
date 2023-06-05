@@ -66,3 +66,7 @@ add_executable(535-encode-and-decode-tinyurl leetcode/editor/cn/535-encode-and-d
 add_executable(299-bulls-and-cows leetcode/editor/cn/299-bulls-and-cows.cpp)
 add_executable(412-fizz-buzz leetcode/editor/cn/412-fizz-buzz.cpp)
 add_executable(506-relative-ranks leetcode/editor/cn/506-relative-ranks.cpp)
+add_executable(539-minimum-time-difference leetcode/editor/cn/539-minimum-time-difference.cpp)
+add_executable(553-optimal-division leetcode/editor/cn/553-optimal-division.cpp)
+add_executable(537-complex-number-multiplication leetcode/editor/cn/537-complex-number-multiplication.cpp)
+add_executable(592-fraction-addition-and-subtraction leetcode/editor/cn/592-fraction-addition-and-subtraction.cpp)
