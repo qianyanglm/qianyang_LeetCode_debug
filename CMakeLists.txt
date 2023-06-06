@@ -70,3 +70,8 @@ add_executable(539-minimum-time-difference leetcode/editor/cn/539-minimum-time-d
 add_executable(553-optimal-division leetcode/editor/cn/553-optimal-division.cpp)
 add_executable(537-complex-number-multiplication leetcode/editor/cn/537-complex-number-multiplication.cpp)
 add_executable(592-fraction-addition-and-subtraction leetcode/editor/cn/592-fraction-addition-and-subtraction.cpp)
+add_executable(640-solve-the-equation leetcode/editor/cn/640-solve-the-equation.cpp)
+add_executable(38-count-and-say leetcode/editor/cn/38-count-and-say.cpp)
+add_executable(13-roman-to-integer leetcode/editor/cn/13-roman-to-integer.cpp)
+add_executable(12-integer-to-roman leetcode/editor/cn/12-integer-to-roman.cpp)
+add_executable(273-integer-to-english-words leetcode/editor/cn/273-integer-to-english-words.cpp)

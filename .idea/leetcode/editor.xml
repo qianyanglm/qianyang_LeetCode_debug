@@ -25,6 +25,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/12-integer-to-roman.cpp">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/12-integer-to-roman.md" />
+              <option name="frontendQuestionId" value="leetcode.cn12" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/12-integer-to-roman.cpp" />
+              <option name="titleSlug" value="integer-to-roman" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/cn/125-valid-palindrome.cpp">
           <value>
             <LeetcodeEditor>
@@ -33,6 +44,17 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/125-valid-palindrome.cpp" />
               <option name="titleSlug" value="valid-palindrome" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/13-roman-to-integer.cpp">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/13-roman-to-integer.md" />
+              <option name="frontendQuestionId" value="leetcode.cn13" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/13-roman-to-integer.cpp" />
+              <option name="titleSlug" value="roman-to-integer" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -99,6 +121,17 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/242-valid-anagram.cpp" />
               <option name="titleSlug" value="valid-anagram" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/273-integer-to-english-words.cpp">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/273-integer-to-english-words.md" />
+              <option name="frontendQuestionId" value="leetcode.cn273" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/273-integer-to-english-words.cpp" />
+              <option name="titleSlug" value="integer-to-english-words" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -176,6 +209,17 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/35-search-insert-position.cpp" />
               <option name="titleSlug" value="search-insert-position" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/38-count-and-say.cpp">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/38-count-and-say.md" />
+              <option name="frontendQuestionId" value="leetcode.cn38" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/38-count-and-say.cpp" />
+              <option name="titleSlug" value="count-and-say" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -550,6 +594,17 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/628-maximum-product-of-three-numbers.cpp" />
               <option name="titleSlug" value="maximum-product-of-three-numbers" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/640-solve-the-equation.cpp">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/640-solve-the-equation.md" />
+              <option name="frontendQuestionId" value="leetcode.cn640" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/640-solve-the-equation.cpp" />
+              <option name="titleSlug" value="solve-the-equation" />
             </LeetcodeEditor>
           </value>
         </entry>
