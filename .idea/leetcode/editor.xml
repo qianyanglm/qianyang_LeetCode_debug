@@ -80,6 +80,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/165-compare-version-numbers.cpp">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/165-compare-version-numbers.md" />
+              <option name="frontendQuestionId" value="leetcode.cn165" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/165-compare-version-numbers.cpp" />
+              <option name="titleSlug" value="compare-version-numbers" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/cn/189-rotate-array.cpp">
           <value>
             <LeetcodeEditor>
@@ -256,6 +267,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/392-is-subsequence.cpp">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/392-is-subsequence.md" />
+              <option name="frontendQuestionId" value="leetcode.cn392" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/392-is-subsequence.cpp" />
+              <option name="titleSlug" value="is-subsequence" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/cn/396-rotate-function.cpp">
           <value>
             <LeetcodeEditor>
@@ -377,6 +399,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/481-magical-string.cpp">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/481-magical-string.md" />
+              <option name="frontendQuestionId" value="leetcode.cn481" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/481-magical-string.cpp" />
+              <option name="titleSlug" value="magical-string" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/cn/485-max-consecutive-ones.cpp">
           <value>
             <LeetcodeEditor>
@@ -440,6 +473,28 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/520-detect-capital.cpp" />
               <option name="titleSlug" value="detect-capital" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/521-longest-uncommon-subsequence-i.cpp">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/521-longest-uncommon-subsequence-i.md" />
+              <option name="frontendQuestionId" value="leetcode.cn521" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/521-longest-uncommon-subsequence-i.cpp" />
+              <option name="titleSlug" value="longest-uncommon-subsequence-i" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/524-longest-word-in-dictionary-through-deleting.cpp">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/524-longest-word-in-dictionary-through-deleting.md" />
+              <option name="frontendQuestionId" value="leetcode.cn524" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/524-longest-word-in-dictionary-through-deleting.cpp" />
+              <option name="titleSlug" value="longest-word-in-dictionary-through-deleting" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -627,6 +682,17 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/657-robot-return-to-origin.cpp" />
               <option name="titleSlug" value="robot-return-to-origin" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/66-plus-one.cpp">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/66-plus-one.md" />
+              <option name="frontendQuestionId" value="leetcode.cn66" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/66-plus-one.cpp" />
+              <option name="titleSlug" value="plus-one" />
             </LeetcodeEditor>
           </value>
         </entry>
