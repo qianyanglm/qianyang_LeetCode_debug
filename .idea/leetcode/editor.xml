@@ -157,6 +157,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/28-find-the-index-of-the-first-occurrence-in-a-string.cpp">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/28-find-the-index-of-the-first-occurrence-in-a-string.md" />
+              <option name="frontendQuestionId" value="leetcode.cn28" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/28-find-the-index-of-the-first-occurrence-in-a-string.cpp" />
+              <option name="titleSlug" value="find-the-index-of-the-first-occurrence-in-a-string" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/cn/283-move-zeroes.cpp">
           <value>
             <LeetcodeEditor>
@@ -311,6 +322,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/415-add-strings.cpp">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/415-add-strings.md" />
+              <option name="frontendQuestionId" value="leetcode.cn415" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/415-add-strings.cpp" />
+              <option name="titleSlug" value="add-strings" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/cn/419-battleships-in-a-board.cpp">
           <value>
             <LeetcodeEditor>
@@ -330,6 +352,17 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/423-reconstruct-original-digits-from-english.cpp" />
               <option name="titleSlug" value="reconstruct-original-digits-from-english" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/43-multiply-strings.cpp">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/43-multiply-strings.md" />
+              <option name="frontendQuestionId" value="leetcode.cn43" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/43-multiply-strings.cpp" />
+              <option name="titleSlug" value="multiply-strings" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -374,6 +407,17 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/453-minimum-moves-to-equal-array-elements.cpp" />
               <option name="titleSlug" value="minimum-moves-to-equal-array-elements" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/459-repeated-substring-pattern.cpp">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/459-repeated-substring-pattern.md" />
+              <option name="frontendQuestionId" value="leetcode.cn459" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/459-repeated-substring-pattern.cpp" />
+              <option name="titleSlug" value="repeated-substring-pattern" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -704,6 +748,17 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/661-image-smoother.cpp" />
               <option name="titleSlug" value="image-smoother" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/67-add-binary.cpp">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/67-add-binary.md" />
+              <option name="frontendQuestionId" value="leetcode.cn67" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/67-add-binary.cpp" />
+              <option name="titleSlug" value="add-binary" />
             </LeetcodeEditor>
           </value>
         </entry>
