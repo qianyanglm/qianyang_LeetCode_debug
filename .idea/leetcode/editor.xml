@@ -3,6 +3,17 @@
   <component name="LeetcodeEditor">
     <option name="projectConfig">
       <map>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/1047-remove-all-adjacent-duplicates-in-string.cpp">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/1047-remove-all-adjacent-duplicates-in-string.md" />
+              <option name="frontendQuestionId" value="leetcode.cn1047" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/1047-remove-all-adjacent-duplicates-in-string.cpp" />
+              <option name="titleSlug" value="remove-all-adjacent-duplicates-in-string" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/cn/118-pascals-triangle.cpp">
           <value>
             <LeetcodeEditor>
@@ -80,6 +91,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/155-min-stack.cpp">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/155-min-stack.md" />
+              <option name="frontendQuestionId" value="leetcode.cn155" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/155-min-stack.cpp" />
+              <option name="titleSlug" value="min-stack" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/cn/165-compare-version-numbers.cpp">
           <value>
             <LeetcodeEditor>
@@ -102,6 +124,28 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/203-remove-linked-list-elements.cpp">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/203-remove-linked-list-elements.md" />
+              <option name="frontendQuestionId" value="leetcode.cn203" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/203-remove-linked-list-elements.cpp" />
+              <option name="titleSlug" value="remove-linked-list-elements" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/206-reverse-linked-list.cpp">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/206-reverse-linked-list.md" />
+              <option name="frontendQuestionId" value="leetcode.cn206" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/206-reverse-linked-list.cpp" />
+              <option name="titleSlug" value="reverse-linked-list" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/cn/21-merge-two-sorted-lists.cpp">
           <value>
             <LeetcodeEditor>
@@ -110,6 +154,28 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/21-merge-two-sorted-lists.cpp" />
               <option name="titleSlug" value="merge-two-sorted-lists" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/225-implement-stack-using-queues.cpp">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/225-implement-stack-using-queues.md" />
+              <option name="frontendQuestionId" value="leetcode.cn225" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/225-implement-stack-using-queues.cpp" />
+              <option name="titleSlug" value="implement-stack-using-queues" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/237-delete-node-in-a-linked-list.cpp">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/237-delete-node-in-a-linked-list.md" />
+              <option name="frontendQuestionId" value="leetcode.cn237" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/237-delete-node-in-a-linked-list.cpp" />
+              <option name="titleSlug" value="delete-node-in-a-linked-list" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -498,6 +564,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/50-powx-n.cpp">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/50-powx-n.md" />
+              <option name="frontendQuestionId" value="leetcode.cn50" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/50-powx-n.cpp" />
+              <option name="titleSlug" value="powx-n" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/cn/506-relative-ranks.cpp">
           <value>
             <LeetcodeEditor>
@@ -506,6 +583,17 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/506-relative-ranks.cpp" />
               <option name="titleSlug" value="relative-ranks" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/507-perfect-number.cpp">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/507-perfect-number.md" />
+              <option name="frontendQuestionId" value="leetcode.cn507" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/507-perfect-number.cpp" />
+              <option name="titleSlug" value="perfect-number" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -762,6 +850,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/682-baseball-game.cpp">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/682-baseball-game.md" />
+              <option name="frontendQuestionId" value="leetcode.cn682" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/682-baseball-game.cpp" />
+              <option name="titleSlug" value="baseball-game" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/cn/696-count-binary-substrings.cpp">
           <value>
             <LeetcodeEditor>
@@ -784,6 +883,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/71-simplify-path.cpp">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/71-simplify-path.md" />
+              <option name="frontendQuestionId" value="leetcode.cn71" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/71-simplify-path.cpp" />
+              <option name="titleSlug" value="simplify-path" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/cn/724-find-pivot-index.cpp">
           <value>
             <LeetcodeEditor>
@@ -803,6 +913,17 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/73-set-matrix-zeroes.cpp" />
               <option name="titleSlug" value="set-matrix-zeroes" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/844-backspace-string-compare.cpp">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/844-backspace-string-compare.md" />
+              <option name="frontendQuestionId" value="leetcode.cn844" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/844-backspace-string-compare.cpp" />
+              <option name="titleSlug" value="backspace-string-compare" />
             </LeetcodeEditor>
           </value>
         </entry>
