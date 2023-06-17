@@ -34,25 +34,52 @@
 using namespace std;
 
 //leetcode submit region begin(Prohibit modification and deletion)
+//
+//class Solution
+//{
+//public:
+//    vector<int> findErrorNums(vector<int> &nums)
+//    {
+//        //开辟一个vector来记录每一位数的状态
+//        int n = nums.size();
+//        int a, b;
+//        vector<int> res(n + 1);
+//        for (int i = 0; i < n; i++) res[nums[i]]++;
+//        for (int i = 1; i <= n; i++)
+//        {
+//            if (res[i] == 0) a = i;
+//            if (res[i] == 2) b = i;
+//        }
+//        return {b, a};
+//    }
+//};
+//哈希表,官方
 class Solution
 {
 public:
     vector<int> findErrorNums(vector<int> &nums)
     {
-        //开辟一个vector来记录每一位数的状态
-        int n = nums.size();
-        int a, b;
-        vector<int> res(n + 1);
-        for (int i = 0; i < n; i++) res[nums[i]]++;
-        for (int i = 1; i <= n; i++)
+        unordered_map<int, int> map;
+        vector<int> temp(2);
+        for (int &a: nums)
         {
-            if (res[i] == 0) a = i;
-            if (res[i] == 2) b = i;
+            ++map[a];
         }
-        return {b, a};
+        for (int i = 0; i <= nums.size(); ++i)
+        {
+            int count = map[i];
+            if (count == 2)
+            {
+                temp[0] = i;
+            }
+            else if (count == 0)
+            {
+                temp[1] = i;
+            }
+        }
+        return temp;
     }
 };
-
 //leetcode submit region end(Prohibit modification and deletion)
 
 
@@ -60,7 +87,7 @@ int main()
 {
 
     Solution s;
-    vector<int> data{1, 2, 2, 4, 5};
+    vector<int> data{1, 2, 2, 4};
     auto res = "Hello LeetCode";
     cout << res << endl;
     vector<int> a = s.findErrorNums(data);

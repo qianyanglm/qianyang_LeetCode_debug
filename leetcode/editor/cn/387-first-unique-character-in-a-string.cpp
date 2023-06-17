@@ -34,22 +34,45 @@
 using namespace std;
 
 //leetcode submit region begin(Prohibit modification and deletion)
-//官方
+////官方
+//class Solution
+//{
+//public:
+//    int firstUniqChar(string s)
+//    {
+//        unordered_map<int, int> frequency;
+//        //第一次遍历，用哈希映射统计字符串中每个字符出现的次数
+//        for (char ch: s)
+//        {
+//            ++frequency[ch];
+//        }
+//        //第二次遍历，只要遍历到一个出现一次的字符，就返回它的索引
+//        for (int i = 0; i < s.size(); ++i)
+//        {
+//            if (frequency[s[i]] == 1)
+//            {
+//                return i;
+//            }
+//        }
+//        return -1;
+//    }
+//};
+//模仿写
 class Solution
 {
 public:
     int firstUniqChar(string s)
     {
-        unordered_map<int, int> frequency;
-        //第一次遍历，用哈希映射统计字符串中每个字符出现的次数
-        for (char ch: s)
+        unordered_map<char, int> map;
+        int n = s.length();
+        for (int i = 0; i < n; ++i)
         {
-            ++frequency[ch];
+            //map[s[i]] 表示哈希表 map 中键为 s[i] 的值。如果该键不存在，会自动创建并初始化为默认值（对于 int 类型，默认值为 0）。
+            ++map[s[i]];
         }
-        //第二次遍历，只要遍历到一个出现一次的字符，就返回它的索引
-        for (int i = 0; i < s.size(); ++i)
+        for (int i = 0; i < n; ++i)
         {
-            if (frequency[s[i]] == 1)
+            if (map[s[i]] == 1)
             {
                 return i;
             }
@@ -57,7 +80,6 @@ public:
         return -1;
     }
 };
-
 //leetcode submit region end(Prohibit modification and deletion)
 
 
