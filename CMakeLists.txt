@@ -112,3 +112,7 @@ add_executable(594-longest-harmonious-subsequence leetcode/editor/cn/594-longest
 add_executable(599-minimum-index-sum-of-two-lists leetcode/editor/cn/599-minimum-index-sum-of-two-lists.cpp)
 add_executable(720-longest-word-in-dictionary leetcode/editor/cn/720-longest-word-in-dictionary.cpp)
 add_executable(884-uncommon-words-from-two-sentences leetcode/editor/cn/884-uncommon-words-from-two-sentences.cpp)
+add_executable(970-powerful-integers leetcode/editor/cn/970-powerful-integers.cpp)
+add_executable(1207-unique-number-of-occurrences leetcode/editor/cn/1207-unique-number-of-occurrences.cpp)
+add_executable(3-longest-substring-without-repeating-characters leetcode/editor/cn/3-longest-substring-without-repeating-characters.cpp)
+add_executable(215-kth-largest-element-in-an-array leetcode/editor/cn/215-kth-largest-element-in-an-array.cpp)
