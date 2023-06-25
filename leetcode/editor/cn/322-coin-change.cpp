@@ -48,11 +48,31 @@
 #include "include/headers.h"
 
 //leetcode submit region begin(Prohibit modification and deletion)
+//官方，动规
 class Solution
 {
 public:
     int coinChange(vector<int> &coins, int amount)
     {
+        //因为下面是求较小值所以初值为最大值，求较大值初值为0
+        vector<int> dp(amount + 1, INT_MAX);
+        dp[0] = 0;
+        int n = coins.size();
+        for (int i = 0; i < n; ++i)
+        {
+            for (int j = coins[i]; j <= amount; ++j)
+            {
+                if (dp[j - coins[i]] != INT_MAX)//如果dp[j-coins[i]]是初始值就跳过，不跳过的话INTMAX+1=-1无法取最小值
+                {
+                    dp[j] = min(dp[j], dp[j - coins[i]] + 1);
+                }
+            }
+        }
+        if (dp[amount] == INT_MAX)
+        {
+            return -1;
+        }
+        return dp[amount];
     }
 };
 
@@ -62,11 +82,11 @@ public:
 int main()
 {
     Solution s;
-    vector<int> data{7, 1, 5, 3, 6, 4};
+    vector<int> data{1, 2, 5};
     vector<vector<int>> data1{{1, 1, 1}, {1, 0, 1}, {1, 1, 1}};
     auto res = "Hello LeetCode";
     cout << res << endl;
-
+    cout << s.coinChange(data, 11) << endl;
 
     return 0;
 }
