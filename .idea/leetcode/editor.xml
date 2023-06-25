@@ -14,6 +14,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/1049-last-stone-weight-ii.cpp">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/1049-last-stone-weight-ii.md" />
+              <option name="frontendQuestionId" value="leetcode.cn1049" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/1049-last-stone-weight-ii.cpp" />
+              <option name="titleSlug" value="last-stone-weight-ii" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/cn/118-pascals-triangle.cpp">
           <value>
             <LeetcodeEditor>
@@ -410,6 +421,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/322-coin-change.cpp">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/322-coin-change.md" />
+              <option name="frontendQuestionId" value="leetcode.cn322" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/322-coin-change.cpp" />
+              <option name="titleSlug" value="coin-change" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/cn/343-integer-break.cpp">
           <value>
             <LeetcodeEditor>
@@ -451,6 +473,17 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/35-search-insert-position.cpp" />
               <option name="titleSlug" value="search-insert-position" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/377-combination-sum-iv.cpp">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/377-combination-sum-iv.md" />
+              <option name="frontendQuestionId" value="leetcode.cn377" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/377-combination-sum-iv.cpp" />
+              <option name="titleSlug" value="combination-sum-iv" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -674,6 +707,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/474-ones-and-zeroes.cpp">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/474-ones-and-zeroes.md" />
+              <option name="frontendQuestionId" value="leetcode.cn474" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/474-ones-and-zeroes.cpp" />
+              <option name="titleSlug" value="ones-and-zeroes" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/cn/48-rotate-image.cpp">
           <value>
             <LeetcodeEditor>
@@ -715,6 +759,17 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/49-group-anagrams.cpp" />
               <option name="titleSlug" value="group-anagrams" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/494-target-sum.cpp">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/494-target-sum.md" />
+              <option name="frontendQuestionId" value="leetcode.cn494" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/494-target-sum.cpp" />
+              <option name="titleSlug" value="target-sum" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -781,6 +836,17 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/509-fibonacci-number.cpp" />
               <option name="titleSlug" value="fibonacci-number" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/518-coin-change-ii.cpp">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/518-coin-change-ii.md" />
+              <option name="frontendQuestionId" value="leetcode.cn518" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/518-coin-change-ii.cpp" />
+              <option name="titleSlug" value="coin-change-ii" />
             </LeetcodeEditor>
           </value>
         </entry>

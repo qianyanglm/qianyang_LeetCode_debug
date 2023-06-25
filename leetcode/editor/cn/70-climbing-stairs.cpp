@@ -55,21 +55,62 @@
 //    }
 //};
 //动规，根据斐波那契动规可以想出来
+//class Solution
+//{
+//public:
+//    int climbStairs(int n)
+//    {
+//        if (n <= 2)
+//        {
+//            return n;
+//        }
+//        vector<int> dp(n + 1);
+//        dp[1] = 1;
+//        dp[2] = 2;
+//        for (int i = 3; i <= n; ++i)
+//        {
+//            dp[i] = dp[i - 1] + dp[i - 2];
+//        }
+//        return dp[n];
+//    }
+//};
+//斐波那契的动规，自己重复写的
+//class Solution
+//{
+//public:
+//    int climbStairs(int n)
+//    {
+//        if ( n<=3 )
+//        {
+//            return n;
+//        }
+//       vector<int>dp(n+1,0);
+//       dp[1]=1;
+//       dp[2]=2;
+//       for (int i = 3; i <= n; ++i)
+//       {
+//           dp[i]=dp[i-1]+dp[i-2];
+//       }
+//       return dp[n];
+//    }
+//};
+//用这次学的动规
 class Solution
 {
 public:
     int climbStairs(int n)
     {
-        if (n <= 2)
+        vector<int> dp(n + 1, 0);
+        dp[0] = 1;
+        for (int j = 0; j <= n; ++j)
         {
-            return n;
-        }
-        vector<int> dp(n + 1);
-        dp[1] = 1;
-        dp[2] = 2;
-        for (int i = 3; i <= n; ++i)
-        {
-            dp[i] = dp[i - 1] + dp[i - 2];
+            for (int i = 1; i <= 2; ++i)
+            {
+                if (j >= i)
+                {
+                    dp[j] += dp[j - i];
+                }
+            }
         }
         return dp[n];
     }
@@ -85,6 +126,7 @@ int main()
     vector<vector<int>> data1{{1, 1, 1}, {1, 0, 1}, {1, 1, 1}};
     auto res = "Hello LeetCode";
     cout << res << endl;
+    cout << s.climbStairs(3) << endl;
     cout << s.climbStairs(45) << endl;
 
 
