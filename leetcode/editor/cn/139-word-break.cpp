@@ -50,6 +50,7 @@ Note that you are allowed to reuse a dictionary word.
 #include "include/headers.h"
 
 //leetcode submit region begin(Prohibit modification and deletion)
+//动规
 class Solution
 {
 public:
@@ -58,6 +59,7 @@ public:
         unordered_set<string> wordSet(wordDict.begin(), wordDict.end());
         vector<bool> dp(s.size() + 1, false);
         dp[0] = true;
+
         for (int i = 1; i <= s.size(); i++)
         {// 遍历背包
             for (int j = 0; j < i; j++)
@@ -69,6 +71,7 @@ public:
                 }
             }
         }
+
         return dp[s.size()];
     }
 };
@@ -79,11 +82,11 @@ public:
 int main()
 {
     Solution s;
-    vector<int> data{7, 1, 5, 3, 6, 4};
+    vector<string> data{"leet", "code"};
     vector<vector<int>> data1{{1, 1, 1}, {1, 0, 1}, {1, 1, 1}};
-    auto res = "Hello LeetCode";
+    string res = "leetcode";
     cout << res << endl;
-
+    cout << s.wordBreak(res, data) << endl;
 
     return 0;
 }

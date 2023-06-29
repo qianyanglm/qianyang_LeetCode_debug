@@ -69,6 +69,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/121-best-time-to-buy-and-sell-stock.cpp">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/121-best-time-to-buy-and-sell-stock.md" />
+              <option name="frontendQuestionId" value="leetcode.cn121" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/121-best-time-to-buy-and-sell-stock.cpp" />
+              <option name="titleSlug" value="best-time-to-buy-and-sell-stock" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/cn/125-valid-palindrome.cpp">
           <value>
             <LeetcodeEditor>
@@ -201,6 +212,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/198-house-robber.cpp">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/198-house-robber.md" />
+              <option name="frontendQuestionId" value="leetcode.cn198" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/198-house-robber.cpp" />
+              <option name="titleSlug" value="house-robber" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/cn/202-happy-number.cpp">
           <value>
             <LeetcodeEditor>
@@ -264,6 +286,17 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/21-merge-two-sorted-lists.cpp" />
               <option name="titleSlug" value="merge-two-sorted-lists" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/213-house-robber-ii.cpp">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/213-house-robber-ii.md" />
+              <option name="frontendQuestionId" value="leetcode.cn213" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/213-house-robber-ii.cpp" />
+              <option name="titleSlug" value="house-robber-ii" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -440,6 +473,17 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/322-coin-change.cpp" />
               <option name="titleSlug" value="coin-change" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/337-house-robber-iii.cpp">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/337-house-robber-iii.md" />
+              <option name="frontendQuestionId" value="leetcode.cn337" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/337-house-robber-iii.cpp" />
+              <option name="titleSlug" value="house-robber-iii" />
             </LeetcodeEditor>
           </value>
         </entry>
