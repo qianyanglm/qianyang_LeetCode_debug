@@ -40,22 +40,50 @@
 
 //leetcode submit region begin(Prohibit modification and deletion)
 //官方
+//class Solution
+//{
+//public:
+//    bool isSubsequence(string s, string t)
+//    {
+//        int n = s.length(), m = t.length();
+//        int i = 0, j = 0;
+//        while (i < n && j < m)
+//        {
+//            if (s[i] == t[j])
+//            {
+//                i++;
+//            }
+//            j++;
+//        }
+//        return i == n;
+//    }
+//};
+//动规
 class Solution
 {
 public:
     bool isSubsequence(string s, string t)
     {
-        int n = s.length(), m = t.length();
-        int i = 0, j = 0;
-        while (i < n && j < m)
+        vector<vector<int>> dp(s.size() + 1, vector<int>(t.size() + 1, 0));
+        for (int i = 1; i <= s.size(); ++i)
         {
-            if (s[i] == t[j])
+            for (int j = 1; j <= t.size(); ++j)
             {
-                i++;
+                if (s[i - 1] == t[j - 1])
+                {
+                    dp[i][j] = dp[i - 1][j - 1] + 1;
+                }
+                else
+                {
+                    dp[i][j] = dp[i][j - 1];
+                }
             }
-            j++;
         }
-        return i == n;
+        if (dp[s.size()][t.size()] == s.size())
+        {
+            return true;
+        }
+        return false;
     }
 };
 
