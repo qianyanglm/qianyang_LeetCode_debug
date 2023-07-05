@@ -44,6 +44,7 @@
 #include "include/headers.h"
 
 //leetcode submit region begin(Prohibit modification and deletion)
+//动规
 class Solution
 {
 public:

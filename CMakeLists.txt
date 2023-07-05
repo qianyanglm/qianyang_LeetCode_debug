@@ -143,3 +143,5 @@ add_executable(122-best-time-to-buy-and-sell-stock-ii leetcode/editor/cn/122-bes
 add_executable(123-best-time-to-buy-and-sell-stock-iii leetcode/editor/cn/123-best-time-to-buy-and-sell-stock-iii.cpp)
 add_executable(188-best-time-to-buy-and-sell-stock-iv leetcode/editor/cn/188-best-time-to-buy-and-sell-stock-iv.cpp)
 add_executable(309-best-time-to-buy-and-sell-stock-with-cooldown leetcode/editor/cn/309-best-time-to-buy-and-sell-stock-with-cooldown.cpp)
+add_executable(714-best-time-to-buy-and-sell-stock-with-transaction-fee leetcode/editor/cn/714-best-time-to-buy-and-sell-stock-with-transaction-fee.cpp)
+add_executable(300-longest-increasing-subsequence leetcode/editor/cn/300-longest-increasing-subsequence.cpp)
