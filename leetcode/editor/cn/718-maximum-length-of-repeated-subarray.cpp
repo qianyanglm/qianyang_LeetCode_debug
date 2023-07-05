@@ -37,26 +37,50 @@
 #include "include/headers.h"
 
 //leetcode submit region begin(Prohibit modification and deletion)
+//class Solution
+//{
+//public:
+//    int findLength(vector<int> &nums1, vector<int> &nums2)
+//    {
+//        int n = nums1.size(), m = nums2.size();
+//        vector<vector<int>> dp(n + 1, vector<int>(m + 1, 0));
+//        int ans = 0;
+//        for (int i = n - 1; i >= 0; --i)
+//        {
+//            for (int j = m - 1; j >= 0; --j)
+//            {
+//                dp[i][j] = nums1[i] == nums2[j] ? dp[i + 1][j + 1] + 1 : 0;
+//                ans = max(ans, dp[i][j]);
+//            }
+//        }
+//        return ans;
+//    }
+//};
+//动规
 class Solution
 {
 public:
     int findLength(vector<int> &nums1, vector<int> &nums2)
     {
-        int n = nums1.size(), m = nums2.size();
-        vector<vector<int>> dp(n + 1, vector<int>(m + 1, 0));
-        int ans = 0;
-        for (int i = n - 1; i >= 0; --i)
+        vector<vector<int>> dp(nums1.size() + 1, vector<int>(nums2.size() + 1, 0));
+        int result = 0;
+        for (int i = 1; i <= nums1.size(); ++i)
         {
-            for (int j = m - 1; j >= 0; --j)
+            for (int j = 1; j <= nums2.size(); ++j)
             {
-                dp[i][j] = nums1[i] == nums2[j] ? dp[i + 1][j + 1] + 1 : 0;
-                ans = max(ans, dp[i][j]);
+                if (nums1[i - 1] == nums2[j - 1])
+                {
+                    dp[i][j] = dp[i - 1][j - 1] + 1;
+                }
+                if (dp[i][j] > result)
+                {
+                    result = dp[i][j];
+                }
             }
         }
-        return ans;
+        return result;
     }
 };
-
 //leetcode submit region end(Prohibit modification and deletion)
 
 
