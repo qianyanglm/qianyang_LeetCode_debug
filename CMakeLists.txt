@@ -160,3 +160,5 @@ add_executable(145-binary-tree-postorder-traversal leetcode/editor/cn/145-binary
 add_executable(94-binary-tree-inorder-traversal leetcode/editor/cn/94-binary-tree-inorder-traversal.cpp)
 add_executable(102-binary-tree-level-order-traversal leetcode/editor/cn/102-binary-tree-level-order-traversal.cpp)
 add_executable(107-binary-tree-level-order-traversal-ii leetcode/editor/cn/107-binary-tree-level-order-traversal-ii.cpp)
+add_executable(199-binary-tree-right-side-view leetcode/editor/cn/199-binary-tree-right-side-view.cpp)
+add_executable(637-average-of-levels-in-binary-tree leetcode/editor/cn/637-average-of-levels-in-binary-tree.cpp)
