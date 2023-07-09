@@ -1,5 +1,7 @@
 /**
-<p>Given an n-ary tree, return the <em>level order</em> traversal of its nodes' values.</p>
+<p>Given a n-ary tree, find its maximum depth.</p>
+
+<p>The maximum depth is the number of nodes along the longest path from the root node down to the farthest leaf node.</p>
 
 <p><em>Nary-Tree input serialization is represented in their level order traversal, each group of children is separated by the null value (See examples).</em></p>
 
@@ -10,7 +12,7 @@
 
 <pre>
 <strong>Input:</strong> root = [1,null,3,2,4,null,5,6]
-<strong>Output:</strong> [[1],[3,2,4],[5,6]]
+<strong>Output:</strong> 3
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
@@ -19,20 +21,20 @@
 
 <pre>
 <strong>Input:</strong> root = [1,null,2,3,4,5,null,null,6,7,null,8,null,9,10,null,null,11,null,12,null,13,null,null,14]
-<strong>Output:</strong> [[1],[2,3,4,5],[6,7,8,9,10],[11,12,13],[14]]
+<strong>Output:</strong> 5
 </pre>
 
 <p>&nbsp;</p> 
 <p><strong>Constraints:</strong></p>
 
 <ul> 
- <li>The height of the n-ary tree is less than or equal to <code>1000</code></li> 
- <li>The total number of nodes is between <code>[0, 10<sup>4</sup>]</code></li> 
+ <li>The total number of nodes is in the range <code>[0, 10<sup>4</sup>]</code>.</li> 
+ <li>The depth of the n-ary tree is less than or equal to <code>1000</code>.</li> 
 </ul>
 
-<details><summary><strong>Related Topics</strong></summary>树 | 广度优先搜索</details><br>
+<details><summary><strong>Related Topics</strong></summary>树 | 深度优先搜索 | 广度优先搜索</details><br>
 
-<div>👍 380, 👎 0<span style='float: right;'><span style='color: gray;'><a href='https://github.com/labuladong/fucking-algorithm/discussions/939' target='_blank' style='color: lightgray;text-decoration: underline;'>bug 反馈</a> | <a href='https://labuladong.gitee.io/article/fname.html?fname=jb插件简介' target='_blank' style='color: lightgray;text-decoration: underline;'>使用指南</a> | <a href='https://labuladong.github.io/algo/images/others/%E5%85%A8%E5%AE%B6%E6%A1%B6.jpg' target='_blank' style='color: lightgray;text-decoration: underline;'>更多配套插件</a></span></span></div>
+<div>👍 350, 👎 0<span style='float: right;'><span style='color: gray;'><a href='https://github.com/labuladong/fucking-algorithm/discussions/939' target='_blank' style='color: lightgray;text-decoration: underline;'>bug 反馈</a> | <a href='https://labuladong.gitee.io/article/fname.html?fname=jb插件简介' target='_blank' style='color: lightgray;text-decoration: underline;'>使用指南</a> | <a href='https://labuladong.github.io/algo/images/others/%E5%85%A8%E5%AE%B6%E6%A1%B6.jpg' target='_blank' style='color: lightgray;text-decoration: underline;'>更多配套插件</a></span></span></div>
 
 
 
@@ -44,7 +46,7 @@ class Node
 {
 public:
     int val;
-    std::vector<Node *> children;
+    vector<Node *> children;
 
     Node() {}
 
@@ -53,7 +55,7 @@ public:
         val = _val;
     }
 
-    Node(int _val, std::vector<Node *> _children)
+    Node(int _val, vector<Node *> _children)
     {
         val = _val;
         children = _children;
@@ -80,35 +82,36 @@ public:
     }
 };
 */
-//二叉树
+//n叉树的最大高度和二叉树的一样
 class Solution
 {
 public:
-    vector<vector<int>> levelOrder(Node *root)
+    int maxDepth(Node *root)
     {
         queue<Node *> que;
         if (root != NULL)
         {
             que.push(root);
         }
-        vector<vector<int>> result;
+        int depth = 0;
         while (!que.empty())
         {
             int size = que.size();
-            vector<int> vec;
+            depth++;
             for (int i = 0; i < size; ++i)
             {
                 Node *node = que.front();
                 que.pop();
-                vec.push_back(node->val);
                 for (int j = 0; j < node->children.size(); ++j)
                 {
-                    que.push(node->children[j]);
+                    if (node->children[j])
+                    {
+                        que.push(node->children[j]);
+                    }
                 }
             }
-            result.push_back(vec);
         }
-        return result;
+        return depth;
     }
 };
 

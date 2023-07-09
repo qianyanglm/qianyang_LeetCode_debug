@@ -2,8 +2,8 @@ cmake_minimum_required(VERSION 3.9)
 project(LeetCode)
 set(CMAKE_CXX_STANDARD 11)
 #把exe文件输出到bin目录，不然太多了看着麻烦
-set(CMAKE_RUNTIME_OUTPUT_DIRECTORY "${CMAKE_CURRENT_SOURCE_DIR}/bin")
-
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY "${CMAKE_CURRENT_SOURCE_DIR}/../bin")
+SET(EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/../bin)
 #链接库
 aux_source_directory(leetcode/editor/cn/include LEETCODE)
 add_library(leetcode ${LEETCODE})
@@ -163,3 +163,17 @@ add_executable(107-binary-tree-level-order-traversal-ii leetcode/editor/cn/107-b
 add_executable(199-binary-tree-right-side-view leetcode/editor/cn/199-binary-tree-right-side-view.cpp)
 add_executable(637-average-of-levels-in-binary-tree leetcode/editor/cn/637-average-of-levels-in-binary-tree.cpp)
 add_executable(429-n-ary-tree-level-order-traversal leetcode/editor/cn/429-n-ary-tree-level-order-traversal.cpp)
+add_executable(515-find-largest-value-in-each-tree-row leetcode/editor/cn/515-find-largest-value-in-each-tree-row.cpp)
+add_executable(116-populating-next-right-pointers-in-each-node leetcode/editor/cn/116-populating-next-right-pointers-in-each-node.cpp)
+add_executable(117-populating-next-right-pointers-in-each-node-ii leetcode/editor/cn/117-populating-next-right-pointers-in-each-node-ii.cpp)
+add_executable(104-maximum-depth-of-binary-tree leetcode/editor/cn/104-maximum-depth-of-binary-tree.cpp)
+add_executable(111-minimum-depth-of-binary-tree leetcode/editor/cn/111-minimum-depth-of-binary-tree.cpp)
+add_executable(226-invert-binary-tree leetcode/editor/cn/226-invert-binary-tree.cpp)
+
+#把exe文件输出到bin目录，不然太多了看着麻烦
+#set(CMAKE_RUNTIME_OUTPUT_DIRECTORY "${CMAKE_CURRENT_SOURCE_DIR}/bin")
+
+add_executable(101-symmetric-tree leetcode/editor/cn/101-symmetric-tree.cpp)
+add_executable(559-maximum-depth-of-n-ary-tree leetcode/editor/cn/559-maximum-depth-of-n-ary-tree.cpp)
+add_executable(222-count-complete-tree-nodes leetcode/editor/cn/222-count-complete-tree-nodes.cpp)
+add_executable(110-balanced-binary-tree leetcode/editor/cn/110-balanced-binary-tree.cpp)

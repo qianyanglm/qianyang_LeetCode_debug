@@ -37,11 +37,12 @@
 
 
 // listnode
-#include "Node.h"
+//不可以搞这个头文件，有很多种，搞这个是不行的，会报错
+//#include "Node.h"
 #include "btree.h"
 #include "listnode.h"
 
 using namespace std;
 using namespace LeetCode;
 
-#endif // !_HEADERS_H_
+#endif// !_HEADERS_H_
