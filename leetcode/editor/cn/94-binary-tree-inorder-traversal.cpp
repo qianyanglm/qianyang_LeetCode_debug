@@ -56,26 +56,53 @@
  *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
  * };
  */
-//二叉树，无本地实现，官方
+////二叉树递归，无本地实现，官方
+//class Solution
+//{
+//public:
+//    void inorder(TreeNode *root, vector<int> &res)
+//    {
+//        if (root == nullptr)
+//        {
+//            return;
+//        }
+//        inorder(root->left, res);
+//        res.push_back(root->val);
+//        inorder(root->right, res);
+//    }
+//
+//    vector<int> inorderTraversal(TreeNode *root)
+//    {
+//        vector<int> res;
+//        inorder(root, res);
+//        return res;
+//    }
+//};
+//二叉树迭代，无本地实现，官方
 class Solution
 {
 public:
-    void inorder(TreeNode *root, vector<int> &res)
-    {
-        if (root == nullptr)
-        {
-            return;
-        }
-        inorder(root->left, res);
-        res.push_back(root->val);
-        inorder(root->right, res);
-    }
-
     vector<int> inorderTraversal(TreeNode *root)
     {
-        vector<int> res;
-        inorder(root, res);
-        return res;
+        vector<int> result;
+        stack<TreeNode *> st;
+        TreeNode *cur = root;
+        while (cur != NULL || !st.empty())
+        {
+            if (cur != NULL)
+            {
+                st.push(cur);
+                cur = cur->left;
+            }
+            else
+            {
+                cur = st.top();
+                st.pop();
+                result.push_back(cur->val);
+                cur = cur->right;
+            }
+        }
+        return result;
     }
 };
 
