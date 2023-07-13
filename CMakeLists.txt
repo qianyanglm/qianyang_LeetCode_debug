@@ -195,3 +195,7 @@ add_executable(700-search-in-a-binary-search-tree leetcode/editor/cn/700-search-
 add_executable(98-validate-binary-search-tree leetcode/editor/cn/98-validate-binary-search-tree.cpp)
 add_executable(530-minimum-absolute-difference-in-bst leetcode/editor/cn/530-minimum-absolute-difference-in-bst.cpp)
 add_executable(501-find-mode-in-binary-search-tree leetcode/editor/cn/501-find-mode-in-binary-search-tree.cpp)
+add_executable(704-binary-search leetcode/editor/cn/704-binary-search.cpp)
+add_executable(27-remove-element leetcode/editor/cn/27-remove-element.cpp)
+add_executable(26-remove-duplicates-from-sorted-array leetcode/editor/cn/26-remove-duplicates-from-sorted-array.cpp)
+add_executable(977-squares-of-a-sorted-array leetcode/editor/cn/977-squares-of-a-sorted-array.cpp)

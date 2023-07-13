@@ -50,45 +50,84 @@
 #include "include/headers.h"
 
 //leetcode submit region begin(Prohibit modification and deletion)
-//自己写的
+////自己写的
+//class Solution
+//{
+//public:
+//    bool backspaceCompare(string s, string t)
+//    {
+//        stack<char> ch1, ch2;
+//        for (char s1: s)
+//        {
+//            if (s1 == '#')
+//            {
+//                if (!ch1.empty())
+//                {
+//                    ch1.pop();
+//                }
+//            }
+//            else
+//            {
+//                ch1.push(s1);
+//            }
+//        }
+//        for (char s1: t)
+//        {
+//            if (s1 == '#')
+//            {
+//                if (!ch2.empty())
+//                {
+//                    ch2.pop();
+//                }
+//            }
+//            else
+//            {
+//                ch2.push(s1);
+//            }
+//        }
+//        return ch1 == ch2;
+//    }
+//};
+//自己写的2
 class Solution
 {
 public:
     bool backspaceCompare(string s, string t)
     {
-        stack<char> ch1, ch2;
-        for (char s1: s)
+        stack<int> s1, t1;
+        for (char sc: s)
         {
-            if (s1 == '#')
+            if (s1.empty() && sc == '#')
             {
-                if (!ch1.empty())
-                {
-                    ch1.pop();
-                }
+                continue;
+            }
+            else if (!s1.empty() && sc == '#')
+            {
+                s1.pop();
             }
             else
             {
-                ch1.push(s1);
+                s1.push(sc);
             }
         }
-        for (char s1: t)
+        for (char tc: t)
         {
-            if (s1 == '#')
+            if (t1.empty() && tc == '#')
             {
-                if (!ch2.empty())
-                {
-                    ch2.pop();
-                }
+                continue;
+            }
+            else if (!t1.empty() && tc == '#')
+            {
+                t1.pop();
             }
             else
             {
-                ch2.push(s1);
+                t1.push(tc);
             }
         }
-        return ch1 == ch2;
+        return s1 == t1;
     }
 };
-
 //leetcode submit region end(Prohibit modification and deletion)
 
 
