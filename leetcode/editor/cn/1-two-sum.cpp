@@ -16,24 +16,42 @@
 
 #include "include/headers.h"
 
-
 //leetcode submit region begin(Prohibit modification and deletion)
-class Solution {
+//class Solution {
+//public:
+//    vector<int> twoSum(vector<int>& nums, int target) {
+//        unordered_map<int, int> map;
+//        vector<int> result;
+//        for(int i =0;i<nums.size();i++){
+//            int complement = target-nums[i];
+//
+//            if(map.find(complement)!=map.end()){
+//                result={map[complement],i};
+//                break;
+//            }
+//            map[nums[i]]=i;
+//        }
+//
+//        return result;
+//    }
+//};
+//哈希表
+class Solution
+{
 public:
-    vector<int> twoSum(vector<int>& nums, int target) {
-        unordered_map<int, int> map;
-        vector<int> result;
-        for(int i =0;i<nums.size();i++){
-            int complement = target-nums[i];
-
-            if(map.find(complement)!=map.end()){
-                result={map[complement],i};
-                break;
+    vector<int> twoSum(vector<int> &nums, int target)
+    {
+        std::unordered_map<int, int> map;
+        for (int i = 0; i < nums.size(); ++i)
+        {
+            auto iter = map.find(target - nums[i]);
+            if (iter != map.end())
+            {
+                return {iter->second, i};
             }
-            map[nums[i]]=i;
+            map.insert(pair<int, int>(nums[i], i));
         }
-
-        return result;
+        return {};
     }
 };
 //leetcode submit region end(Prohibit modification and deletion)

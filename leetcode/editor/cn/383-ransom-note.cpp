@@ -37,20 +37,70 @@ using namespace std;
 
 //leetcode submit region begin(Prohibit modification and deletion)
 //自己根据389题写的，改一下就行
+//class Solution
+//{
+//public:
+//    bool canConstruct(string ransomNote, string magazine)
+//    {
+//        vector<int> cnt(26, 0);
+//        for (char ch: magazine)
+//        {
+//            cnt[ch - 'a']++;
+//        }
+//        for (char ch: ransomNote)
+//        {
+//            cnt[ch - 'a']--;
+//            if (cnt[ch - 'a'] < 0)
+//            {
+//                return false;
+//            }
+//        }
+//        return true;
+//    }
+//};
+////暴力解法
+//class Solution
+//{
+//public:
+//    bool canConstruct(string ransomNote, string magazine)
+//    {
+//        for (int i = 0; i < magazine.length(); ++i)
+//        {
+//            for (int j = 0; j <ransomNote.length() ; ++j)
+//            {
+//                if ( magazine[i]==ransomNote[j] )
+//                {
+//                    ransomNote.erase(ransomNote.begin()+j);
+//                    break ;
+//                }
+//            }
+//        }
+//
+//        if ( ransomNote.length()==0 )
+//        {
+//            return true;
+//        }
+//        return false;
+//    }
+//};
+//哈希表
 class Solution
 {
 public:
     bool canConstruct(string ransomNote, string magazine)
     {
-        vector<int> cnt(26, 0);
+        unordered_map<char, int> map;
         for (char ch: magazine)
         {
-            cnt[ch - 'a']++;
+            map[ch]++;
         }
         for (char ch: ransomNote)
         {
-            cnt[ch - 'a']--;
-            if (cnt[ch - 'a'] < 0)
+            map[ch]--;
+        }
+        for (char i: ransomNote)
+        {
+            if (map[i] < 0)
             {
                 return false;
             }
@@ -58,7 +108,6 @@ public:
         return true;
     }
 };
-
 //leetcode submit region end(Prohibit modification and deletion)
 
 
@@ -69,7 +118,7 @@ int main()
     vector<vector<int>> data1{{1, 1, 1}, {1, 0, 1}, {1, 1, 1}};
     auto res = "Hello LeetCode";
     cout << res << endl;
-    cout << s.canConstruct("ta", "t");
+    cout << s.canConstruct("ta", "ta");
 
 
     return 0;

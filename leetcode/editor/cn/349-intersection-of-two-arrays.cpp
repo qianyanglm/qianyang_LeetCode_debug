@@ -36,11 +36,24 @@
 #include "include/headers.h"
 
 //leetcode submit region begin(Prohibit modification and deletion)
+//哈希表
 class Solution
 {
 public:
     vector<int> intersection(vector<int> &nums1, vector<int> &nums2)
     {
+        unordered_set<int> result;
+        for (int i = 0; i < nums1.size(); ++i)
+        {
+            for (int j = 0; j < nums2.size(); ++j)
+            {
+                if (nums1[i] == nums2[j])
+                {
+                    result.insert(nums1[i]);
+                }
+            }
+        }
+        return vector<int>(result.begin(), result.end());
     }
 };
 
@@ -50,11 +63,16 @@ public:
 int main()
 {
     Solution s;
-    vector<int> data{7, 1, 5, 3, 6, 4};
+    vector<int> data{1, 2, 2, 1};
+    vector<int> data2{2, 2};
     vector<vector<int>> data1{{1, 1, 1}, {1, 0, 1}, {1, 1, 1}};
     auto res = "Hello LeetCode";
     cout << res << endl;
-
+    for (int a: s.intersection(data, data2))
+    {
+        cout << a << " ";
+    }
+    cout << endl;
 
     return 0;
 }

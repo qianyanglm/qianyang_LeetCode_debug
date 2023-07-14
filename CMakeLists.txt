@@ -201,3 +201,6 @@ add_executable(26-remove-duplicates-from-sorted-array leetcode/editor/cn/26-remo
 add_executable(977-squares-of-a-sorted-array leetcode/editor/cn/977-squares-of-a-sorted-array.cpp)
 add_executable(209-minimum-size-subarray-sum leetcode/editor/cn/209-minimum-size-subarray-sum.cpp)
 add_executable(349-intersection-of-two-arrays leetcode/editor/cn/349-intersection-of-two-arrays.cpp)
+add_executable(454-4sum-ii leetcode/editor/cn/454-4sum-ii.cpp)
+add_executable(15-3sum leetcode/editor/cn/15-3sum.cpp)
+add_executable(18-4sum leetcode/editor/cn/18-4sum.cpp)
