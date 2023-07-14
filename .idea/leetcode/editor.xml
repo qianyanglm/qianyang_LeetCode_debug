@@ -498,6 +498,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/209-minimum-size-subarray-sum.cpp">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/209-minimum-size-subarray-sum.md" />
+              <option name="frontendQuestionId" value="leetcode.cn209" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/209-minimum-size-subarray-sum.cpp" />
+              <option name="titleSlug" value="minimum-size-subarray-sum" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/cn/21-merge-two-sorted-lists.cpp">
           <value>
             <LeetcodeEditor>
@@ -836,6 +847,17 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/347-top-k-frequent-elements.cpp" />
               <option name="titleSlug" value="top-k-frequent-elements" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/349-intersection-of-two-arrays.cpp">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/349-intersection-of-two-arrays.md" />
+              <option name="frontendQuestionId" value="leetcode.cn349" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/349-intersection-of-two-arrays.cpp" />
+              <option name="titleSlug" value="intersection-of-two-arrays" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -2035,6 +2057,17 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/LCP 26-hSRGyL.cpp" />
               <option name="titleSlug" value="hSRGyL" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/剑指 Offer 29-shun-shi-zhen-da-yin-ju-zhen-lcof.cpp">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/剑指 Offer 29-shun-shi-zhen-da-yin-ju-zhen-lcof.md" />
+              <option name="frontendQuestionId" value="leetcode.cn剑指 Offer 29" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/剑指 Offer 29-shun-shi-zhen-da-yin-ju-zhen-lcof.cpp" />
+              <option name="titleSlug" value="shun-shi-zhen-da-yin-ju-zhen-lcof" />
             </LeetcodeEditor>
           </value>
         </entry>

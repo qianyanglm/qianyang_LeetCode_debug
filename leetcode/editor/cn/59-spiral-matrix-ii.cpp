@@ -35,48 +35,91 @@
 using namespace std;
 
 //leetcode submit region begin(Prohibit modification and deletion)
-//来自评论C++版本，和54题方法差不多
-//https://leetcode.cn/problems/spiral-matrix-ii/solution/spiral-matrix-ii-mo-ni-fa-she-ding-bian-jie-qing-x/
+//代码随想录，坚持左闭右开
 class Solution
 {
 public:
     vector<vector<int>> generateMatrix(int n)
     {
-        int num = 1;
-        int left = 0, top = 0, right = n - 1, bottom = n - 1;
-
-        //初始化数组
-        vector<vector<int>> res(n, vector<int>(n));
-        while (num <= n * n)
+        vector<vector<int>> res(n, vector<int>(n, 0));
+        int startx = 0, starty = 0;
+        int loop = n / 2;
+        int mid = n / 2;
+        int count = 1;
+        int offset = 1;
+        int i, j;
+        while (loop--)
         {
-            //左到右
-            for (int i = left; i <= right; ++i)
+            i = startx;
+            j = starty;
+
+            for (j = starty; j < n - offset; ++j)
             {
-                res[top][i] = num++;
+                res[startx][j] = count++;
             }
-            ++top;//重新设定上边界，下同
-            //上到下
-            for (int i = top; i <= bottom; ++i)
+            for (i = startx; i < n - offset; ++i)
             {
-                res[i][right] = num++;
+                res[i][j] = count++;
             }
-            --right;
-            //从右到左
-            for (int i = right; i >= left; --i)
+            for (; j > starty; j--)
             {
-                res[bottom][i] = num++;
+                res[i][j] = count++;
             }
-            --bottom;
-            //从底到上
-            for (int i = bottom; i >= top; --i)
+            for (; i > startx; i--)
             {
-                res[i][left] = num++;
+                res[i][j] = count++;
             }
-            ++left;
+            startx++;
+            starty++;
+            offset += 1;
         }
+        if (n % 2) res[mid][mid] = count;
         return res;
     }
 };
+
+////来自评论C++版本，和54题方法差不多
+////https://leetcode.cn/problems/spiral-matrix-ii/solution/spiral-matrix-ii-mo-ni-fa-she-ding-bian-jie-qing-x/
+//class Solution
+//{
+//public:
+//    vector<vector<int>> generateMatrix(int n)
+//    {
+//        int num = 1;
+//        int left = 0, top = 0, right = n - 1, bottom = n - 1;
+//
+//        //初始化数组
+//        vector<vector<int>> res(n, vector<int>(n));
+//        while (num <= n * n)
+//        {
+//            //左到右
+//            for (int i = left; i <= right; ++i)
+//            {
+//                res[top][i] = num++;
+//            }
+//            ++top;//重新设定上边界，下同
+//            //上到下
+//            for (int i = top; i <= bottom; ++i)
+//            {
+//                res[i][right] = num++;
+//            }
+//            --right;
+//            //从右到左
+//            for (int i = right; i >= left; --i)
+//            {
+//                res[bottom][i] = num++;
+//            }
+//            --bottom;
+//            //从底到上
+//            for (int i = bottom; i >= top; --i)
+//            {
+//                res[i][left] = num++;
+//            }
+//            ++left;
+//        }
+//        return res;
+//    }
+//};
 
 //leetcode submit region end(Prohibit modification and deletion)
 
@@ -94,7 +137,7 @@ int main()
     {
         for (int a1: a)
         {
-            cout << a1 << " ";
+            cout << a1 << "  ";
         }
         cout << endl;
     }

@@ -35,35 +35,74 @@
 using namespace std;
 
 //leetcode submit region begin(Prohibit modification and deletion)
-//自己根据389题写的
+////自己根据389题写的
+//class Solution
+//{
+//public:
+//    bool isAnagram(string s, string t)
+//    {
+//        vector<int> cnt(26, 0);
+//        int l1 = s.length();
+//        int l2 = t.length();
+//        if (l1 != l2)
+//        {
+//            return false;
+//        }
+//        for (char ch: s)
+//        {
+//            cnt[ch - 'a']++;
+//        }
+//        for (char ch: t)
+//        {
+//            cnt[ch - 'a']--;
+//            if (cnt[ch - 'a'] < 0)
+//            {
+//                return false;
+//            }
+//        }
+//        return true;
+//    }
+//};
+////尝试一下暴力解法来自这个人
+////https://leetcode.cn/problems/valid-anagram/solutions/2037644/by-ni-ming-vs-3oev/
+//class Solution
+//{
+//public:
+//    bool isAnagram(string s, string t)
+//    {
+//        if (s.size()!=t.size()) return false;
+//        sort(s.begin(),s.end());
+//        sort(t.begin(),t.end());
+//        for (int i = 0; i < s.size(); ++i)
+//        {
+//            if (s[i]!=t[i]) return false;
+//        }
+//        return true;
+//    }
+//};
+//尝试一下哈希表，代码随想录
 class Solution
 {
 public:
     bool isAnagram(string s, string t)
     {
-        vector<int> cnt(26, 0);
-        int l1 = s.length();
-        int l2 = t.length();
-        if (l1 != l2)
+        if (s.size() != t.size()) return false;
+        unordered_map<char, int> s1;
+        for (char so: s)
         {
-            return false;
+            s1[so]++;
         }
-        for (char ch: s)
+        for (char to: t)
         {
-            cnt[ch - 'a']++;
+            s1[to]--;
         }
-        for (char ch: t)
+        for (char i: s)
         {
-            cnt[ch - 'a']--;
-            if (cnt[ch - 'a'] < 0)
-            {
-                return false;
-            }
+            if (s1[i] != 0) return false;
         }
         return true;
     }
 };
-
 //leetcode submit region end(Prohibit modification and deletion)
 
 
@@ -74,7 +113,7 @@ int main()
     vector<vector<int>> data1{{1, 1, 1}, {1, 0, 1}, {1, 1, 1}};
     auto res = "Hello LeetCode";
     cout << res << endl;
-
+    cout << s.isAnagram(string("anagram"), string("nagaram")) << endl;
 
     return 0;
 }

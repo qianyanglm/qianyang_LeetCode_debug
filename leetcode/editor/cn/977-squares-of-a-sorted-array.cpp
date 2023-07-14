@@ -42,12 +42,42 @@ After sorting, it becomes [0,1,9,16,100].
 #include "include/headers.h"
 
 //leetcode submit region begin(Prohibit modification and deletion)
-//
+////自己写的，无非没有写排序部分
+//class Solution
+//{
+//public:
+//    vector<int> sortedSquares(vector<int> &nums)
+//    {
+//        for (int &a  : nums)
+//        {
+//            a=a*a;
+//        }
+//        sort(nums.begin(),nums.end());
+//        return nums;
+//    }
+//};
+//数组，代码随想录,双指针
 class Solution
 {
 public:
     vector<int> sortedSquares(vector<int> &nums)
     {
+        int k = nums.size() - 1;
+        vector<int> result(k + 1, 0);
+        for (int i = 0, j = k; i <= j;)
+        {
+            if (nums[i] * nums[i] < nums[j] * nums[j])
+            {
+                result[k--] = nums[j] * nums[j];
+                j--;
+            }
+            else
+            {
+                result[k--] = nums[i] * nums[i];
+                i++;
+            }
+        }
+        return result;
     }
 };
 
@@ -61,7 +91,12 @@ int main()
     vector<vector<int>> data1{{1, 1, 1}, {1, 0, 1}, {1, 1, 1}};
     auto res = "Hello LeetCode";
     cout << res << endl;
-
+    s.sortedSquares(data);
+    for (int a: data)
+    {
+        cout << a << " ";
+    }
+    cout << endl;
 
     return 0;
 }

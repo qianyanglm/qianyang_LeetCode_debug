@@ -38,45 +38,99 @@
 using namespace std;
 
 //leetcode submit region begin(Prohibit modification and deletion)
-//这题官方比较拉，代码来自这里
-//https://leetcode.cn/problems/spiral-matrix/solution/cxiang-xi-ti-jie-by-youlookdeliciousc-3/
+//代码随想录
 class Solution
 {
 public:
     vector<int> spiralOrder(vector<vector<int>> &matrix)
     {
-        vector<int> ans;
-        if (matrix.empty())
+        if (matrix.size() == 0 || matrix[0].size() == 0) return {};
+        int rows = matrix.size(), columns = matrix[0].size();
+        int total = rows * columns;
+        vector<int> res(total);
+        int startx = 0, starty = 0;
+        int loop = min(rows, columns) / 2;
+        int mid = min(rows, columns) / 2;
+        int count = 0;
+        int offset = 1;
+        int i, j;
+        while (loop--)
         {
-            return ans;//数组为空，直接返回答案
+            i = startx;
+            j = starty;
+            for (j = starty; j < starty + columns - offset; j++)
+                res[count++] = matrix[startx][j];
+            for (i = startx; i < startx + rows - offset; i++)
+                res[count++] = matrix[i][j];
+            for (; j > starty; j--)
+                res[count++] = matrix[i][j];
+            for (; i > startx; i--)
+                res[count++] = matrix[i][starty];
+
+            startx++;
+            starty++;
+            offset += 2;
         }
-        //为了好记忆上下左右，我把原来代码的变量名字改了
-        int top = 0;                     //赋值上下左右边界
-        int bottom = matrix.size() - 1;  //下
-        int left = 0;                    //左
-        int right = matrix[0].size() - 1;//右
-        while (true)
+        if (min(rows, columns) % 2)
         {
-            //向右移动直到最右
-            for (int i = left; i <= right; ++i)
-                ans.push_back(matrix[top][i]);
-            if (++top > bottom) break;//重新设定上边界，上边界大于下边界，遍历结束
-            //向下移动到最下
-            for (int i = top; i <= bottom; ++i)
-                ans.push_back(matrix[i][right]);
-            if (--right < left) break;//重新设定右边界
-            //向左
-            for (int i = right; i >= left; --i)
-                ans.push_back(matrix[bottom][i]);
-            if (--bottom < top) break;//重新设定下边界
-            //向上
-            for (int i = bottom; i >= top; --i)
-                ans.push_back(matrix[i][left]);
-            if (++left > right) break;//重新设定左边界
+            if (rows > columns)
+            {
+                for (int i = mid; i < mid + rows - columns + 1; ++i)
+                {
+                    res[count++] = matrix[i][mid];
+                }
+            }
+            else
+            {
+                for (int i = mid; i < mid + columns - rows + 1; ++i)
+                {
+                    res[count++] = matrix[mid][i];
+                }
+            }
         }
-        return ans;
+        return res;
     }
 };
+
+////这题官方比较拉，代码来自这里
+////https://leetcode.cn/problems/spiral-matrix/solution/cxiang-xi-ti-jie-by-youlookdeliciousc-3/
+//class Solution
+//{
+//public:
+//    vector<int> spiralOrder(vector<vector<int>> &matrix)
+//    {
+//        vector<int> ans;
+//        if (matrix.empty())
+//        {
+//            return ans;//数组为空，直接返回答案
+//        }
+//        //为了好记忆上下左右，我把原来代码的变量名字改了
+//        int top = 0;                     //赋值上下左右边界
+//        int bottom = matrix.size() - 1;  //下
+//        int left = 0;                    //左
+//        int right = matrix[0].size() - 1;//右
+//        while (true)
+//        {
+//            //向右移动直到最右
+//            for (int i = left; i <= right; ++i)
+//                ans.push_back(matrix[top][i]);
+//            if (++top > bottom) break;//重新设定上边界，上边界大于下边界，遍历结束
+//            //向下移动到最下
+//            for (int i = top; i <= bottom; ++i)
+//                ans.push_back(matrix[i][right]);
+//            if (--right < left) break;//重新设定右边界
+//            //向左
+//            for (int i = right; i >= left; --i)
+//                ans.push_back(matrix[bottom][i]);
+//            if (--bottom < top) break;//重新设定下边界
+//            //向上
+//            for (int i = bottom; i >= top; --i)
+//                ans.push_back(matrix[i][left]);
+//            if (++left > right) break;//重新设定左边界
+//        }
+//        return ans;
+//    }
+//};
 
 //leetcode submit region end(Prohibit modification and deletion)
 
