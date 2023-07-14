@@ -95,7 +95,6 @@ int main()
     vector<vector<int>> data1{{1, 1, 1}, {1, 0, 1}, {1, 1, 1}};
     auto res = "Hello LeetCode";
     cout << res << endl;
-    cout << s.threeSum() << endl;
 
 
     return 0;
