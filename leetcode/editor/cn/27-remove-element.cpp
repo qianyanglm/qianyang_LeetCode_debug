@@ -69,7 +69,7 @@ It does not matter what you leave beyond the returned k (hence they are undersco
 #include "include/headers.h"
 
 //leetcode submit region begin(Prohibit modification and deletion)
-////数组,暴利解法
+////数组,暴力解法
 //class Solution {
 //public:
 //    int removeElement(vector<int>& nums, int val) {

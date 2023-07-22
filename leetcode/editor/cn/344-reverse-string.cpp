@@ -32,17 +32,26 @@
 using namespace std;
 
 //leetcode submit region begin(Prohibit modification and deletion)
-//官方
+////官方
+//class Solution
+//{
+//public:
+//    void reverseString(vector<char> &s)
+//    {
+//        int n = s.size();
+//        for (int left = 0, right = n - 1; left < right; ++left, --right)
+//        {
+//            swap(s[left], s[right]);
+//        }
+//    }
+//};
+//一行代码解决战斗
 class Solution
 {
 public:
     void reverseString(vector<char> &s)
     {
-        int n = s.size();
-        for (int left = 0, right = n - 1; left < right; ++left, --right)
-        {
-            swap(s[left], s[right]);
-        }
+        reverse(s.begin(), s.end());
     }
 };
 

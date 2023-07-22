@@ -57,34 +57,58 @@
  *     ListNode(int x, ListNode *next) : val(x), next(next) {}
  * };
  */
-//官方，主要是求一下长度，其他的倒不是很难
+////官方，主要是求一下长度，其他的倒不是很难
+//class Solution
+//{
+//public:
+//    int getLength(ListNode *head)
+//    {
+//        int length = 0;
+//        while (head)
+//        {
+//            ++length;
+//            head = head->next;
+//        }
+//        return length;
+//    }
+//
+//    ListNode *removeNthFromEnd(ListNode *head, int n)
+//    {
+//        ListNode *dummy = new ListNode(0, head);
+//        int length = getLength(head);
+//        ListNode *cur = dummy;
+//        for (int i = 1; i < length - n + 1; ++i)
+//        {
+//            cur = cur->next;
+//        }
+//        cur->next = cur->next->next;
+//        ListNode *ans = dummy->next;
+//        delete dummy;
+//        return ans;
+//    }
+//};
+//双指针法
 class Solution
 {
 public:
-    int getLength(ListNode *head)
-    {
-        int length = 0;
-        while (head)
-        {
-            ++length;
-            head = head->next;
-        }
-        return length;
-    }
-
     ListNode *removeNthFromEnd(ListNode *head, int n)
     {
-        ListNode *dummy = new ListNode(0, head);
-        int length = getLength(head);
-        ListNode *cur = dummy;
-        for (int i = 1; i < length - n + 1; ++i)
+        ListNode *dummyHead = new ListNode(0);
+        dummyHead->next = head;
+        ListNode *slow = dummyHead;
+        ListNode *fast = dummyHead;
+        while (n-- && fast != NULL)
         {
-            cur = cur->next;
+            fast = fast->next;
         }
-        cur->next = cur->next->next;
-        ListNode *ans = dummy->next;
-        delete dummy;
-        return ans;
+        fast = fast->next;
+        while (fast != NULL)
+        {
+            fast = fast->next;
+            slow = slow->next;
+        }
+        slow->next = slow->next->next;
+        return dummyHead->next;
     }
 };
 

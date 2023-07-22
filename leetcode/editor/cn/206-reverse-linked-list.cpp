@@ -55,33 +55,51 @@
  *     ListNode(int x, ListNode *next) : val(x), next(next) {}
  * };
  */
-//官方
+////官方
+//class Solution
+//{
+//public:
+//    ListNode *reverseList(ListNode *head)
+//    {
+//        //        ListNode*prev= nullptr;
+//        //        ListNode*curr=head;
+//        //        while ( curr  )
+//        //        {
+//        //            ListNode*next=curr->next;
+//        //            curr->next=prev;
+//        //            prev=curr;
+//        //            curr=next;
+//        //        }
+//        //        return prev;
+//        //下面是我自己写的，符合我自己写的习惯
+//        ListNode *current = head;
+//        ListNode *prev = nullptr;
+//        while (current != nullptr)
+//        {
+//            ListNode *temp = current;
+//            current = current->next;
+//            temp->next = prev;
+//            prev = temp;
+//        }
+//        return prev;
+//    }
+//};
+//自己写
 class Solution
 {
 public:
     ListNode *reverseList(ListNode *head)
     {
-        //        ListNode*prev= nullptr;
-        //        ListNode*curr=head;
-        //        while ( curr  )
-        //        {
-        //            ListNode*next=curr->next;
-        //            curr->next=prev;
-        //            prev=curr;
-        //            curr=next;
-        //        }
-        //        return prev;
-        //下面是我自己写的，符合我自己写的习惯
-        ListNode *current = head;
-        ListNode *prev = nullptr;
-        while (current != nullptr)
+        ListNode *curent = head;
+        ListNode *pre = NULL;
+        while (curent)
         {
-            ListNode *temp = current;
-            current = current->next;
-            temp->next = prev;
-            prev = temp;
+            head = head->next;
+            curent->next = pre;
+            pre = curent;
+            curent = head;
         }
-        return prev;
+        return pre;
     }
 };
 

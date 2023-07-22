@@ -33,16 +33,42 @@
 using namespace std;
 
 //leetcode submit region begin(Prohibit modification and deletion)
-//官方
+////官方
+//class Solution
+//{
+//public:
+//    string reverseStr(string s, int k)
+//    {
+//        int n = s.length();
+//        for (int i = 0; i < n; i += 2 * k)
+//        {
+//            reverse(s.begin() + i, s.begin() + min(i + k, n));
+//        }
+//        return s;
+//    }
+//};
+//代码随想录
 class Solution
 {
 public:
     string reverseStr(string s, int k)
     {
-        int n = s.length();
-        for (int i = 0; i < n; i += 2 * k)
+        for (int i = 0; i < s.size(); i += (2 * k))
         {
-            reverse(s.begin() + i, s.begin() + min(i + k, n));
+            if (i + k <= s.size())
+            {
+                for (int left = i, right = i + k - 1; left < right; ++left, --right)
+                {
+                    swap(s[left], s[right]);
+                }
+            }
+            else
+            {
+                for (int left = i, right = s.size() - 1; left < right; ++left, --right)
+                {
+                    swap(s[left], s[right]);
+                }
+            }
         }
         return s;
     }

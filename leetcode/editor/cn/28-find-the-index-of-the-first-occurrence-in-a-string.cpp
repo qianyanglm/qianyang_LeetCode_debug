@@ -38,30 +38,98 @@ The first occurrence is at index 0, so we return 0.
 #include "include/headers.h"
 
 //leetcode submit region begin(Prohibit modification and deletion)
-//官方
+////官方
+//class Solution
+//{
+//public:
+//    int strStr(string haystack, string needle)
+//    {
+//        int n = haystack.size(), m = needle.size();
+//        //遍历haystack的字符
+//        for (int i = 0; i + m <= n; ++i)
+//        {
+//            bool flag = true;
+//            //遍历needle的字符
+//            for (int j = 0; j < m; ++j)
+//            {
+//                if (haystack[i + j] != needle[j])
+//                {
+//                    flag = false;
+//                    break;
+//                }
+//            }
+//            if (flag)
+//            {
+//                return i;
+//            }
+//        }
+//        return -1;
+//    }
+//};
+////自己写的
+//class Solution
+//{
+//public:
+//    int strStr(string haystack, string needle)
+//    {
+//        int m=haystack.size();
+//        int n=needle.size();
+//        if (m<n) return -1;
+//        for (int i = 0; i <= m-n; ++i)
+//        {
+//            string ans;
+//            for (int j = i; j < n+i; ++j)
+//            {
+//                ans+=haystack[j];
+//            }
+//            if ( ans==needle )
+//            {
+//                return i;
+//            }
+//        }
+//        return -1;
+//    }
+//};
+//代码随想录
 class Solution
 {
 public:
+    void getNext(int *next, const string &s)
+    {
+        int j = 0;
+        next[0] = 0;
+        for (int i = 1; i < s.size(); ++i)
+        {
+            while (j > 0 && s[i] != s[j])
+            {
+                j = next[j - 1];
+            }
+            if (s[i] == s[j])
+            {
+                j++;
+            }
+            next[i] = j;
+        }
+    }
+
     int strStr(string haystack, string needle)
     {
-        int n = haystack.size(), m = needle.size();
-        //遍历haystack的字符
-        for (int i = 0; i + m <= n; ++i)
+        if (needle.size() == 0)
+            return 0;
+        int next[needle.size()];
+        getNext(next, needle);
+        int j = 0;
+        for (int i = 0; i < haystack.size(); ++i)
         {
-            bool flag = true;
-            //遍历needle的字符
-            for (int j = 0; j < m; ++j)
+            while (j > 0 && haystack[i] != needle[j])
             {
-                if (haystack[i + j] != needle[j])
-                {
-                    flag = false;
-                    break;
-                }
+                j = next[j - 1];
             }
-            if (flag)
+            if (haystack[i] == needle[j])
             {
-                return i;
+                j++;
             }
+            if (j == needle.size()) return (i - needle.size() + 1);
         }
         return -1;
     }
@@ -77,7 +145,7 @@ int main()
     vector<vector<int>> data1{{1, 1, 1}, {1, 0, 1}, {1, 1, 1}};
     auto res = "Hello LeetCode";
     cout << res << endl;
-    cout << s.strStr("sadd", "sad") << endl;
+    cout << s.strStr("hello", "ll") << endl;
 
 
     return 0;

@@ -44,36 +44,77 @@
 #include "include/headers.h"
 
 //leetcode submit region begin(Prohibit modification and deletion)
-//官方
+////官方
+//class Solution
+//{
+//public:
+//    bool repeatedSubstringPattern(string s)
+//    {
+//        int n = s.size();
+//        for (int i = 1; i * 2 <= n; ++i)
+//        {
+//            if (n % i == 0)
+//            {
+//                bool match = true;
+//                for (int j = i; j < n; ++j)
+//                {
+//                    if (s[j] != s[j - i])
+//                    {
+//                        match = false;
+//                        break;
+//                    }
+//                }
+//                if (match)
+//                {
+//                    return true;
+//                }
+//            }
+//        }
+//        return false;
+//    }
+//};
+////移动匹配方法
+//class Solution {
+//public:
+//    bool repeatedSubstringPattern(string s) {
+//        string t = s + s;
+//        t.erase(t.begin()); t.erase(t.end() - 1); // 掐头去尾
+//        if (t.find(s) != std::string::npos) return true; // r
+//        return false;
+//    }
+//};
+//kmp代码随想录
 class Solution
 {
 public:
+    void getNext(int *next, const string &s)
+    {
+        next[0] = 0;
+        int j = 0;
+        for (int i = 1; i < s.size(); ++i)
+        {
+            while (j > 0 && s[i] != s[j])
+            {
+                j = next[j - 1];
+            }
+            if (s[i] == s[j]) j++;
+            next[i] = j;
+        }
+    }
+
     bool repeatedSubstringPattern(string s)
     {
-        int n = s.size();
-        for (int i = 1; i * 2 <= n; ++i)
+        if (s.size() == 0) return false;
+        int next[s.size()];
+        getNext(next, s);
+        int len = s.size();
+        if (next[len - 1] != 0 && len % (len - (next[len - 1])) == 0)
         {
-            if (n % i == 0)
-            {
-                bool match = true;
-                for (int j = i; j < n; ++j)
-                {
-                    if (s[j] != s[j - i])
-                    {
-                        match = false;
-                        break;
-                    }
-                }
-                if (match)
-                {
-                    return true;
-                }
-            }
+            return true;
         }
         return false;
     }
 };
-
 //leetcode submit region end(Prohibit modification and deletion)
 
 

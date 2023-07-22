@@ -112,27 +112,71 @@ Explanation: The two lists do not intersect, so return null.
 //        return nullptr;
 //    }
 //};
-//自己写的正常人的想法
+////自己写的正常人的想法,暴力解法
+//class Solution
+//{
+//public:
+//    ListNode *getIntersectionNode(ListNode *headA, ListNode *headB)
+//    {
+//        ListNode *tempa = headA;
+//        while (tempa)
+//        {
+//            ListNode *tempb = headB;
+//            while (tempb)
+//            {
+//                if (tempa == tempb)
+//                {
+//                    return tempb;
+//                }
+//                tempb = tempb->next;
+//            }
+//            tempa = tempa->next;
+//        }
+//        return nullptr;
+//    }
+//};
+
+//双指针法
 class Solution
 {
 public:
     ListNode *getIntersectionNode(ListNode *headA, ListNode *headB)
     {
-        ListNode *tempa = headA;
-        while (tempa)
+        ListNode *curA = headA;
+        ListNode *curB = headB;
+        int lenA = 0, lenB = 0;
+        while (curA != NULL)
         {
-            ListNode *tempb = headB;
-            while (tempb)
-            {
-                if (tempa == tempb)
-                {
-                    return tempb;
-                }
-                tempb = tempb->next;
-            }
-            tempa = tempa->next;
+            lenA++;
+            curA = curA->next;
         }
-        return nullptr;
+        while (curB != NULL)
+        {
+            lenB++;
+            curB = curB->next;
+        }
+        curA = headA;
+        curB = headB;
+        if (lenB > lenA)
+        {
+            swap(lenA, lenB);
+            swap(curA, curB);
+        }
+        int gap = lenA - lenB;
+        while (gap--)
+        {
+            curA = curA->next;
+        }
+        while (curA != NULL)
+        {
+            if (curA == curB)
+            {
+                return curA;
+            }
+            curA = curA->next;
+            curB = curB->next;
+        }
+        return NULL;
     }
 };
 
