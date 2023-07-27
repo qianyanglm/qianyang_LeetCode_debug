@@ -87,31 +87,54 @@
 //        return ans;
 //    }
 //};
-//双指针法
+////双指针法
+//class Solution
+//{
+//public:
+//    ListNode *removeNthFromEnd(ListNode *head, int n)
+//    {
+//        ListNode *dummyHead = new ListNode(0);
+//        dummyHead->next = head;
+//        ListNode *slow = dummyHead;
+//        ListNode *fast = dummyHead;
+//        while (n-- && fast != NULL)
+//        {
+//            fast = fast->next;
+//        }
+//        fast = fast->next;
+//        while (fast != NULL)
+//        {
+//            fast = fast->next;
+//            slow = slow->next;
+//        }
+//        slow->next = slow->next->next;
+//        return dummyHead->next;
+//    }
+//};
+//双指针，推荐虚拟头结点
 class Solution
 {
 public:
     ListNode *removeNthFromEnd(ListNode *head, int n)
     {
-        ListNode *dummyHead = new ListNode(0);
+        ListNode *dummyHead = new ListNode(0);//目的是为了解决空的问题
         dummyHead->next = head;
-        ListNode *slow = dummyHead;
         ListNode *fast = dummyHead;
+        ListNode *slow = dummyHead;
         while (n-- && fast != NULL)
         {
             fast = fast->next;
         }
-        fast = fast->next;
+        fast = fast->next;//多走一步
         while (fast != NULL)
         {
             fast = fast->next;
             slow = slow->next;
         }
         slow->next = slow->next->next;
-        return dummyHead->next;
+        return dummyHead->next;//务必这样，防止有意外
     }
 };
-
 //leetcode submit region end(Prohibit modification and deletion)
 
 

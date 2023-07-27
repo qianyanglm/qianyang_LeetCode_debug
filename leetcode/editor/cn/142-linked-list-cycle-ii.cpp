@@ -61,23 +61,51 @@
  *     ListNode(int x) : val(x), next(NULL) {}
  * };
  */
-//官方，方法和141题一模一样
+////官方，方法和141题一模一样
+//class Solution
+//{
+//public:
+//    ListNode *detectCycle(ListNode *head)
+//    {
+//        unordered_set<ListNode *> seen;
+//        while (head != nullptr)
+//        {
+//            if (seen.count(head))
+//            {
+//                return head;
+//            }
+//            seen.insert(head);
+//            head = head->next;
+//        }
+//        return nullptr;
+//    }
+//};
+//双指针法
 class Solution
 {
 public:
     ListNode *detectCycle(ListNode *head)
     {
-        unordered_set<ListNode *> seen;
-        while (head != nullptr)
+        ListNode *fast = head;
+        ListNode *slow = head;
+        while (fast != NULL && fast->next != NULL)
         {
-            if (seen.count(head))
+            slow = slow->next;
+            fast = fast->next->next;
+            //快慢指针相遇，此时从head和相遇点，同时查找直至相遇
+            if (slow == fast)
             {
-                return head;
+                ListNode *index1 = fast;
+                ListNode *index2 = head;
+                while (index1 != index2)
+                {
+                    index1 = index1->next;
+                    index2 = index2->next;
+                }
+                return index2;
             }
-            seen.insert(head);
-            head = head->next;
         }
-        return nullptr;
+        return NULL;
     }
 };
 

@@ -13,27 +13,82 @@
 
 //leetcode submit region begin(Prohibit modification and deletion)
 //https://leetcode.cn/problems/ti-huan-kong-ge-lcof/discussion/comments/2060446
+//class Solution
+//{
+//public:
+//    string replaceSpace(string s)
+//    {
+//        string ans;
+//        for (char ch: s)
+//        {
+//            if (ch == ' ')
+//            {
+//                ans += "%20";
+//            }
+//            else
+//            {
+//                ans += ch;
+//            }
+//        }
+//        return ans;
+//    }
+//};
+////自己写的
+//class Solution
+//{
+//public:
+//    string replaceSpace(string s)
+//    {
+//       string ans;
+//       for (int i = 0; i < s.length(); ++i)
+//       {
+//           if ( s[i]==' ' )
+//           {
+//               ans+="%20";
+//           }
+//           else
+//           {
+//                ans+=s[i];
+//           }
+//       }
+//
+//       return ans;
+//    }
+//};
+//双指针法
 class Solution
 {
 public:
     string replaceSpace(string s)
     {
-        string ans;
-        for (char ch: s)
+        int count = 0;
+        int oldSize = s.size();
+        for (int i = 0; i < s.size(); ++i)
         {
-            if (ch == ' ')
+            if (s[i] == ' ')
             {
-                ans += "%20";
+                ++count;
+            }
+        }
+        s.resize(s.size() + count * 2);
+        int newSize = s.size();
+        for (int i = newSize - 1, j = oldSize - 1; j < i; --i, --j)
+        {
+            if (s[j] != ' ')
+            {
+                s[i] = s[j];
             }
             else
             {
-                ans += ch;
+                s[i] = '0';
+                s[i - 1] = '2';
+                s[i - 2] = '%';
+                i -= 2;
             }
         }
-        return ans;
+        return s;
     }
 };
-
 //leetcode submit region end(Prohibit modification and deletion)
 
 

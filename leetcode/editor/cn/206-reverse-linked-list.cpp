@@ -84,20 +84,38 @@
 //        return prev;
 //    }
 //};
-//自己写
+////自己写
+//class Solution
+//{
+//public:
+//    ListNode *reverseList(ListNode *head)
+//    {
+//        ListNode *curent = head;
+//        ListNode *pre = NULL;
+//        while (curent)
+//        {
+//            head = head->next;
+//            curent->next = pre;
+//            pre = curent;
+//            curent = head;
+//        }
+//        return pre;
+//    }
+//};
+//自己写的双指针
 class Solution
 {
 public:
     ListNode *reverseList(ListNode *head)
     {
-        ListNode *curent = head;
         ListNode *pre = NULL;
-        while (curent)
+        ListNode *tail = head;
+        while (tail)
         {
             head = head->next;
-            curent->next = pre;
-            pre = curent;
-            curent = head;
+            tail->next = pre;
+            pre = tail;
+            tail = head;
         }
         return pre;
     }
