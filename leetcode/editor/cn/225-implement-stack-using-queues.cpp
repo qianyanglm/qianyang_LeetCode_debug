@@ -59,12 +59,52 @@ myStack.empty(); // return False
 #include "include/headers.h"
 
 //leetcode submit region begin(Prohibit modification and deletion)
-//官方，也无法实现本地调试
+////官方，也无法实现本地调试
+//class MyStack
+//{
+//public:
+//    queue<int> queue1;
+//    queue<int> queue2;
+//
+//    MyStack()
+//    {
+//    }
+//
+//    void push(int x)
+//    {
+//        queue2.push(x);
+//        while (!queue1.empty())
+//        {
+//            queue2.push(queue1.front());
+//            queue1.pop();
+//        }
+//        swap(queue1, queue2);
+//    }
+//
+//    int pop()
+//    {
+//        int r = queue1.front();
+//        queue1.pop();
+//        return r;
+//    }
+//
+//    int top()
+//    {
+//        int r = queue1.front();
+//        return r;
+//    }
+//
+//    bool empty()
+//    {
+//        return queue1.empty();
+//    }
+//};
+//栈
 class MyStack
 {
 public:
-    queue<int> queue1;
-    queue<int> queue2;
+    queue<int> que1;
+    queue<int> que2;
 
     MyStack()
     {
@@ -72,34 +112,39 @@ public:
 
     void push(int x)
     {
-        queue2.push(x);
-        while (!queue1.empty())
-        {
-            queue2.push(queue1.front());
-            queue1.pop();
-        }
-        swap(queue1, queue2);
+        que1.push(x);
     }
 
     int pop()
     {
-        int r = queue1.front();
-        queue1.pop();
-        return r;
+        int size = que1.size();
+        size--;
+        while (size--)
+        {
+            que2.push(que1.front());
+            que1.pop();
+        }
+
+        int result = que1.front();
+        que1.pop();
+        que1 = que2;
+        while (!que2.empty())
+        {
+            que2.pop();
+        }
+        return result;
     }
 
     int top()
     {
-        int r = queue1.front();
-        return r;
+        return que1.back();
     }
 
     bool empty()
     {
-        return queue1.empty();
+        return que1.empty();
     }
 };
-
 /**
  * Your MyStack object will be instantiated and called as such:
  * MyStack* obj = new MyStack();

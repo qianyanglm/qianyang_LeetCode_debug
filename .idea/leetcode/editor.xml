@@ -300,6 +300,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/131-palindrome-partitioning.cpp">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/131-palindrome-partitioning.md" />
+              <option name="frontendQuestionId" value="leetcode.cn131" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/131-palindrome-partitioning.cpp" />
+              <option name="titleSlug" value="palindrome-partitioning" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/cn/134-gas-station.cpp">
           <value>
             <LeetcodeEditor>
@@ -399,6 +410,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/150-evaluate-reverse-polish-notation.cpp">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/150-evaluate-reverse-polish-notation.md" />
+              <option name="frontendQuestionId" value="leetcode.cn150" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/150-evaluate-reverse-polish-notation.cpp" />
+              <option name="titleSlug" value="evaluate-reverse-polish-notation" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/cn/151-reverse-words-in-a-string.cpp">
           <value>
             <LeetcodeEditor>
@@ -440,6 +462,17 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/165-compare-version-numbers.cpp" />
               <option name="titleSlug" value="compare-version-numbers" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/17-letter-combinations-of-a-phone-number.cpp">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/17-letter-combinations-of-a-phone-number.md" />
+              <option name="frontendQuestionId" value="leetcode.cn17" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/17-letter-combinations-of-a-phone-number.cpp" />
+              <option name="titleSlug" value="letter-combinations-of-a-phone-number" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -506,6 +539,17 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/199-binary-tree-right-side-view.cpp" />
               <option name="titleSlug" value="binary-tree-right-side-view" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/20-valid-parentheses.cpp">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/20-valid-parentheses.md" />
+              <option name="frontendQuestionId" value="leetcode.cn20" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/20-valid-parentheses.cpp" />
+              <option name="titleSlug" value="valid-parentheses" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -608,6 +652,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/216-combination-sum-iii.cpp">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/216-combination-sum-iii.md" />
+              <option name="frontendQuestionId" value="leetcode.cn216" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/216-combination-sum-iii.cpp" />
+              <option name="titleSlug" value="combination-sum-iii" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/cn/222-count-complete-tree-nodes.cpp">
           <value>
             <LeetcodeEditor>
@@ -638,6 +693,17 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/226-invert-binary-tree.cpp" />
               <option name="titleSlug" value="invert-binary-tree" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/232-implement-queue-using-stacks.cpp">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/232-implement-queue-using-stacks.md" />
+              <option name="frontendQuestionId" value="leetcode.cn232" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/232-implement-queue-using-stacks.cpp" />
+              <option name="titleSlug" value="implement-queue-using-stacks" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -682,6 +748,17 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/238-product-of-array-except-self.cpp" />
               <option name="titleSlug" value="product-of-array-except-self" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/239-sliding-window-maximum.cpp">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/239-sliding-window-maximum.md" />
+              <option name="frontendQuestionId" value="leetcode.cn239" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/239-sliding-window-maximum.cpp" />
+              <option name="titleSlug" value="sliding-window-maximum" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -872,6 +949,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/332-reconstruct-itinerary.cpp">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/332-reconstruct-itinerary.md" />
+              <option name="frontendQuestionId" value="leetcode.cn332" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/332-reconstruct-itinerary.cpp" />
+              <option name="titleSlug" value="reconstruct-itinerary" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/cn/337-house-robber-iii.cpp">
           <value>
             <LeetcodeEditor>
@@ -935,6 +1023,17 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/35-search-insert-position.cpp" />
               <option name="titleSlug" value="search-insert-position" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/37-sudoku-solver.cpp">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/37-sudoku-solver.md" />
+              <option name="frontendQuestionId" value="leetcode.cn37" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/37-sudoku-solver.cpp" />
+              <option name="titleSlug" value="sudoku-solver" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -1004,6 +1103,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/39-combination-sum.cpp">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/39-combination-sum.md" />
+              <option name="frontendQuestionId" value="leetcode.cn39" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/39-combination-sum.cpp" />
+              <option name="titleSlug" value="combination-sum" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/cn/392-is-subsequence.cpp">
           <value>
             <LeetcodeEditor>
@@ -1023,6 +1133,17 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/396-rotate-function.cpp" />
               <option name="titleSlug" value="rotate-function" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/40-combination-sum-ii.cpp">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/40-combination-sum-ii.md" />
+              <option name="frontendQuestionId" value="leetcode.cn40" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/40-combination-sum-ii.cpp" />
+              <option name="titleSlug" value="combination-sum-ii" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -1100,6 +1221,17 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/419-battleships-in-a-board.cpp" />
               <option name="titleSlug" value="battleships-in-a-board" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/42-trapping-rain-water.cpp">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/42-trapping-rain-water.md" />
+              <option name="frontendQuestionId" value="leetcode.cn42" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/42-trapping-rain-water.cpp" />
+              <option name="titleSlug" value="trapping-rain-water" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -1268,6 +1400,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/46-permutations.cpp">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/46-permutations.md" />
+              <option name="frontendQuestionId" value="leetcode.cn46" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/46-permutations.cpp" />
+              <option name="titleSlug" value="permutations" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/cn/467-unique-substrings-in-wraparound-string.cpp">
           <value>
             <LeetcodeEditor>
@@ -1276,6 +1419,17 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/467-unique-substrings-in-wraparound-string.cpp" />
               <option name="titleSlug" value="unique-substrings-in-wraparound-string" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/47-permutations-ii.cpp">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/47-permutations-ii.md" />
+              <option name="frontendQuestionId" value="leetcode.cn47" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/47-permutations-ii.cpp" />
+              <option name="titleSlug" value="permutations-ii" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -1334,6 +1488,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/491-non-decreasing-subsequences.cpp">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/491-non-decreasing-subsequences.md" />
+              <option name="frontendQuestionId" value="leetcode.cn491" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/491-non-decreasing-subsequences.cpp" />
+              <option name="titleSlug" value="non-decreasing-subsequences" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/cn/494-target-sum.cpp">
           <value>
             <LeetcodeEditor>
@@ -1353,6 +1518,17 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/495-teemo-attacking.cpp" />
               <option name="titleSlug" value="teemo-attacking" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/496-next-greater-element-i.cpp">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/496-next-greater-element-i.md" />
+              <option name="frontendQuestionId" value="leetcode.cn496" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/496-next-greater-element-i.cpp" />
+              <option name="titleSlug" value="next-greater-element-i" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -1389,6 +1565,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/503-next-greater-element-ii.cpp">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/503-next-greater-element-ii.md" />
+              <option name="frontendQuestionId" value="leetcode.cn503" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/503-next-greater-element-ii.cpp" />
+              <option name="titleSlug" value="next-greater-element-ii" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/cn/506-relative-ranks.cpp">
           <value>
             <LeetcodeEditor>
@@ -1419,6 +1606,17 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/509-fibonacci-number.cpp" />
               <option name="titleSlug" value="fibonacci-number" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/51-n-queens.cpp">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/51-n-queens.md" />
+              <option name="frontendQuestionId" value="leetcode.cn51" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/51-n-queens.cpp" />
+              <option name="titleSlug" value="n-queens" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -2115,6 +2313,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/739-daily-temperatures.cpp">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/739-daily-temperatures.md" />
+              <option name="frontendQuestionId" value="leetcode.cn739" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/739-daily-temperatures.cpp" />
+              <option name="titleSlug" value="daily-temperatures" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/cn/746-min-cost-climbing-stairs.cpp">
           <value>
             <LeetcodeEditor>
@@ -2134,6 +2343,28 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/763-partition-labels.cpp" />
               <option name="titleSlug" value="partition-labels" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/77-combinations.cpp">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/77-combinations.md" />
+              <option name="frontendQuestionId" value="leetcode.cn77" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/77-combinations.cpp" />
+              <option name="titleSlug" value="combinations" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/78-subsets.cpp">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/78-subsets.md" />
+              <option name="frontendQuestionId" value="leetcode.cn78" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/78-subsets.cpp" />
+              <option name="titleSlug" value="subsets" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -2170,6 +2401,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/90-subsets-ii.cpp">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/90-subsets-ii.md" />
+              <option name="frontendQuestionId" value="leetcode.cn90" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/90-subsets-ii.cpp" />
+              <option name="titleSlug" value="subsets-ii" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/cn/912-sort-an-array.cpp">
           <value>
             <LeetcodeEditor>
@@ -2178,6 +2420,17 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/912-sort-an-array.cpp" />
               <option name="titleSlug" value="sort-an-array" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/93-restore-ip-addresses.cpp">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/93-restore-ip-addresses.md" />
+              <option name="frontendQuestionId" value="leetcode.cn93" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/93-restore-ip-addresses.cpp" />
+              <option name="titleSlug" value="restore-ip-addresses" />
             </LeetcodeEditor>
           </value>
         </entry>

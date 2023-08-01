@@ -40,11 +40,37 @@ The second 1's next greater number needs to search circularly, which is also 2.
 #include "include/headers.h"
 
 //leetcode submit region begin(Prohibit modification and deletion)
+//单调栈
 class Solution
 {
 public:
     vector<int> nextGreaterElements(vector<int> &nums)
     {
+        vector<int> nums1(nums.begin(), nums.end());
+        nums.insert(nums.end(), nums1.begin(), nums1.end());
+        vector<int> result(nums.size(), -1);
+
+        if (nums1.size() == 0) return result;
+
+        stack<int> st;
+        st.push(0);
+        for (int i = 1; i < nums.size(); ++i)
+        {
+            if (nums[i] < nums[st.top()]) st.push(i);
+            else if (nums[i] == nums[st.top()])
+                st.push(i);
+            else
+            {
+                while (!st.empty() && nums[i] > nums[st.top()])
+                {
+                    result[st.top()] = nums[i];
+                    st.pop();
+                }
+                st.push(i);
+            }
+        }
+        result.resize(nums.size() / 2);
+        return result;
     }
 };
 
