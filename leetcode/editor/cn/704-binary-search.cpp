@@ -41,7 +41,34 @@
 #include "include/headers.h"
 
 //leetcode submit region begin(Prohibit modification and deletion)
-//二分查找
+////二分查找
+//class Solution
+//{
+//public:
+//    int search(vector<int> &nums, int target)
+//    {
+//        int left = 0;
+//        int right = nums.size() - 1;
+//        while (left <= right)
+//        {
+//            int middle = left + ((right - left) / 2);
+//            if (nums[middle] > target)
+//            {
+//                right = middle - 1;
+//            }
+//            else if (nums[middle] < target)
+//            {
+//                left = middle + 1;
+//            }
+//            else
+//            {
+//                return middle;
+//            }
+//        }
+//        return -1;
+//    }
+//};
+//自己仿写
 class Solution
 {
 public:
@@ -51,24 +78,23 @@ public:
         int right = nums.size() - 1;
         while (left <= right)
         {
-            int middle = left + ((right - left) / 2);
-            if (nums[middle] > target)
+            int middle = (right - left) / 2 + left;
+            if (nums[middle] == target)
             {
-                right = middle - 1;
+                return middle;
             }
             else if (nums[middle] < target)
             {
                 left = middle + 1;
             }
-            else
+            else if (nums[middle] > target)
             {
-                return middle;
+                right = middle - 1;
             }
         }
         return -1;
     }
 };
-
 //leetcode submit region end(Prohibit modification and deletion)
 
 
