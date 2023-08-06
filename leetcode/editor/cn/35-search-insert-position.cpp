@@ -50,25 +50,50 @@
 using namespace std;
 
 //leetcode submit region begin(Prohibit modification and deletion)
+//class Solution {
+//public:
+//    int searchInsert(vector<int>& nums, int target) {
+//    int n=nums.size();
+//    int left=0,right=n-1,ans=n;
+//    while ( left<=right  )
+//    {
+//        int mid=((right-left)>>1)+left;//除以二
+//        if ( target<=nums[mid] )
+//        {
+//            ans=mid;
+//            right=mid-1;
+//        }
+//        else
+//        {
+//            left=mid+1;
+//        }
+//    }
+//    return ans;
+//    }
+//};
+//自己仿写
 class Solution {
 public:
     int searchInsert(vector<int>& nums, int target) {
-    int n=nums.size();
-    int left=0,right=n-1,ans=n;
-    while ( left<=right  )
-    {
-        int mid=((right-left)>>1)+left;//除以二
-        if ( target<=nums[mid] )
+        int right = nums.size() - 1;
+        int left = 0;
+        while (left <= right)
         {
-            ans=mid;
-            right=mid-1;
+            int middle = left + (right - left) / 2;
+            if (nums[middle] < target)
+            {
+                left = middle + 1;
+            }
+            else if (nums[middle] == target)
+            {
+                return middle;
+            }
+            else
+            {
+                right = middle - 1;
+            }
         }
-        else
-        {
-            left=mid+1;
-        }
-    }
-    return ans;
+        return right + 1;//目标值在数组所有元素以后的情况
     }
 };
 //leetcode submit region end(Prohibit modification and deletion)

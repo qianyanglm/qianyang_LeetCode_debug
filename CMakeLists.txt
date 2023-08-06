@@ -242,3 +242,6 @@ add_executable(232-implement-queue-using-stacks leetcode/editor/cn/232-implement
 add_executable(20-valid-parentheses leetcode/editor/cn/20-valid-parentheses.cpp)
 add_executable(150-evaluate-reverse-polish-notation leetcode/editor/cn/150-evaluate-reverse-polish-notation.cpp)
 add_executable(239-sliding-window-maximum leetcode/editor/cn/239-sliding-window-maximum.cpp)
+add_executable(34-find-first-and-last-position-of-element-in-sorted-array leetcode/editor/cn/34-find-first-and-last-position-of-element-in-sorted-array.cpp)
+add_executable(69-sqrtx leetcode/editor/cn/69-sqrtx.cpp)
+add_executable(367-valid-perfect-square leetcode/editor/cn/367-valid-perfect-square.cpp)
