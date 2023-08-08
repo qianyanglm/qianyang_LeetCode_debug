@@ -65,7 +65,7 @@ public:
             sum += nums[j];
             while (sum >= target)
             {
-                subLength = (j - i + 1);
+                subLength = j - i + 1;
                 result = result < subLength ? result : subLength;
                 sum -= nums[i++];
             }

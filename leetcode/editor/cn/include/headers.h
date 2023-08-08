@@ -17,6 +17,7 @@
 
 // c++ stl libraries
 #include <algorithm>
+#include <climits>
 #include <iostream>
 #include <map>
 #include <numeric>

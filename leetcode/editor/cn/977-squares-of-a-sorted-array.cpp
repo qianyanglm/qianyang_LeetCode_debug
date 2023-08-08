@@ -57,6 +57,7 @@ After sorting, it becomes [0,1,9,16,100].
 //    }
 //};
 //数组，代码随想录,双指针
+//关键在于数组平方的最大值要么在最左边要么在最右边，这是我们排序的关键。
 class Solution
 {
 public:
