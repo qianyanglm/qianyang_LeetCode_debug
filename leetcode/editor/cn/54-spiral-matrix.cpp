@@ -38,7 +38,8 @@
 using namespace std;
 
 //leetcode submit region begin(Prohibit modification and deletion)
-//代码随想录
+//代码随想录-我自己改进了一点，尽量保持59的风格
+//https://programmercarl.com/0054.%E8%9E%BA%E6%97%8B%E7%9F%A9%E9%98%B5.html#_54-%E8%9E%BA%E6%97%8B%E7%9F%A9%E9%98%B5
 class Solution
 {
 public:
@@ -58,31 +59,36 @@ public:
         {
             i = startx;
             j = starty;
-            for (j = starty; j < starty + columns - offset; j++)
-                res[count++] = matrix[startx][j];
-            for (i = startx; i < startx + rows - offset; i++)
-                res[count++] = matrix[i][j];
-            for (; j > starty; j--)
-                res[count++] = matrix[i][j];
-            for (; i > startx; i--)
-                res[count++] = matrix[i][starty];
 
-            startx++;
+            for (; j < columns - offset; ++j)
+                res[count++] = matrix[i][j];
+
+            for (; i < rows - offset; ++i)
+                res[count++] = matrix[i][j];
+
+            for (; j > starty; --j)
+                res[count++] = matrix[i][j];
+
+            for (; i > startx; --i)
+                res[count++] = matrix[i][j];
+
             starty++;
-            offset += 2;
+            startx++;
+            offset++;
         }
+
         if (min(rows, columns) % 2)
         {
             if (rows > columns)
             {
-                for (int i = mid; i < mid + rows - columns + 1; ++i)
+                for (i = mid; i < mid + rows - columns + 1; ++i)
                 {
                     res[count++] = matrix[i][mid];
                 }
             }
             else
             {
-                for (int i = mid; i < mid + columns - rows + 1; ++i)
+                for (i = mid; i < mid + columns - rows + 1; ++i)
                 {
                     res[count++] = matrix[mid][i];
                 }

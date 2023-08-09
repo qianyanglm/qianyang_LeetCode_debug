@@ -289,6 +289,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/1281-subtract-the-product-and-sum-of-digits-of-an-integer.cpp">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/1281-subtract-the-product-and-sum-of-digits-of-an-integer.md" />
+              <option name="frontendQuestionId" value="leetcode.cn1281" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/1281-subtract-the-product-and-sum-of-digits-of-an-integer.cpp" />
+              <option name="titleSlug" value="subtract-the-product-and-sum-of-digits-of-an-integer" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/cn/13-roman-to-integer.cpp">
           <value>
             <LeetcodeEditor>
@@ -2368,6 +2379,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/76-minimum-window-substring.cpp">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/76-minimum-window-substring.md" />
+              <option name="frontendQuestionId" value="leetcode.cn76" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/76-minimum-window-substring.cpp" />
+              <option name="titleSlug" value="minimum-window-substring" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/cn/763-partition-labels.cpp">
           <value>
             <LeetcodeEditor>
@@ -2442,6 +2464,17 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/90-subsets-ii.cpp" />
               <option name="titleSlug" value="subsets-ii" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/904-fruit-into-baskets.cpp">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/904-fruit-into-baskets.md" />
+              <option name="frontendQuestionId" value="leetcode.cn904" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/904-fruit-into-baskets.cpp" />
+              <option name="titleSlug" value="fruit-into-baskets" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -2552,6 +2585,17 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/LCP 26-hSRGyL.cpp" />
               <option name="titleSlug" value="hSRGyL" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/LCP 68-1GxJYY.cpp">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/LCP 68-1GxJYY.md" />
+              <option name="frontendQuestionId" value="leetcode.cnLCP 68" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/LCP 68-1GxJYY.cpp" />
+              <option name="titleSlug" value="1GxJYY" />
             </LeetcodeEditor>
           </value>
         </entry>

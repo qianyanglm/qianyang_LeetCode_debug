@@ -43,36 +43,40 @@ public:
     {
         vector<vector<int>> res(n, vector<int>(n, 0));
         int startx = 0, starty = 0;
-        int loop = n / 2;
-        int mid = n / 2;
+        int i, j;        //i代表行，j代表列
+        int loop = n / 2;//循环次数
+        int mid = n / 2; //奇数项赋值
         int count = 1;
-        int offset = 1;
-        int i, j;
+        int offset = 1;//减去的
         while (loop--)
         {
             i = startx;
             j = starty;
+            for (; j < n - offset; ++j)
+            {
+                res[i][j] = count++;
+            }
 
-            for (j = starty; j < n - offset; ++j)
-            {
-                res[startx][j] = count++;
-            }
-            for (i = startx; i < n - offset; ++i)
+            for (; i < n - offset; ++i)
             {
                 res[i][j] = count++;
             }
-            for (; j > starty; j--)
+
+            for (; j > starty; --j)
             {
                 res[i][j] = count++;
             }
-            for (; i > startx; i--)
+
+            for (; i > startx; --i)
             {
                 res[i][j] = count++;
             }
-            startx++;
+
+            offset++;
             starty++;
-            offset += 1;
+            startx++;
         }
+
         if (n % 2) res[mid][mid] = count;
         return res;
     }

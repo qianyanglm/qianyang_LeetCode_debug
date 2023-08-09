@@ -245,3 +245,6 @@ add_executable(239-sliding-window-maximum leetcode/editor/cn/239-sliding-window-
 add_executable(34-find-first-and-last-position-of-element-in-sorted-array leetcode/editor/cn/34-find-first-and-last-position-of-element-in-sorted-array.cpp)
 add_executable(69-sqrtx leetcode/editor/cn/69-sqrtx.cpp)
 add_executable(367-valid-perfect-square leetcode/editor/cn/367-valid-perfect-square.cpp)
+add_executable(904-fruit-into-baskets leetcode/editor/cn/904-fruit-into-baskets.cpp)
+add_executable(LCP 68-1GxJYY "leetcode/editor/cn/LCP 68-1GxJYY.cpp")
+add_executable(76-minimum-window-substring leetcode/editor/cn/76-minimum-window-substring.cpp)
