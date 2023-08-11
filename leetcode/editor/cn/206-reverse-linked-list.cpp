@@ -108,14 +108,15 @@ class Solution
 public:
     ListNode *reverseList(ListNode *head)
     {
-        ListNode *pre = NULL;
-        ListNode *tail = head;
-        while (tail)
+        ListNode *pre = nullptr;
+        ListNode *tail = nullptr;
+
+        while (head)
         {
-            head = head->next;
-            tail->next = pre;
-            pre = tail;
-            tail = head;
+            tail = head->next;
+            head->next = pre;
+            pre = head;
+            head = tail;
         }
         return pre;
     }

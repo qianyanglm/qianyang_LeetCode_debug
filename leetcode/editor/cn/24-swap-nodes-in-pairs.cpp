@@ -52,25 +52,25 @@
  *     ListNode(int x, ListNode *next) : val(x), next(next) {}
  * };
  */
-//官方 递归版本
+//代码随想录
 class Solution
 {
 public:
     ListNode *swapPairs(ListNode *head)
     {
-        ListNode *dummyHead = new ListNode(0);
+        ListNode *dummyHead = new ListNode(0);//虚拟头结点
         dummyHead->next = head;
-        ListNode *temp = dummyHead;
-        while (temp->next != nullptr && temp->next->next != nullptr)
+        ListNode *cur = dummyHead;
+        while (cur->next != nullptr && cur->next->next != nullptr)
         {
-            ListNode *node1 = temp->next;
-            ListNode *node2 = temp->next->next;
-            //从前向后改变next指向，改变temp(node1)前的指向，
-            //改变node1的指向，再改变node2指向，有点像数组全都向后移动一位的变化
-            temp->next = node2;
-            node1->next = node2->next;
-            node2->next = node1;
-            temp = node1;
+            ListNode *tmp = cur->next;
+            ListNode *tmp1 = cur->next->next->next;
+
+            cur->next = cur->next->next;
+            cur->next->next = tmp;
+            cur->next->next->next = tmp1;
+
+            cur = cur->next->next;
         }
         return dummyHead->next;
     }
