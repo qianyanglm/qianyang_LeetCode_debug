@@ -59,21 +59,21 @@ class Solution
 public:
     ListNode *removeElements(ListNode *head, int val)
     {
-        //头结点前创建一个指针并指向头结点
-        ListNode *dummyHead = new ListNode(0, head);
-        ListNode *temp = dummyHead;
-        while (temp->next != NULL)
+        ListNode *firsthead = new ListNode(0, head);
+        ListNode *prethead = firsthead;
+
+        while (prethead->next != NULL)
         {
-            if (temp->next->val == val)
+            if (prethead->next->val == val)
             {
-                temp->next = temp->next->next;
+                prethead->next = prethead->next->next;
             }
             else
             {
-                temp = temp->next;
+                prethead = prethead->next;
             }
         }
-        return dummyHead->next;
+        return firsthead->next;
     }
 };
 

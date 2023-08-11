@@ -52,164 +52,196 @@ myLinkedList.get(1);              // return 3
 #include "include/headers.h"
 
 //leetcode submit region begin(Prohibit modification and deletion)
-//单向链表
-//class MyLinkedList {
-//public:
-//    MyLinkedList() {
-//        this->size=0;
-//        this->head=new ListNode(0);
-//    }
-//
-//    int get(int index) {
-//        if ( index<0||index>=size )
-//        {
-//            return -1;
-//        }
-//        ListNode*cur=head;
-//        for (int i = 0; i <=index; ++i)
-//        {
-//            cur=cur->next;
-//        }
-//        return cur->val;
-//    }
-//
-//    void addAtHead(int val) {
-//        addAtIndex(0,val);
-//    }
-//
-//    void addAtTail(int val) {
-//        addAtIndex(size,val);
-//    }
-//
-//    void addAtIndex(int index, int val) {
-//        if ( index>size )
-//        {
-//            return ;
-//        }
-//        index= max(0,index);
-//        size++;
-//        ListNode*pred=head;
-//        for (int i = 0; i < index; ++i)
-//        {
-//            pred=pred->next;
-//        }
-//        ListNode*toAdd=new ListNode(val);
-//        toAdd->next=pred->next;
-//        pred->next=toAdd;
-//    }
-//
-//    void deleteAtIndex(int index) {
-//        if ( index<0||index>=size )
-//        {
-//            return ;
-//        }
-//        size--;
-//        ListNode*pred=head;
-//        for (int i = 0; i < index; ++i)
-//        {
-//            pred=pred->next;
-//        }
-//        ListNode*p=pred->next;
-//        pred->next=pred->next->next;
-//        delete p;
-//    }
-//private:
-//    int size;
-//    ListNode *head;
-//};
-//双向链表,官方方法二，删除了没用的头或者尾遍历
-struct DLinkListNode
-{
-    int val;
-    DLinkListNode *prev, *next;
-
-    DLinkListNode(int _val): val(_val), prev(nullptr), next(nullptr) {}
-};
-
+//单向链表-代码随想录
 class MyLinkedList
 {
 public:
+    //定义链表节点结构体
+    struct LinkedNode
+    {
+        int val;
+        LinkedNode *next;
+
+        LinkedNode(int val): val(val), next(nullptr) {}
+    };
+
+    //初始化链表
     MyLinkedList()
     {
-        this->size = 0;
-        this->head = new DLinkListNode(0);
-        this->tail = new DLinkListNode(0);
-        head->next = tail;
-        tail->prev = head;
+        _dummyhead = new LinkedNode(0);//虚拟头结点
+        _size = 0;
     }
 
+    //获取index索引数据，Index是非法的直接返回-1
     int get(int index)
     {
-        if (index < 0 || index >= size)
-        {
-            return -1;
-        }
-        DLinkListNode *curr;
-        curr = head;
-        for (int i = 0; i <= index; ++i)
-        {
-            curr = curr->next;
-        }
-        return curr->val;
+        if (index > (_size - 1) || index < 0) return -1;
+
+        LinkedNode *cur = _dummyhead->next;
+        while (index--)
+            cur = cur->next;
+        return cur->val;
     }
 
+    //在链表最前面插入一个节点，插入后，新插入的为链表的新的头结点
     void addAtHead(int val)
     {
-        addAtIndex(0, val);
+        LinkedNode *newNode = new LinkedNode(val);
+        newNode->next = _dummyhead->next;
+        _dummyhead->next = newNode;
+        _size++;
     }
 
+    //链表最后增加一个节点
     void addAtTail(int val)
     {
-        addAtIndex(size, val);
+        LinkedNode *newNode = new LinkedNode(val);
+        LinkedNode *cur = _dummyhead;
+        while (cur->next != nullptr)
+            cur = cur->next;
+        cur->next = newNode;
+        _size++;
     }
 
+    //第index前插入一个新节点
     void addAtIndex(int index, int val)
     {
-        if (index > size)
-        {
-            return;
-        }
-        index = max(0, index);
-        DLinkListNode *pred, *succ;
-        pred = head;
-        for (int i = 0; i < index; ++i)
-        {
-            pred = pred->next;
-        }
-        succ = pred->next;
-        size++;
-        DLinkListNode *toAdd = new DLinkListNode(val);
-        toAdd->prev = pred;
-        toAdd->next = succ;
-        pred->next = toAdd;
-        succ->prev = toAdd;
+        if (index > _size) return;
+        if (index < 0) index = 0;
+        LinkedNode *newNode = new LinkedNode(val);
+        LinkedNode *cur = _dummyhead;
+        while (index--)
+            cur = cur->next;
+        newNode->next = cur->next;
+        cur->next = newNode;
+        _size++;
     }
 
+    //删除第index个节点
     void deleteAtIndex(int index)
     {
-        if (index < 0 || index >= size)
-        {
-            return;
-        }
-        DLinkListNode *pred, *succ;
-        pred = head;
-        for (int i = 0; i < index; ++i)
-        {
-            pred = pred->next;
-        }
-        succ = pred->next->next;
-        size--;
-        DLinkListNode *p = pred->next;
-        pred->next = succ;
-        succ->prev = pred;
-        delete p;
+        if (index >= _size || index < 0) return;
+        LinkedNode *cur = _dummyhead;
+        while (index--)
+            cur = cur->next;
+        LinkedNode *tmp = cur->next;
+        cur->next = cur->next->next;
+        delete tmp;
+        tmp = nullptr;
+        _size--;
     }
 
+    //打印链表
+    void printLinkedList()
+    {
+        LinkedNode *cur = _dummyhead;
+        while (cur->next != nullptr)
+        {
+            cout << cur->next->val << " ";
+            cur = cur->next;
+        }
+        cout << endl;
+    }
+
+
 private:
-    int size;
-    DLinkListNode *head;
-    DLinkListNode *tail;
+    int _size;
+    LinkedNode *_dummyhead;//虚拟头结点
 };
+
+////双向链表,官方方法二，删除了没用的头或者尾遍历
+//struct DLinkListNode
+//{
+//    int val;
+//    DLinkListNode *prev, *next;
+//
+//    DLinkListNode(int _val): val(_val), prev(nullptr), next(nullptr) {}
+//};
+//
+//class MyLinkedList
+//{
+//public:
+//    MyLinkedList()
+//    {
+//        this->size = 0;
+//        this->head = new DLinkListNode(0);
+//        this->tail = new DLinkListNode(0);
+//        head->next = tail;
+//        tail->prev = head;
+//    }
+//
+//    int get(int index)
+//    {
+//        if (index < 0 || index >= size)
+//        {
+//            return -1;
+//        }
+//        DLinkListNode *curr;
+//        curr = head;
+//        for (int i = 0; i <= index; ++i)
+//        {
+//            curr = curr->next;
+//        }
+//        return curr->val;
+//    }
+//
+//    void addAtHead(int val)
+//    {
+//        addAtIndex(0, val);
+//    }
+//
+//    void addAtTail(int val)
+//    {
+//        addAtIndex(size, val);
+//    }
+//
+//    void addAtIndex(int index, int val)
+//    {
+//        if (index > size)
+//        {
+//            return;
+//        }
+//        index = max(0, index);
+//        DLinkListNode *pred, *succ;
+//        pred = head;
+//        for (int i = 0; i < index; ++i)
+//        {
+//            pred = pred->next;
+//        }
+//        succ = pred->next;
+//        size++;
+//        DLinkListNode *toAdd = new DLinkListNode(val);
+//        toAdd->prev = pred;
+//        toAdd->next = succ;
+//        pred->next = toAdd;
+//        succ->prev = toAdd;
+//    }
+//
+//    void deleteAtIndex(int index)
+//    {
+//        if (index < 0 || index >= size)
+//        {
+//            return;
+//        }
+//        DLinkListNode *pred, *succ;
+//        pred = head;
+//        for (int i = 0; i < index; ++i)
+//        {
+//            pred = pred->next;
+//        }
+//        succ = pred->next->next;
+//        size--;
+//        DLinkListNode *p = pred->next;
+//        pred->next = succ;
+//        succ->prev = pred;
+//        delete p;
+//    }
+//
+//private:
+//    int size;
+//    DLinkListNode *head;
+//    DLinkListNode *tail;
+//};
 
 /**
  * Your MyLinkedList object will be instantiated and called as such:
