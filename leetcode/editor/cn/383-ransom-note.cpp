@@ -83,7 +83,32 @@ using namespace std;
 //        return false;
 //    }
 //};
-//哈希表
+////哈希表
+//class Solution
+//{
+//public:
+//    bool canConstruct(string ransomNote, string magazine)
+//    {
+//        unordered_map<char, int> map;
+//        for (char ch: magazine)
+//        {
+//            map[ch]++;
+//        }
+//        for (char ch: ransomNote)
+//        {
+//            map[ch]--;
+//        }
+//        for (char i: ransomNote)
+//        {
+//            if (map[i] < 0)
+//            {
+//                return false;
+//            }
+//        }
+//        return true;
+//    }
+//};
+//自己根据383写的
 class Solution
 {
 public:
@@ -97,10 +122,7 @@ public:
         for (char ch: ransomNote)
         {
             map[ch]--;
-        }
-        for (char i: ransomNote)
-        {
-            if (map[i] < 0)
+            if (map[ch] < 0)
             {
                 return false;
             }

@@ -48,28 +48,30 @@ The two tuples are:
 #include "include/headers.h"
 
 //leetcode submit region begin(Prohibit modification and deletion)
-//哈希表
+//代码随想录，哈希表
 class Solution
 {
 public:
     int fourSumCount(vector<int> &nums1, vector<int> &nums2, vector<int> &nums3, vector<int> &nums4)
     {
         unordered_map<int, int> umap;
-        for (int a: nums1)
+        for (auto a: nums1)
         {
-            for (int b: nums2)
+            for (auto b: nums2)
             {
                 umap[a + b]++;
             }
         }
+
         int count = 0;
-        for (int c: nums3)
+        for (auto c: nums3)
         {
-            for (int d: nums4)
+            for (auto d: nums4)
             {
-                if (umap.find(0 - (c + d)) != umap.end())
+                auto iter = umap.find(0 - c - d);
+                if (iter != umap.end())
                 {
-                    count += umap[0 - (c + d)];
+                    count += iter->second;//这个比较方便
                 }
             }
         }

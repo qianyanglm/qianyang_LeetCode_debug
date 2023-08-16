@@ -42,22 +42,21 @@
 using namespace std;
 
 //leetcode submit region begin(Prohibit modification and deletion)
-//官方一
+//自己写的
 class Solution
 {
 public:
     char findTheDifference(string s, string t)
     {
-
-        vector<int> cnt(26, 0);
+        unordered_map<char, int> map;
         for (char ch: s)
         {
-            cnt[ch - 'a']++;
+            map[ch]++;
         }
         for (char ch: t)
         {
-            cnt[ch - 'a']--;
-            if (cnt[ch - 'a'] < 0)
+            map[ch]--;
+            if (map[ch] < 0)
             {
                 return ch;
             }
