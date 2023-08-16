@@ -49,10 +49,10 @@
 #include "include/headers.h"
 
 //leetcode submit region begin(Prohibit modification and deletion)
-//哈希表
+//代码随想录-哈希表
 class Solution
 {
-private:
+public:
     int getSum(int n)
     {
         int sum = 0;
@@ -64,14 +64,16 @@ private:
         return sum;
     }
 
-public:
     bool isHappy(int n)
     {
         unordered_set<int> set;
-        while (1)
+        while (true)
         {
             int sum = getSum(n);
-            if (sum == 1) return true;
+            if (sum == 1)
+            {
+                return true;
+            }
             if (set.find(sum) != set.end())
             {
                 return false;

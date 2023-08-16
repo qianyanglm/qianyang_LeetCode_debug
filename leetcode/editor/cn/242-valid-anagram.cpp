@@ -80,25 +80,28 @@ using namespace std;
 //        return true;
 //    }
 //};
-//尝试一下哈希表，代码随想录
+//尝试一下哈希表，自己写
 class Solution
 {
 public:
     bool isAnagram(string s, string t)
     {
         if (s.size() != t.size()) return false;
-        unordered_map<char, int> s1;
-        for (char so: s)
+        unordered_map<char, int> map;
+        for (char ch: s)
         {
-            s1[so]++;
+            map[ch]++;
         }
-        for (char to: t)
+        for (char ch: t)
         {
-            s1[to]--;
+            map[ch]--;
         }
-        for (char i: s)
+        for (auto &iter: map)
         {
-            if (s1[i] != 0) return false;
+            if (iter.second != 0)
+            {
+                return false;
+            }
         }
         return true;
     }

@@ -61,53 +61,54 @@
  *     ListNode(int x) : val(x), next(NULL) {}
  * };
  */
-////官方，方法和141题一模一样
-//class Solution
-//{
-//public:
-//    ListNode *detectCycle(ListNode *head)
-//    {
-//        unordered_set<ListNode *> seen;
-//        while (head != nullptr)
-//        {
-//            if (seen.count(head))
-//            {
-//                return head;
-//            }
-//            seen.insert(head);
-//            head = head->next;
-//        }
-//        return nullptr;
-//    }
-//};
-//双指针法
+//官方，方法和141题一模一样
 class Solution
 {
 public:
     ListNode *detectCycle(ListNode *head)
     {
-        ListNode *fast = head;
-        ListNode *slow = head;
-        while (fast != NULL && fast->next != NULL)
+        unordered_set<ListNode *> seen;
+        while (head != nullptr)
         {
-            slow = slow->next;
-            fast = fast->next->next;
-            //快慢指针相遇，此时从head和相遇点，同时查找直至相遇
-            if (slow == fast)
+            if (seen.count(head))
             {
-                ListNode *index1 = fast;
-                ListNode *index2 = head;
-                while (index1 != index2)
-                {
-                    index1 = index1->next;
-                    index2 = index2->next;
-                }
-                return index2;
+                return head;
             }
+            seen.insert(head);
+            head = head->next;
         }
-        return NULL;
+        return nullptr;
     }
 };
+
+////双指针法，代码随想录
+//class Solution
+//{
+//public:
+//    ListNode *detectCycle(ListNode *head)
+//    {
+//        ListNode *fast = head;
+//        ListNode *slow = head;
+//        while (fast != NULL && fast->next != NULL)
+//        {
+//            slow = slow->next;
+//            fast = fast->next->next;
+//            //快慢指针相遇，此时从head和相遇点，同时查找直至相遇
+//            if (slow == fast)
+//            {
+//                ListNode *index1 = fast;
+//                ListNode *index2 = head;
+//                while (index1 != index2)
+//                {
+//                    index1 = index1->next;
+//                    index2 = index2->next;
+//                }
+//                return index2;
+//            }
+//        }
+//        return NULL;
+//    }
+//};
 
 //leetcode submit region end(Prohibit modification and deletion)
 

@@ -147,13 +147,13 @@ public:
         int lenA = 0, lenB = 0;
         while (curA != NULL)
         {
-            lenA++;
             curA = curA->next;
+            lenA++;
         }
         while (curB != NULL)
         {
-            lenB++;
             curB = curB->next;
+            lenB++;
         }
         curA = headA;
         curB = headB;
@@ -164,19 +164,15 @@ public:
         }
         int gap = lenA - lenB;
         while (gap--)
-        {
             curA = curA->next;
-        }
-        while (curA != NULL)
+        while (curA != nullptr)
         {
             if (curA == curB)
-            {
                 return curA;
-            }
             curA = curA->next;
             curB = curB->next;
         }
-        return NULL;
+        return nullptr;
     }
 };
 

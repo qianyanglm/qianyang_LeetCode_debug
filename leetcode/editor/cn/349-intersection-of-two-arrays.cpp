@@ -36,24 +36,26 @@
 #include "include/headers.h"
 
 //leetcode submit region begin(Prohibit modification and deletion)
-//哈希表
+//哈希表,自己写的
 class Solution
 {
 public:
     vector<int> intersection(vector<int> &nums1, vector<int> &nums2)
     {
-        unordered_set<int> result;
-        for (int i = 0; i < nums1.size(); ++i)
+        unordered_set<int> result1;
+        unordered_map<int, int> map1;
+        for (int v1: nums1)
         {
-            for (int j = 0; j < nums2.size(); ++j)
+            map1[v1]++;
+        }
+        for (int v1: nums2)
+        {
+            if (map1[v1] > 0)
             {
-                if (nums1[i] == nums2[j])
-                {
-                    result.insert(nums1[i]);
-                }
+                result1.insert(v1);
             }
         }
-        return vector<int>(result.begin(), result.end());
+        return vector<int>(result1.begin(), result1.end());
     }
 };
 

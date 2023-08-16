@@ -41,15 +41,15 @@ class Solution
 public:
     vector<int> twoSum(vector<int> &nums, int target)
     {
-        std::unordered_map<int, int> map;
+        unordered_map<int, int> map1;
         for (int i = 0; i < nums.size(); ++i)
         {
-            auto iter = map.find(target - nums[i]);
-            if (iter != map.end())
+            auto iter = map1.find(target - nums[i]);
+            if (iter != map1.end())
             {
                 return {iter->second, i};
             }
-            map.insert(pair<int, int>(nums[i], i));
+            map1.insert(pair<int, int>(nums[i], i));
         }
         return {};
     }
