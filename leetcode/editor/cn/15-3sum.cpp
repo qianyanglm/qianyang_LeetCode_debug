@@ -3,13 +3,13 @@
 
 <p>Notice that the solution set must not contain duplicate triplets.</p>
 
-<p>&nbsp;</p> 
+<p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
 
 <pre>
 <strong>Input:</strong> nums = [-1,0,1,2,-1,-4]
 <strong>Output:</strong> [[-1,-1,2],[-1,0,1]]
-<strong>Explanation:</strong> 
+<strong>Explanation:</strong>
 nums[0] + nums[1] + nums[2] = (-1) + 0 + 1 = 0.
 nums[1] + nums[2] + nums[4] = 0 + 1 + (-1) = 0.
 nums[0] + nums[3] + nums[4] = (-1) + 2 + (-1) = 0.
@@ -33,12 +33,12 @@ Notice that the order of the output and the order of the triplets does not matte
 <strong>Explanation:</strong> The only possible triplet sums up to 0.
 </pre>
 
-<p>&nbsp;</p> 
+<p>&nbsp;</p>
 <p><strong>Constraints:</strong></p>
 
-<ul> 
- <li><code>3 &lt;= nums.length &lt;= 3000</code></li> 
- <li><code>-10<sup>5</sup> &lt;= nums[i] &lt;= 10<sup>5</sup></code></li> 
+<ul>
+ <li><code>3 &lt;= nums.length &lt;= 3000</code></li>
+ <li><code>-10<sup>5</sup> &lt;= nums[i] &lt;= 10<sup>5</sup></code></li>
 </ul>
 
 <details><summary><strong>Related Topics</strong></summary>数组 | 双指针 | 排序</details><br>
