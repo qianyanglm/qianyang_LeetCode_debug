@@ -2,10 +2,34 @@
 <project version="4">
   <component name="PublishConfigData" remoteFilesAllowedToDisappearOnAutoupload="false">
     <serverData>
+      <paths name="HWLinux">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="HWLinux (9a1e9536-2c99-4225-9c69-a0cfe97e391f)">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
       <paths name="Linux (8355fc75-322b-4a7a-ab5d-5923460188ea)">
         <serverdata>
           <mappings>
             <mapping deploy="/tmp/tmp.6TmlE0niWu" local="$PROJECT_DIR$" />
+          </mappings>
+          <excludedPaths>
+            <excludedPath local="true" path="$PROJECT_DIR$/cmake-build-mingw" />
+          </excludedPaths>
+        </serverdata>
+      </paths>
+      <paths name="TXLinux (0082de50-fe98-4de4-b402-f554a9d0f5c4)">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/tmp/tmp.7JpeJg2nMK" local="$PROJECT_DIR$" />
           </mappings>
           <excludedPaths>
             <excludedPath local="true" path="$PROJECT_DIR$/cmake-build-mingw" />
